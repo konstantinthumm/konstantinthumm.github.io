@@ -65,6 +65,7 @@ author:
   avatar: "/assets/images/konstantinthumm-400.jpg" # eigenes Bild später hier ablegen
   bio: "IT-Consultant für Digitalisierung, KI und soziale Innovation."
   location: "Berlin, Deutschland"    # ← das zeigt die „Maps-Fahne“ + Text
+  mastodon: "@konstantinthumm@social.tchncs.de"
   links:
     # - label: "Website"
     #  url: "https://konstantinthumm.github.io"

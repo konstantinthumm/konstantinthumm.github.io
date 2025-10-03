@@ -12,3 +12,8 @@
 <meta name="msapplication-TileColor" content="#4e91a5">
 <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
 <meta name="theme-color" content="4e91a5">
+<!-- _includes/head/custom.html -->
+{% if site.author.mastodon %}
+<meta name="fediverse:creator" content="{{ site.author.mastodon }}">
+{% endif %}
+
