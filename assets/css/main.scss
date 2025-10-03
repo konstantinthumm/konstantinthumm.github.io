@@ -8,3 +8,20 @@
 .page__footer-follow .fa-bluesky {
   color: #0285FF; /* Bluesky Blue */
 }
+/* höhere Heros für Posts mit Klasse `hero-tall` */
+.hero-tall .page__hero--overlay {
+  min-height: 60vh;           /* groß auf Desktop */
+}
+
+@media (max-width: 1024px) {
+  .hero-tall .page__hero--overlay { min-height: 50vh; }
+}
+@media (max-width: 640px) {
+  .hero-tall .page__hero--overlay { min-height: 40vh; }
+}
+/* Social Share Button Farben */
+.btn--mastodon { background:#6364FF; color:#fff; }
+.btn--mastodon:hover { filter: brightness(0.9); }
+
+.btn--bluesky { background:#0285FF; color:#fff; }
+.btn--bluesky:hover { filter: brightness(0.9); }

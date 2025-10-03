@@ -64,10 +64,11 @@ author:
   name: "Konstantin Thumm"
   avatar: "/assets/images/konstantinthumm-400.jpg" # eigenes Bild später hier ablegen
   bio: "IT-Consultant für Digitalisierung, KI und soziale Innovation."
+  location: "Berlin, Deutschland"    # ← das zeigt die „Maps-Fahne“ + Text
   links:
-    - label: "Website"
-      url: "https://konstantinthumm.github.io"
-      icon: "fas fa-link"
+    # - label: "Website"
+    #  url: "https://konstantinthumm.github.io"
+    #  icon: "fas fa-link"
     - label: "GitHub"
       url: "https://github.com/konstantinthumm"
       icon: "fab fa-github"
@@ -110,10 +111,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar: true
       read_time: true
       comments: true
       share: true
       related: true
+      overlay_filter: 0.35
+      classes: "hero-tall wide"
   # _pages
   - scope:
       path: "_pages"
@@ -128,3 +132,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+mastodon_instance: "https://social.tchncs.de"

@@ -1,0 +1,24 @@
+---
+title: "Beispielpost mit Hero"
+date: 2025-10-03
+excerpt: "Kurzer Lead / Vorschautext."
+# Bild fürs Teilen (Open Graph/Twitter). Kann dasselbe sein wie der Hero.
+image: /assets/images/posts/spidey-1200.jpg
+
+# Hero-Header oben im Artikel:
+header:
+  overlay_image: /assets/images/posts/spidey-1600.jpg
+  # overlay_filter kommt aus den Defaults (kannst du hier überschreiben)
+  caption: "Foto: Max Mustermann"
+
+# Thumbnail für Grids/Listen (nur nötig, wenn du /posts im Grid benutzt)
+teaser: /assets/images/posts/spidey-600.jpg
+---
+
+## überschrift 2
+Hier schreibe ich jetzt unendlichen Text, der immer weiterr und weiter geht und auch nciht aufhören soll, wo findet denn dann also der zeilenumbruch statt umd zu sehen, wo das dann weitergeht oder eben auch nciht, um einfach zu sehen, wor der zeilemumbruch ist... also ich habe keine zeielnubadflöj adjf alödjf asdfjja flja lfjalsdf jlöasdjf öj
+
+### überschrift 3
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipis
