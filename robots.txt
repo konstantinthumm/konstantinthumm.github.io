@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://konstantinthumm.github.io/sitemap.xml
