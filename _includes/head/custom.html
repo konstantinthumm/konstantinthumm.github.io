@@ -13,7 +13,9 @@
 <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
 <meta name="theme-color" content="4e91a5">
 <!-- _includes/head/custom.html -->
-{% if site.author.mastodon %}
-<meta name="fediverse:creator" content="{{ site.author.mastodon }}">
+{% assign fediverse_handle = page.fediverse_creator | default: site.author.mastodon %}
+{% if fediverse_handle %}
+<meta name="fediverse:creator" content="{{ fediverse_handle }}">
 {% endif %}
+
 
