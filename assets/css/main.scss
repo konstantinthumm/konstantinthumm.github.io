@@ -19,9 +19,36 @@
 @media (max-width: 640px) {
   .hero-tall .page__hero--overlay { min-height: 40vh; }
 }
-/* Social Share Button Farben */
+
+/* Social Share Button Farben 
 .btn--mastodon { background:#6364FF; color:#fff; }
 .btn--mastodon:hover { filter: brightness(0.9); }
 
 .btn--bluesky { background:#0285FF; color:#fff; }
 .btn--bluesky:hover { filter: brightness(0.9); }
+*/
+
+/* Basis: Buttons in der Share-Leiste */
+.page__share .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Netzfarben (oder deine Brandfarbe #4e91a5 für E-Mail) */
+.page__share .btn--linkedin { background: #0A66C2; }
+.page__share .btn--mastodon { background: #6364FF; }
+.page__share .btn--bluesky  { background: #0285FF; }
+.page__share .btn--email    { background: #666; }
+
+/* Hover/Fokus: nur leicht abdunkeln – keine Brandfarbe überschreiben */
+.page__share .btn:hover,
+.page__share .btn:focus {
+  filter: brightness(0.9);
+  text-decoration: none;
+}
+
+/* sicherstellen, dass Icons weiß bleiben */
+.page__share .btn i { color: inherit; }
