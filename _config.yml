@@ -19,7 +19,7 @@ description: "IT-Consultant • Digitalisierung • KI & NGO"
 url: "https://konstantinthumm.github.io"
 baseurl: ""
 github_username: konstantinthumm
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark # default
 search: true
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -35,6 +35,11 @@ timezone: Europe/Berlin
 include:
   - _pages
 
+breadcrumbs: true  # disabled by default
+enable_copy_code_button: true # 
+
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -49,6 +54,17 @@ include:
 
 repository: "konstantinthumm/konstantinthumm.github.io"
 permalink: /:categories/:title/
+
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: "R_kgDOP5gRyA" # Beispielwert
+    category_name: "General"
+    category_id: "DIC_kwDOP5gRyM4CwPFK"
+    discussion_term: "pathname"
+    reactions_enabled: "1"
+    theme: "dark_dimmed"
+
 
 # Plugins (previously gems:)
 plugins:
@@ -119,6 +135,7 @@ defaults:
       related: true
       overlay_filter: 0.35
       classes: "hero-tall wide"
+      show_date: true 
   # _pages
   - scope:
       path: "_pages"
@@ -126,6 +143,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
 
 category_archive:
   type: liquid

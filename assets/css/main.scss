@@ -52,3 +52,16 @@
 
 /* sicherstellen, dass Icons weiß bleiben */
 .page__share .btn i { color: inherit; }
+
+
+/* Custom: Hero-Höhe für die Startseite */
+.hero-tall .page__hero--overlay {
+  min-height: 28rem;          /* ~ „hero-tall“ */
+}
+
+.hero-tall.wide .page__hero--overlay {
+  min-height: 34rem;          /* etwas höher, wenn 'wide' aktiv ist */
+}
+
+/* optional: extra Variante, falls du später noch höher willst */
+.hero-xlarge .page__hero--overlay { min-height: 42rem; }

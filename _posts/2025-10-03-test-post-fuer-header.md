@@ -22,3 +22,7 @@ Hier schreibe ich jetzt unendlichen Text, der immer weiterr und weiter geht und 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Lorem ipsum dolor sit amet, consectetur adipis
+
+{: .notice--info}
+**Hinweis:** Zum Kommentieren ist ein GitHub-Account nötig.
+Alternativ: <a href="mailto:deineemail">E-Mail</a> · <a rel="me" href="https://dein.masto/@handle">Mastodon</a>
