@@ -139,6 +139,14 @@ defaults:
       share: true
       related: true
       overlay_filter: 0.35
+      toc: true
+      toc_sticky: true
+      toc_label: "Inhalt"
+      toc_icon: "list-ul" # Font-Awesome Icon (Alternative: "bars", "list")
+      # Optional: nur H2/H3 aufnehmen (wenn du das nutzt)
+      # toc_min: 2
+      # toc_max: 3
+      # TOC lässt sich in einzelnen Posts jederzeit über toc: false im Front-Matter ausnehmen.
       classes: "hero-tall wide"
       show_date: true 
       teaser: /assets/images/posts/spidey-600.jpg

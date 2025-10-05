@@ -162,4 +162,51 @@
   color: var(--hero-gray);
   border-color: var(--hero-gray);
 }
+/* ===== Table of Contents – Sticky, Dark, Icon ===== */
+
+/* Platz unter der Topbar; passt es an euer Header-Maß an */
+.toc,
+.sidebar__right .toc {
+  position: sticky;
+  top: 4.5rem;                          /* Abstand zum oberen Rand */
+  max-height: calc(100vh - 6rem);       /* Scrollbar wenn lang */
+  overflow: auto;
+}
+
+/* Mobile: sticky aus, damit nix „klebt“ */
+@media (max-width: 1024px) {
+  .toc,
+  .sidebar__right .toc {
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
+}
+
+/* Titel + Icon */
+.toc .toc__title {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-weight: 700;
+  color: #cfd5db;                        /* helles Grau für Dark Skin */
+}
+
+/* Falls toc_icon nicht greift, setze ein Fallback-Icon via :before */
+.toc .toc__title::before {
+  content: "\f0ca";                      /* Font Awesome: list-ul */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: var(--mm-accent, #00adb5);
+}
+
+/* Links im TOC */
+.toc .toc__menu a { color: #cfd5db; }
+.toc .toc__menu a:hover { color: var(--mm-accent, #00adb5); }
+
+/* Aktives Element (wenn Theme-Klasse vorhanden) */
+.toc .active > a { color: var(--mm-accent, #00adb5); }
+
+/* Sanftes Scrolling + Anker-Offset, damit Überschriften nicht unter den Header rutschen */
+:root { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
 
