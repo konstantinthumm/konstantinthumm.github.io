@@ -65,3 +65,101 @@
 
 /* optional: extra Variante, falls du später noch höher willst */
 .hero-xlarge .page__hero--overlay { min-height: 42rem; }
+
+/* Home-Hero: mehr Luft + Buttons tiefer (index.md: classes: [home-hero]) */
+.home-hero .page__hero--overlay .wrapper {
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+}
+.home-hero .page__hero--overlay .page__lead { margin-bottom: .25rem; }
+.home-hero .page__hero--overlay .btn { margin-top: 1rem; }
+
+/* 3er-Grid für "Neu im Blog" */
+.posts--home-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.posts--home-grid .archive__item-teaser,
+.posts--home-grid .archive__item-teaser img {
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 900px) { .posts--home-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 600px) { .posts--home-grid { grid-template-columns: 1fr; } }
+
+/* About-Block: leicht helleres Grau als #252a34 */
+.about-block {
+  background-color: #30353e !important;   /* ~5% aufgehellt */
+  border: 1px solid #363b44 !important;   /* ~8% aufgehellt */
+  color: inherit;                          /* Textfarbe wie im Body */
+  border-radius: 8px;
+}
+
+/* Linie unter H2 im Block entfernen + etwas Luft */
+.about-block h2 { 
+  border-bottom: 0; 
+  margin: .5rem 0 0.75rem;
+}
+
+/* Letzter Absatz nicht am Rand kleben */
+.about-block p:last-child { margin-bottom: 0; }
+
+
+/* Einheitliches Verhalten für Primary-Buttons – überall */
+.btn--primary,
+.btn--primary:link,
+.btn--primary:visited { 
+  color: #fff !important;
+  background-color: #00adb5;
+  border-color: #00adb5;
+}
+
+.btn--primary:hover,
+.btn--primary:focus {
+  color: #fff !important;                 /* verhindert "grün" im Hover */
+  background-color: #0099a1;              /* etwas dunkler als #00adb5 */
+  border-color: #0099a1;
+}
+
+/* Notices (z. B. Über-mich-Block) sollen Button-Linkfarben NICHT verändern */
+[class*="notice"] a.btn,
+[class*="notice"] a.btn:hover,
+[class*="notice"] a.btn:focus,
+.about-block a.btn,
+.about-block a.btn:hover,
+.about-block a.btn:focus {
+  color: #fff !important;
+}
+
+/* Weicheres Grau für Hero-Typo & Buttons (nur Startseite) */
+:root { --hero-gray: #d3d7dc; } /* evtl. #c9ced4 noch dezenter */
+
+.home-hero .page__hero--overlay .page__title,
+.home-hero .page__hero--overlay .page__lead,
+.home-hero .page__hero--overlay p,
+.home-hero .page__hero--overlay h1,
+.home-hero .page__hero--overlay h2 {
+  color: var(--hero-gray);
+}
+
+/* Outline-Buttons im Hero in hellem Grau statt Weiß */
+.home-hero .page__hero--overlay .btn,
+.home-hero .page__hero--overlay .btn:link,
+.home-hero .page__hero--overlay .btn:visited {
+  color: var(--hero-gray);
+  border-color: var(--hero-gray);
+  background: transparent;
+}
+
+/* Subtiles Hover (leichter Grauschleier, Schrift bleibt gleich) */
+.home-hero .page__hero--overlay .btn:hover,
+.home-hero .page__hero--overlay .btn:focus {
+  background-color: rgba(211, 215, 220, 0.18);
+  color: var(--hero-gray);
+  border-color: var(--hero-gray);
+}
+

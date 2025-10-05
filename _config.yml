@@ -21,6 +21,9 @@ baseurl: ""
 github_username: konstantinthumm
 minimal_mistakes_skin: dark # default
 search: true
+lunr:
+  search_within_pages: true
+
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
