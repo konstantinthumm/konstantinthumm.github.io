@@ -38,6 +38,8 @@ include:
 breadcrumbs: true  # disabled by default
 enable_copy_code_button: true # 
 
+# Fallback für Related Posts + Post-Listen (Grid)
+teaser: /assets/images/posts/spidey-600.jpg
 
 
 # Exclude from processing.
