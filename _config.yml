@@ -138,6 +138,7 @@ defaults:
       overlay_filter: 0.35
       classes: "hero-tall wide"
       show_date: true 
+      teaser: /assets/images/posts/spidey-600.jpg
   # _pages
   - scope:
       path: "_pages"
