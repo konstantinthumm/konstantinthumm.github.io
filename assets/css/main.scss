@@ -66,14 +66,14 @@
 /* optional: extra Variante, falls du später noch höher willst */
 .hero-xlarge .page__hero--overlay { min-height: 42rem; }
 
-/* Home-Hero: mehr Luft + Buttons tiefer (index.md: classes: [home-hero]) */
+/* Home-Hero: mehr Luft + Buttons tiefer (index.md: classes: [home-hero]) 
 .home-hero .page__hero--overlay .wrapper {
   padding-top: 6rem;
   padding-bottom: 8rem;
 }
 .home-hero .page__hero--overlay .page__lead { margin-bottom: .25rem; }
 .home-hero .page__hero--overlay .btn { margin-top: 1rem; }
-
+*/
 /* 3er-Grid für "Neu im Blog" */
 .posts--home-grid {
   display: grid;
@@ -210,3 +210,57 @@
 /* Sanftes Scrolling + Anker-Offset, damit Überschriften nicht unter den Header rutschen */
 :root { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
 
+/* === Home-Hero: Textblock am unteren Bildrand verankern === */
+.home-hero .page__hero--overlay {
+  display: flex;
+  align-items: flex-end;          /* Inhalt nach unten */
+  /* min-height kommt weiterhin aus .hero-tall / .wide / .hero-xlarge */
+}
+
+.home-hero .page__hero--overlay .wrapper {
+  padding-top: 0;                 /* nach unten statt oben polstern */
+  padding-bottom: clamp(1.25rem, 6vh, 4rem);
+}
+
+.home-hero .page__hero--overlay .page__lead { margin-top: .5rem; }  /* opt. */
+.home-hero .page__hero--overlay .btn       { margin-top: 1rem; }     /* opt. */
+
+/* Mobile-Feintuning */
+@media (max-width: 768px) {
+  .home-hero .page__hero--overlay {
+    min-height: 28rem;            /* nicht zu hoch auf Phones */
+  }
+  .home-hero .page__hero--overlay .wrapper {
+    padding-bottom: clamp(1rem, 5vh, 2.5rem);
+  }
+}
+
+/* optional: Lead-Text explizit breiter zulassen */
+.hero-wide .page__hero--overlay .page__lead {
+  max-width: 72ch;               /* oder: none;  -> ganz frei */
+}
+
+/* Mobile begrenzen, damit es nicht bis zum Rand klebt */
+@media (max-width: 768px) {
+  .hero-wide .page__hero--overlay .wrapper {
+    max-width: 92vw;
+  }
+}
+/* Breiter, aber stabil (nur Startseite mit class hero-wide) */
+.hero-wide .page__hero--overlay .page__lead {
+  /* kontrollierte Zeilenlänge für den Absatz */
+  max-width: 72ch;         /* 68–76ch sind sweet-spot */
+}
+
+/* Optional: H1 ebenfalls mit Maß + cap auf Fontgröße */
+.hero-wide .page__hero--overlay h1 {
+  max-width: 26ch;         /* verhindert endlose Zeilen */
+  font-size: clamp(2rem, 4.2vw, 3.2rem);  /* deckelt Wachstum */
+  line-height: 1.08;
+}
+
+/* Mobile: etwas enger, damit’s nicht bis zum Rand läuft */
+@media (max-width: 768px) {
+  .hero-wide .page__hero--overlay .page__lead { max-width: 64ch; }
+  .hero-wide .page__hero--overlay h1 { max-width: 22ch; }
+}

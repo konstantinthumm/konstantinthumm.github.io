@@ -84,7 +84,7 @@ plugins:
 author:
   name: "Konstantin Thumm"
   avatar: "/assets/images/konstantinthumm-400.jpg" # eigenes Bild später hier ablegen
-  bio: "IT-Consultant für Digitalisierung, KI und soziale Innovation."
+  bio: "Digitale Transformation, Projektmanagement und KI<br>für wirksame und nachhaltige Projekte in NGOs und Sozialorganisationen"
   location: "Berlin, Deutschland"    # ← das zeigt die „Maps-Fahne“ + Text
   mastodon: "@konstantinthumm@social.tchncs.de"
   links:

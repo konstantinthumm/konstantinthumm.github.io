@@ -3,18 +3,18 @@ layout: single
 title: "Konstantin Thumm"
 subtitle: "Digitale Transformation, Projektmanagement & KI in der Sozialwirtschaft"
 author_profile: true
-classes: ["wide","hero-tall","home-hero"] # optional
+classes: ["wide","hero-tall","home-hero","hero-wide"]
 
 header:
-  overlay_color: "#000"   # bleibt Dark-Skin-freundlich
+  overlay_color: "#252a34"   # bleibt Dark-Skin-freundlich
   overlay_filter: 0.35
-  overlay_image: /assets/images/posts/spidey-1600.jpg
-  actions:
-    - label: "Über mich"
-      url: /about/
-    - label: "Newsletter abonnieren"
-      url: /newsletter/
-excerpt: "Beratung & Klarheit für NGOs, Sozialunternehmen & öffentliche Hand."
+  overlay_image: /assets/images/hero/konstantinthumm-hero2.webp
+  # actions:
+  #  - label: "Über mich"
+  #    url: /about/
+  #  - label: "Newsletter abonnieren"
+  #    url: /newsletter/
+excerpt: "Wie verändert Digitalisierung unsere Arbeit - und was braucht es, damit sie gelingt?<br>Ich teile hier Gedanken, Erfahrungen und Perspektiven aus dem, was ich in Projekten erlebt, gelernt und ausprobiert habe."
 ---
 
 ## Was ich mache
