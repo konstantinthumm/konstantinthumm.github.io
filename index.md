@@ -7,7 +7,7 @@ classes: ["wide","hero-tall","home-hero"] # optional
 
 header:
   overlay_color: "#000"   # bleibt Dark-Skin-freundlich
-  overlay_filter: 0.45
+  overlay_filter: 0.35
   overlay_image: /assets/images/posts/spidey-1600.jpg
   actions:
     - label: "Über mich"

@@ -23,6 +23,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit a
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Lorem ipsum dolor sit amet, consectetur adipis
 
+{: .notice}
+Watch out! This paragraph of text has been emphasized with the {: .notice} class.
+
 {: .notice--info}
 **Hinweis:** Zum Kommentieren ist ein GitHub-Account nötig.
 Alternativ: <a href="mailto:deineemail">E-Mail</a> · <a rel="me" href="https://dein.masto/@handle">Mastodon</a>
