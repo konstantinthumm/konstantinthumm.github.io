@@ -3,7 +3,7 @@ layout: single
 title: "Konstantin Thumm"
 subtitle: "Digitale Transformation, Projektmanagement & KI in der Sozialwirtschaft"
 author_profile: true
-classes: ["wide","hero-tall","home-hero","hero-wide"]
+classes: ["wide","hero-tall","home-hero","hero-wide","hero-focus-down"]
 
 header:
   overlay_color: "#252a34"   # bleibt Dark-Skin-freundlich

@@ -264,3 +264,21 @@
   .hero-wide .page__hero--overlay .page__lead { max-width: 64ch; }
   .hero-wide .page__hero--overlay h1 { max-width: 22ch; }
 }
+
+
+/* ===== Hero-Ausschnitt NUR Startseite: Kopf nicht abschneiden ===== */
+.hero-focus-down .page__hero--overlay {
+  background-position: center 20% !important;  /* Feintuning 35–45% */
+}
+
+@media (max-width: 1024px) {
+  .hero-focus-down .page__hero--overlay { background-position: center 44% !important; }
+}
+@media (max-width: 640px) {
+  .hero-focus-down .page__hero--overlay { background-position: center 46% !important; }
+}
+
+/* Mini-Luft für den Text, ohne die Hero-Höhe zu verändern */
+.hero-focus-down .page__hero--overlay .wrapper {
+  padding-top: clamp(0.5rem, 1.2vw, 1rem);
+}
