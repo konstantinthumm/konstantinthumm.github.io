@@ -1,10 +1,14 @@
 {%- comment -%}
 Override von Minimal Mistakes: eigener CSS-Link mit Cache-Busting.
-Beinhaltet SEO + dein custom.html. Entfernt den Default-CSS-Link des Themes.
+Beinhaltet SEO + dein custom.html. Fügt das fehlende Viewport-Tag hinzu.
 {%- endcomment -%}
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 {%- include seo.html -%}
 
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%Y%m%d%H%M%S' }}">
 
 {%- include head/custom.html -%}
+
