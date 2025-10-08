@@ -7,7 +7,7 @@ classes: ["wide","hero-tall","home-hero","hero-wide"]
 
 header:
   overlay_color: "#252a34"   # bleibt Dark-Skin-freundlich
-  overlay_filter: 0.35
+  overlay_filter: 0.1
   overlay_image: /assets/images/hero/konstantinthumm-hero2.webp
   # actions:
   #  - label: "Über mich"
@@ -17,24 +17,22 @@ header:
 excerpt: "Wie verändert Digitalisierung unsere Arbeit - und was braucht es, damit sie gelingt?<br>Ich teile hier Gedanken, Erfahrungen und Perspektiven aus dem, was ich in Projekten erlebt, gelernt und ausprobiert habe."
 ---
 
-## Was ich mache
+## Warum Digitalisierung für mich mehr ist als Technik
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra, risus et tincidunt posuere, enim nisi dictum nunc, vitae ultrices arcu nunc nec lectus.
+Seit den 1990ern faszinieren mich das Internet, digitale Werkzeuge und alles, was mit technologischem Wandel zu tun hat. Aus Neugier wurde Beruf, aus Beruf Leidenschaft. Ich habe über die Jahre viele Seiten der IT kennengelernt – von Projekten in Unternehmen bis hin zu Aufgaben, bei denen Menschen und Technologie aufeinandertreffen.
 
-![Platzhalter Inline](/assets/images/posts/spidey-600.jpg){: .align-right width="240" }
-Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
+Heute beschäftige ich mich besonders mit Themen rund um Projektmanagement, Künstliche Intelligenz und agile Methoden. Mich interessiert, wie Organisationen diese Entwicklungen so nutzen können, dass sie echten Mehrwert schaffen – für ihre Arbeit, ihre Teams und die Menschen, die sie erreichen wollen.
 
-<div style="clear: both;"></div>
+Digitalisierung bedeutet für mich nicht schneller, sondern bewusster zu werden: Zusammenhänge zu verstehen, Prozesse einfacher zu machen und Neues mutig auszuprobieren. Dabei geht es weniger um Tools, sondern darum, wie wir miteinander arbeiten und lernen.<br>
+[Mehr über mich erfahren →](/about/)
 
-Phasellus sed posuere nulla. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+### Was es braucht, damit sie gelingt
 
-<div class="notice--primary about-block">
-  <h2>Über mich</h2>
-  <p>Ich begleite Organisationen mit 15+ Jahren Erfahrung an der Schnittstelle aus Strategie, Prozessen und Technologie.</p>
-  <p><a class="btn btn--primary" href="/about/">Mehr erfahren</a></p>
-</div>
+Ich habe keine fertigen Antworten – aber viele Fragen, Gedanken und Erfahrungen, die ich hier teile. In meinem Blog schreibe ich über Grundlagen, Methoden und Beobachtungen aus der Praxis. Ich möchte Themen anstoßen, Denkanstöße geben und Diskussionen eröffnen.
 
-## Neu im Blog
+
+
+## Neue Gedanken und Artikel im Blog
 <p>Die neuesten Beiträge findest du gebündelt auf der <a href="/posts/">Posts-Übersicht</a>.</p>
 <div class="posts--home-grid">
   {% assign recent = site.posts | where_exp: "p", "p.hidden != true" %}
@@ -50,13 +48,14 @@ Phasellus sed posuere nulla. Nulla vitae elit libero, a pharetra augue. Vestibul
     </article>
   {% endfor %}
 </div>
+<hr>
+Schauen Sie sich gern um, lesen Sie mit, diskutieren Sie mit mir im Blog oder auf [LinkedIn](https://www.linkedin.com/in/konstantinthumm), [Mastodon](https://social.tchncs.de/@konstantinthumm) oder [Bluesky](https://bsky.app/profile/konstantinthumm.bsky.social) – oder entdecken Sie einfach etwas, das Sie inspiriert.
 
-
-
-## Newsletter
+<!-- Newsletter-Block vorübergehend deaktiviert.
+     Hinweis: Später mit Mailtrain-Integration wieder einsetzen. -->
+<!-- ## Newsletter
 <p>Kurz, fokussiert, unregelmäßig — direkt aus Projekten & Recherchen.</p>
-<!-- Buttondown/Newsletter-Einbettung oder Link -->
 <p><a class="btn btn--primary" href="/newsletter/">Zur Anmeldung</a></p>
+-->
 
-## Kontakt
-<p>Kooperation anfragen? <a class="btn" href="/contact/">Hier entlang</a></p>
+
