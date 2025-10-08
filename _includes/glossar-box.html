@@ -1,0 +1,13 @@
+{% assign term = include.term | default: "Kommentare via GitHub & Giscus" %}
+{% assign summary = include.summary | default: "Warum ein GitHub-Login nötig ist, wie Giscus funktioniert und was das für Spam & Datenschutz bedeutet." %}
+{% assign cta = include.cta | default: "Mehr im Glossar" %}
+{% assign url = include.url | default: "/glossar/github/#giscus-kommentare" %}
+
+<aside class="glossar-box" role="note" aria-label="Glossarhinweis">
+  <div class="glossar-box__header">
+    <span class="glossar-box__icon" aria-hidden="true">💬</span>
+    <strong>{{ term }}</strong>
+  </div>
+  <p class="glossar-box__text">{{ summary }}</p>
+  <a class="glossar-box__cta" href="{{ url | relative_url }}">{{ cta }}</a>
+</aside>

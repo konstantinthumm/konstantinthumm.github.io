@@ -276,3 +276,36 @@
 @media (max-width: 640px) {
   .hero-focus-down .page__hero--overlay { background-position: center 46% !important; }
 }
+
+/* Glossar Navigation */
+.glossar-nav {
+  display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1rem 0;
+}
+.glossar-nav .pill {
+  display: inline-block; padding: .25rem .5rem; border-radius: .5rem;
+  border: 1px solid #00adb5; text-decoration: none;
+}
+.glossar-nav .pill:hover { background: rgba(0,173,181,.08); }
+
+ul.glossar-list { list-style: none; padding-left: 0; margin: .5rem 0 1.5rem; }
+ul.glossar-list li { margin: .2rem 0; }
+.glossar-summary { color: var(--mm-muted, #888); }
+
+/* Glossar-Hinweisbox */
+.glossar-box {
+  margin: 1.25rem 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid #00adb5;
+  border-left-width: 4px;
+  border-radius: 0.5rem;
+  background: rgba(0, 173, 181, 0.06);
+}
+.glossar-box__header {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: .2rem;
+}
+.glossar-box__icon { font-size: 1.1rem; line-height: 1; }
+.glossar-box__text { margin: 0.1rem 0 0.35rem; }
+.glossar-box__cta { text-decoration: underline; }

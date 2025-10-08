@@ -29,3 +29,21 @@ Watch out! This paragraph of text has been emphasized with the {: .notice} class
 {: .notice--info}
 **Hinweis:** Zum Kommentieren ist ein GitHub-Account nötig.
 Alternativ: <a href="mailto:deineemail">E-Mail</a> · <a rel="me" href="https://dein.masto/@handle">Mastodon</a>
+
+### standard
+{% include glossar-box.html %}
+
+### mit eigenem text
+{% include glossar-box.html
+   term="Glossar: GitHub & Kommentare"
+   summary="Kurz erklärt: GitHub-Account, Giscus und wie du hier kommentierst."
+   cta="So kommentierst du"
+   url="/glossar/github/#giscus-kommentare" %}
+
+### anderer glossar begriff
+{% include glossar-box.html
+   term="Glossar: Content-Hubs"
+   summary="Wie Kategorien & Tags zu thematischen Übersichtsseiten gebündelt werden."
+   cta="Zum Glossar-Eintrag"
+   url="/glossar/" %}
+

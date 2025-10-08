@@ -1,0 +1,15 @@
+# _data/glossar.yml
+- term: GitHub
+  slug: github
+  url: /glossar/github/
+  summary: Plattform für Code & Diskussionen; wird für Kommentare via Giscus genutzt.
+
+- term: Giscus
+  slug: giscus
+  url: /glossar/github/#giscus-kommentare
+  summary: Kommentarsystem, das GitHub Discussions als Backend nutzt.
+
+- term: Kommentare
+  slug: kommentare
+  url: /glossar/github/#giscus-kommentare
+  summary: Wie du in meinem Blog kommentierst (Login via GitHub, Spam-Schutz, Datenschutz).
