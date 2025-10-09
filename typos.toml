@@ -1,9 +1,30 @@
+[files]
+# Ordner und Dateien, die nicht geprüft werden sollen
+extend-exclude = [
+  "_site/**",
+  "assets/**",
+  "vendor/**",
+  "node_modules/**",
+  "Gemfile.lock",
+  ".git/**"
+]
+
 [default]
-write = false
-exclude = ["vendor/**","node_modules/**","_site/**",".git/**"]
+# Deutsch-lastige Inhalte erzeugen viele False-Positives; mit eigenen Wörtern entschärfen
+# (typos akzeptiert die Wörter, wenn key==value)
+check-filename = false
 
 [default.extend-words]
+Konstantin = "Konstantin"
 konstantinthumm = "konstantinthumm"
-zoula = "zoula"
-GoatCounter = "GoatCounter"
+Jekyll = "Jekyll"
+Minimal = "Minimal"
+Mistakes = "Mistakes"
 MinimalMistakes = "MinimalMistakes"
+Mastodon = "Mastodon"
+Bluesky = "Bluesky"
+GoatCounter = "GoatCounter"
+Lychee = "Lychee"
+Lighthouse = "Lighthouse"
+Fediverse = "Fediverse"
+GitHub = "GitHub"

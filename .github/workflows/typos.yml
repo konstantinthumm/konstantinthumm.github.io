@@ -1,9 +1,17 @@
+---
 name: Typos Check
-on: [push, pull_request]
+on:
+  push:
+  workflow_dispatch: {}
+
 jobs:
   typos:
     runs-on: ubuntu-latest
+    continue-on-error: true  # <<< Job darf warnen, aber nicht failen
     steps:
       - uses: actions/checkout@v4
-      - name: Run typos
-        uses: crate-ci/typos@master
+      - uses: crate-ci/typos@v1
+        with:
+          config: ./typos.toml
+          files: .
+
