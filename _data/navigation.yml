@@ -9,3 +9,6 @@ main:
     url: /about/
   - title: Glossar
     url: /glossar/
+  - title: kontakt
+    url: /contact/
+    
