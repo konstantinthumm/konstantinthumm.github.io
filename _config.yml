@@ -20,14 +20,12 @@ description: "IT-Consultant • Digitalisierung • KI & NGO"
 url: "https://konstantinthumm.de"
 baseurl: ""
 github_username: konstantinthumm
-minimal_mistakes_skin: dark.
+minimal_mistakes_skin: dark
 search: true
 lunr:
   search_within_pages: true
-
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
 # Build settings
 markdown: kramdown
 # Outputting
@@ -37,7 +35,6 @@ paginate_path: /page:num/
 timezone: Europe/Berlin
 include:
   - _pages
-
 breadcrumbs: true  # disabled by default
 enable_copy_code_button: true
 
@@ -77,6 +74,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Author Profile
 author:

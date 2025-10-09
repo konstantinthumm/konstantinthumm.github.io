@@ -20,7 +20,7 @@
   .hero-tall .page__hero--overlay { min-height: 40vh; }
 }
 
-/* Social Share Button Farben 
+/* Social Share Button Farben
 .btn--mastodon { background:#6364FF; color:#fff; }
 .btn--mastodon:hover { filter: brightness(0.9); }
 
@@ -66,7 +66,7 @@
 /* optional: extra Variante, falls du später noch höher willst */
 .hero-xlarge .page__hero--overlay { min-height: 42rem; }
 
-/* Home-Hero: mehr Luft + Buttons tiefer (index.md: classes: [home-hero]) 
+/* Home-Hero: mehr Luft + Buttons tiefer (index.md: classes: [home-hero])
 .home-hero .page__hero--overlay .wrapper {
   padding-top: 6rem;
   padding-bottom: 8rem;
@@ -100,8 +100,8 @@
 }
 
 /* Linie unter H2 im Block entfernen + etwas Luft */
-.about-block h2 { 
-  border-bottom: 0; 
+.about-block h2 {
+  border-bottom: 0;
   margin: .5rem 0 0.75rem;
 }
 
@@ -112,7 +112,7 @@
 /* Einheitliches Verhalten für Primary-Buttons – überall */
 .btn--primary,
 .btn--primary:link,
-.btn--primary:visited { 
+.btn--primary:visited {
   color: #fff !important;
   background-color: #00adb5;
   border-color: #00adb5;
@@ -313,9 +313,9 @@ ul.glossar-list li { margin: .2rem 0; }
 
 .legal-links {
   display:block;
-  margin:.25rem 0 .35rem;
+  margin:.35rem 0 .4rem;
   font-size:.65rem;
-  opacity:.85;
+  opacity:.8;
 }
 .legal-links a { text-decoration:none; }
 .legal-links a:hover { text-decoration:underline; }
