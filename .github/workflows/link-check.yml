@@ -1,7 +1,7 @@
 ---
 name: Link Check (live)
 
-on:
+"on":
   schedule:
     - cron: "0 5 * * *"  # täglich 07:00 Berlin
   workflow_dispatch: {}

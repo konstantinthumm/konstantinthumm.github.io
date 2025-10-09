@@ -1,9 +1,17 @@
+---
 name: Markdown Lint
-on: [push, pull_request]
+
+"on":
+  push:
+  workflow_dispatch: {}
+
 jobs:
   mdl:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: npm install -g markdownlint-cli
-      - run: markdownlint "**/*.md" --ignore node_modules --config .markdownlint.json
+      - name: Run markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: |
+            **/*.md
