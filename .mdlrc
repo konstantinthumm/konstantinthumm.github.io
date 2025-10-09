@@ -1,0 +1,6 @@
+# MarkdownLint (mdl) – Repoweite Einstellungen
+# Zeilenlänge (MD013) für dieses Repo deaktivieren – bei Rechtstexten sinnvoll
+exclude_rule 'MD013'
+
+# Optional: erlaubtes Inline-HTML, falls du es irgendwo nutzt (z. B. <small>, <br>)
+# exclude_rule 'MD033'
