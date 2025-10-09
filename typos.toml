@@ -1,0 +1,9 @@
+[default]
+write = false
+exclude = ["vendor/**","node_modules/**","_site/**",".git/**"]
+
+[default.extend-words]
+konstantinthumm = "konstantinthumm"
+zoula = "zoula"
+GoatCounter = "GoatCounter"
+MinimalMistakes = "MinimalMistakes"
