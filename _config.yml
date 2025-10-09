@@ -20,7 +20,7 @@ description: "IT-Consultant • Digitalisierung • KI & NGO"
 url: "https://konstantinthumm.de"
 baseurl: ""
 github_username: konstantinthumm
-minimal_mistakes_skin: dark # default
+minimal_mistakes_skin: dark. # default
 search: true
 lunr:
   search_within_pages: true
@@ -39,7 +39,7 @@ include:
   - _pages
 
 breadcrumbs: true  # disabled by default
-enable_copy_code_button: true #
+enable_copy_code_button: true
 
 # Fallback für Related Posts + Post-Listen (Grid)
 teaser: /assets/images/posts/spidey-600.jpg
@@ -61,7 +61,7 @@ repository: "konstantinthumm/konstantinthumm.github.io"
 comments:
   provider: "giscus"
   giscus:
-    repo_id: "R_kgDOP5gRyA" # Beispielwert
+    repo_id: "R_kgDOP5gRyA"  # Beispielwert
     category_name: "General"
     category_id: "DIC_kwDOP5gRyM4CwPFK"
     discussion_term: "pathname"
@@ -81,9 +81,9 @@ plugins:
 # Author Profile
 author:
   name: "Konstantin Thumm"
-  avatar: "/assets/images/konstantinthumm-400.jpg" # eigenes Bild später hier ablegen
+  avatar: "/assets/images/konstantinthumm-400.jpg"  # eigenes Bild später hier ablegen
   bio: "Digitale Transformation, Projektmanagement und KI<br>für wirksame und nachhaltige Projekte in NGOs und Sozialorganisationen"
-  location: "Berlin, Deutschland"    # ← das zeigt die „Maps-Fahne“ + Text
+  location: "Berlin, Deutschland"  # ← das zeigt die „Maps-Fahne“ + Text
   mastodon: "@konstantinthumm@social.tchncs.de"
   links:
     # - label: "Website"
@@ -140,7 +140,7 @@ defaults:
       toc: true
       toc_sticky: true
       toc_label: "Inhalt"
-      toc_icon: "list-ul" # Font-Awesome Icon (Alternative: "bars", "list")
+      toc_icon: "list-ul"  # Font-Awesome Icon (Alternative: "bars", "list")
       # Optional: nur H2/H3 aufnehmen (wenn du das nutzt)
       # toc_min: 2
       # toc_max: 3
@@ -155,7 +155,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-
 
 category_archive:
   type: liquid

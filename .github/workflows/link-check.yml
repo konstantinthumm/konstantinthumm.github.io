@@ -1,23 +1,29 @@
+---
 name: Link Check (live)
 on:
-  schedule: [ { cron: "0 5 * * *" } ]   # täglich 07:00 Berlin
+  schedule: [{ cron: "0 5 * * *" }]  # täglich 07:00 Berlin
   workflow_dispatch: {}
-  push: { branches: [ main ] }
+  push: { branches: [main] }
+
 jobs:
   live:
     runs-on: ubuntu-latest
     steps:
-      - name: Run lychee against live site
+      - name: Run Lychee against live site
         uses: lycheeverse/lychee-action@v1
         with:
           args: >-
             --verbose --no-progress --timeout 20 --retry 2 --max-redirects 5
             --exclude-file .lycheeignore --accept 200,206
             https://konstantinthumm.de
+
       - name: Upload report artifact
-        uses: actions/upload-artifact@v4
         if: always()
-        with: { name: lychee-report, path: lychee_report.md }
+        uses: actions/upload-artifact@v4
+        with:
+          name: lychee-report
+          path: lychee_report.md
+
       - name: Create issue on failures
         if: failure()
         uses: peter-evans/create-issue-from-file@v5
