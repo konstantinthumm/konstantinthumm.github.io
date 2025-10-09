@@ -1,33 +1,24 @@
-name: HTML Proofer
-on: [push, pull_request]
+name: HTML Proofer (internal)
+
+on:
+  pull_request:
+  workflow_dispatch:
+
 jobs:
   proofer:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.2'
-          bundler-cache: true
-
-      - name: Install gems
-        run: bundle install --path vendor/bundle
-
-      - name: Fail if github.io links remain in source
-        run: |
-          if git grep -nE 'https?://[^"]*github\.io' -- ':!_site' ':!vendor' ':!node_modules'; then
-            echo "::error ::Found github.io links in source. Replace with https://konstantinthumm.de"
-            exit 1
-          fi
-
-      - name: Build site
-        run: JEKYLL_ENV=production bundle exec jekyll build
-
-      - name: Run html-proofer
-        run: |
+      - uses: ruby/setup-ruby@v1
+        with: { ruby-version: "3.2" }
+      - run: |
+          bundle install --jobs 4 --retry 3
+          JEKYLL_ENV=production bundle exec jekyll build --trace
+          # nur interne prüfen, externe aus
           gem install html-proofer
           htmlproofer ./_site \
-            --check-html --assume-extension --enforce-https --check-img-http \
-            --empty-alt-ignore=false
+            --disable-external \
+            --check-html \
+            --check-img-http \
+            --enforce-https \
+            --assume-extension

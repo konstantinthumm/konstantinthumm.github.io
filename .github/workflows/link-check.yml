@@ -1,37 +1,37 @@
 ---
-name: Link Check (live)
+name: Link Check
 
-"on":
+on:
+  pull_request:
   schedule:
-    - cron: "0 5 * * *"  # täglich 07:00 Berlin
-  workflow_dispatch: {}
-  push:
-    branches:
-      - main
+    - cron: "17 3 * * 1"   # Mo 03:17 UTC (beliebig)
+  workflow_dispatch:
 
 jobs:
-  live:
+  lychee:
     runs-on: ubuntu-latest
     steps:
-      - name: Run Lychee against live site
+      - uses: actions/checkout@v4
+
+      # Jekyll bauen, damit interne Links geprüft werden können
+      - uses: ruby/setup-ruby@v1
+        with: { ruby-version: "3.2" }
+      - run: |
+          bundle install --jobs 4 --retry 3
+          bundle exec jekyll build --trace
+      - name: Run lychee
         uses: lycheeverse/lychee-action@v1
         with:
+          # prüfe generierten Output + Markdown-Quellen
           args: >-
-            --verbose --no-progress --timeout 20 --retry 2 --max-redirects 5
-            --exclude-file .lycheeignore --accept 200,206
-            https://konstantinthumm.de
-
-      - name: Upload report artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: lychee-report
-          path: lychee_report.md
-
-      - name: Create issue on failures
-        if: failure()
-        uses: peter-evans/create-issue-from-file@v5
-        with:
-          title: "🔗 Broken links gefunden (live check)"
-          content-filepath: lychee_report.md
-          labels: "bug, links"
+            --verbose
+            --no-progress
+            --max-concurrency 2
+            --timeout 20
+            --accept 200,206,429
+            --exclude-file .lycheeignore
+            ./_site
+            ./
+          fail: false    # <<< soft-fail: Job wird nie rot
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

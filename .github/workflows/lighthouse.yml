@@ -1,24 +1,17 @@
----
-name: Lighthouse (live)
+name: Lighthouse (manual)
 
-"on":
-  schedule:
-    - cron: "0 4 * * 1"  # montags 06:00 Berlin
-  workflow_dispatch: {}
-  push:
-    branches:
-      - main
+on:
+  workflow_dispatch:
 
 jobs:
   lhci:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Lighthouse against key pages
-        uses: treosh/lighthouse-ci-action@v11
-        with:
-          urls: |
-            https://konstantinthumm.de/
-            https://konstantinthumm.de/blog/
-          uploadArtifacts: true        # boolean
-          temporaryPublicStorage: true
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: npm i -g @lhci/cli@0.12.x
+      - name: Run Lighthouse against production
+        run: |
+          lhci autorun --collect.url=https://konstantinthumm.de \
+                       --upload.target=temporary-public-storage

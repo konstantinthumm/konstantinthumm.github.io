@@ -9,3 +9,17 @@ tel:*
 intent://*
 http://localhost/*
 http://127.0.0.1/*
+
+# Mailto und Fediverse/Bluesky Instanz-Composer
+^mailto:
+^https://bsky\.app/
+^https://toot\.kytta\.dev/
+
+# Social-Profile / Follow-Links (oft Rate-Limits)
+^https://(www\.)?linkedin\.com/
+^https://(www\.)?github\.com/
+^https://social\.tchncs\.de/
+
+# Externe Badge/Counter/CDN
+^https://gc\.zgo\.at/
+^https://cdnjs\.cloudflare\.com/
