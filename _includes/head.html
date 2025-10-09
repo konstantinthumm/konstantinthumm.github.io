@@ -1,6 +1,9 @@
 {%- comment -%}
-Override von Minimal Mistakes: eigener CSS-Link mit Cache-Busting.
-Beinhaltet SEO + dein custom.html. Fügt das fehlende Viewport-Tag hinzu.
+Minimal Mistakes: Head-Override
+- Lädt jekyll-seo-tag früh
+- Cache-bustet das Haupt-CSS
+- Bindet deinen Custom-Head ein (Favicons, OG-Fallbacks, rel=me, etc.)
+- In Produktion: GoatCounter (cookie-frei), inkl. preconnect/dns-prefetch
 {%- endcomment -%}
 
 <meta charset="utf-8">
@@ -8,17 +11,22 @@ Beinhaltet SEO + dein custom.html. Fügt das fehlende Viewport-Tag hinzu.
 
 {%- include seo.html -%}
 
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%Y%m%d%H%M%S' }}">
+<link rel="stylesheet"
+      href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%Y%m%d%H%M%S' }}">
+
+{%- include head/custom.html -%}
 
 {% if jekyll.environment == "production" %}
-  <!-- GoatCounter (cookie-frei, DSGVO-freundlich) -->
+  <!-- GoatCounter (cookie-frei) -->
   <link rel="preconnect" href="https://gc.zgo.at">
+  <link rel="dns-prefetch" href="https://gc.zgo.at">
   <script
     data-goatcounter="https://konstantinthumm.goatcounter.com/count"
     async
     src="https://gc.zgo.at/count.js"></script>
+  <noscript>
+    <img src="https://konstantinthumm.goatcounter.com/count?p={{ page.url | uri_escape }}"
+         alt=""
+         referrerpolicy="no-referrer-when-downgrade" />
+  </noscript>
 {% endif %}
-
-
-{%- include head/custom.html -%}
-

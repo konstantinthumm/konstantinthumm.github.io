@@ -1,5 +1,9 @@
+<!-- External icons (optional: für maximale DSGVO-Sauberkeit lokal hosten) -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<!-- Fediverse verification -->
 <link rel="me" href="https://social.tchncs.de/@konstantinthumm">
+
 {%- comment -%} Favicons & PWA {%- endcomment -%}
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
@@ -12,10 +16,48 @@
 <meta name="msapplication-TileColor" content="#4e91a5">
 <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
 <meta name="theme-color" content="#4e91a5">
-<!-- _includes/head/custom.html -->
+
+<!-- Fediverse meta -->
 {% assign fediverse_handle = page.fediverse_creator | default: site.author.mastodon %}
 {% if fediverse_handle %}
 <meta name="fediverse:creator" content="{{ fediverse_handle }}">
 {% endif %}
+
+{%- comment -%}
+----------------------------------------------------------------------
+OG/Twitter Fallbacks (ergänzen jekyll-seo-tag)
+Strategie (Prio für Bild):
+1) page.og_image
+2) page.header.image (Minimal Mistakes)
+3) page.image
+4) page.teaser
+5) site.og_image (globaler Fallback)
+----------------------------------------------------------------------
+{%- endcomment -%}
+{%- assign page_title       = page.title       | default: site.title -%}
+{%- assign page_description = page.excerpt     | default: page.description | default: site.description -%}
+{%- assign og_image = page.og_image 
+  | default: page.header.image 
+  | default: page.image 
+  | default: page.teaser 
+  | default: site.og_image -%}
+
+{%- if og_image -%}
+  {%- assign og_image_abs = og_image -%}
+  {%- unless og_image_abs contains '://' -%}
+    {%- assign og_image_abs = og_image | absolute_url -%}
+  {%- endunless -%}
+  <meta property="og:image" content="{{ og_image_abs }}">
+  <meta name="twitter:image" content="{{ og_image_abs }}">
+{%- endif -%}
+
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_description | strip_newlines | strip }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="de_DE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page_title }}">
+<meta name="twitter:description" content="{{ page_description | strip_newlines | strip }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
 
 

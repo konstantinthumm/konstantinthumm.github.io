@@ -309,3 +309,13 @@ ul.glossar-list li { margin: .2rem 0; }
 .glossar-box__icon { font-size: 1.1rem; line-height: 1; }
 .glossar-box__text { margin: 0.1rem 0 0.35rem; }
 .glossar-box__cta { text-decoration: underline; }
+
+
+.legal-links {
+  display:block;
+  margin:.25rem 0 .35rem;
+  font-size:.65rem;
+  opacity:.85;
+}
+.legal-links a { text-decoration:none; }
+.legal-links a:hover { text-decoration:underline; }

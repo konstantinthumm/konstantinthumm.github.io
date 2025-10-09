@@ -1,35 +1,59 @@
-{%- assign share_url    = page.url   | absolute_url | uri_escape -%}
-{%- assign share_title  = page.title | strip_html   | uri_escape -%}
-{%- assign share_excerpt= page.excerpt | default: site.description | strip_html | truncate: 160 | uri_escape -%}
-{%- assign share_text   = share_title | append: '%20' | append: share_url -%}
+{%- assign share_url     = page.url    | absolute_url | uri_escape -%}
+{%- assign share_title   = page.title  | strip_html   | uri_escape -%}
+{%- assign share_excerpt = page.excerpt | default: site.description | strip_html | truncate: 160 | uri_escape -%}
+{%- assign share_text    = share_title | append: '%20' | append: share_url -%}
 {%- assign email_subject = share_title -%}
-{%- assign email_body = share_title | append: '%0A%0A' | append: share_url | append: '%0A%0A' | append: share_excerpt -%}
+{%- assign email_body    = share_title | append: '%0A%0A' | append: share_url | append: '%0A%0A' | append: share_excerpt -%}
 
-<div class="page__share">
-  <h4 class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}</h4>
+{%- comment -%}
+Nur anzeigen, wenn Sharing nicht explizit abgeschaltet ist.
+- global kannst du `site.share: true` setzen; hier reicht per-page Kontrolle.
+{%- endcomment -%}
+{%- if page.share != false -%}
+<div class="page__share" role="region" aria-label="Beitrag teilen">
+  <h4 class="page__share-title">
+    {{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}
+  </h4>
 
+  <!-- LinkedIn -->
   <a class="btn btn--linkedin"
-     href="https://www.linkedin.com/shareArticle?mini=true&url={{ share_url }}&title={{ share_title }}"
-     rel="noopener noreferrer nofollow" target="_blank">
-    <i class="fab fa-linkedin"></i><span> LinkedIn</span>
+     href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}"
+     rel="noopener noreferrer nofollow" target="_blank"
+     aria-label="Auf LinkedIn teilen">
+    <i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
   </a>
 
+  <!-- Mastodon (instanzbasiert, aus _config.yml via site.mastodon_instance) -->
   <a class="btn btn--mastodon"
      href="{{ site.mastodon_instance | default: 'https://social.tchncs.de' | append: '/share?text=' | append: share_text }}"
-     rel="noopener noreferrer nofollow" target="_blank">
-    <i class="fa-brands fa-mastodon"></i><span> Mastodon</span>
+     rel="noopener noreferrer nofollow" target="_blank"
+     aria-label="Auf Mastodon teilen">
+    <i class="fa-brands fa-mastodon" aria-hidden="true"></i><span> Mastodon</span>
   </a>
+  {%- comment -%}
+  Alternativ ohne feste Instanz:
+  <a class="btn btn--mastodon"
+     href="https://toot.kytta.dev/?text={{ share_text }}"
+     rel="noopener noreferrer nofollow" target="_blank"
+     aria-label="Auf Mastodon teilen (Instanz wählen)">
+    <i class="fa-brands fa-mastodon" aria-hidden="true"></i><span> Mastodon</span>
+  </a>
+  {%- endcomment -%}
 
+  <!-- Bluesky -->
   <a class="btn btn--bluesky"
      href="https://bsky.app/intent/compose?text={{ share_text }}"
-     rel="noopener noreferrer nofollow" target="_blank">
-    <i class="fa-brands fa-bluesky"></i><span> Bluesky</span>
+     rel="noopener noreferrer nofollow" target="_blank"
+     aria-label="Auf Bluesky teilen">
+    <i class="fa-brands fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
   </a>
 
+  <!-- E-Mail -->
   <a class="btn btn--email"
      href="mailto:?subject={{ email_subject }}&body={{ email_body }}"
-     rel="nofollow">
-    <i class="fa-solid fa-envelope"></i><span> E-Mail</span>
+     rel="nofollow"
+     aria-label="Per E-Mail teilen">
+    <i class="fa-solid fa-envelope" aria-hidden="true"></i><span> E-Mail</span>
   </a>
 </div>
-
+{%- endif -%}
