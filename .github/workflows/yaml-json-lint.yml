@@ -17,5 +17,7 @@ jobs:
           strict: true
           format: github
 
-      - name: Run jsonlint
-        uses: zoexx/github-action-json-file-validator@v1
+      - name: Run JSONLint
+        run: |
+          echo "🔍 Checking JSON files..."
+          npx --yes jsonlint-cli "**/*.json"
