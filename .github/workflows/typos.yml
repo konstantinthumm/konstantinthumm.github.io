@@ -1,5 +1,6 @@
 ---
 name: Typos Check
+
 on:
   push:
   workflow_dispatch: {}
@@ -7,7 +8,7 @@ on:
 jobs:
   typos:
     runs-on: ubuntu-latest
-    continue-on-error: true  # <<< Job darf warnen, aber nicht failen
+    continue-on-error: true  # Job darf warnen, aber nicht failen
     steps:
       - uses: actions/checkout@v4
       - uses: crate-ci/typos@v1

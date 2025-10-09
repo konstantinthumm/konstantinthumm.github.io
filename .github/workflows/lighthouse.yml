@@ -1,19 +1,25 @@
 ---
 name: Lighthouse (live)
+
 on:
-  schedule: [{ cron: "0 4 * * 1" }]  # montags 06:00 Berlin
+  schedule:
+    - cron: "0 4 * * 1"  # montags 06:00 Berlin
   workflow_dispatch: {}
+  push:
+    branches:
+      - main
 
 jobs:
   lhci:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Lighthouse against key pages
         uses: treosh/lighthouse-ci-action@v11
         with:
           urls: |
             https://konstantinthumm.de/
             https://konstantinthumm.de/blog/
-          uploadArtifacts: true      # boolean, nicht "yes"
+          uploadArtifacts: true       # boolean
           temporaryPublicStorage: true

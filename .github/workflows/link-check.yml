@@ -1,9 +1,13 @@
 ---
 name: Link Check (live)
+
 on:
-  schedule: [{ cron: "0 5 * * *" }]  # täglich 07:00 Berlin
+  schedule:
+    - cron: "0 5 * * *"  # täglich 07:00 Berlin
   workflow_dispatch: {}
-  push: { branches: [main] }
+  push:
+    branches:
+      - main
 
 jobs:
   live:
