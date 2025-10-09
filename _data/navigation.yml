@@ -1,3 +1,4 @@
+---
 main:
   - title: "Posts"
     url: /posts/
@@ -9,4 +10,3 @@ main:
     url: /about/
   - title: Glossar
     url: /glossar/
-

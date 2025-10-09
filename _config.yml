@@ -1,3 +1,4 @@
+---
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -29,7 +30,6 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -39,7 +39,7 @@ include:
   - _pages
 
 breadcrumbs: true  # disabled by default
-enable_copy_code_button: true # 
+enable_copy_code_button: true #
 
 # Fallback für Related Posts + Post-Listen (Grid)
 teaser: /assets/images/posts/spidey-600.jpg
@@ -58,8 +58,6 @@ teaser: /assets/images/posts/spidey-600.jpg
 #   - vendor/ruby/
 
 repository: "konstantinthumm/konstantinthumm.github.io"
-permalink: /:categories/:title/
-
 comments:
   provider: "giscus"
   giscus:
@@ -148,7 +146,7 @@ defaults:
       # toc_max: 3
       # TOC lässt sich in einzelnen Posts jederzeit über toc: false im Front-Matter ausnehmen.
       classes: "hero-tall wide"
-      show_date: true 
+      show_date: true
       teaser: /assets/images/posts/spidey-600.jpg
   # _pages
   - scope:
