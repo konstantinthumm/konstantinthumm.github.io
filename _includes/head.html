@@ -10,5 +10,15 @@ Beinhaltet SEO + dein custom.html. Fügt das fehlende Viewport-Tag hinzu.
 
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%Y%m%d%H%M%S' }}">
 
+{% if jekyll.environment == "production" %}
+  <!-- GoatCounter (cookie-frei, DSGVO-freundlich) -->
+  <link rel="preconnect" href="https://gc.zgo.at">
+  <script
+    data-goatcounter="https://konstantinthumm.goatcounter.com/count"
+    async
+    src="https://gc.zgo.at/count.js"></script>
+{% endif %}
+
+
 {%- include head/custom.html -%}
 
