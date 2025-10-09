@@ -16,7 +16,7 @@
 title: "Konstantin Thumm"
 name: "Konstantin Thumm"
 description: "IT-Consultant • Digitalisierung • KI & NGO"
-url: "https://konstantinthumm.github.io"
+url: "https://konstantinthumm.de"
 baseurl: ""
 github_username: konstantinthumm
 minimal_mistakes_skin: dark # default
@@ -89,7 +89,7 @@ author:
   mastodon: "@konstantinthumm@social.tchncs.de"
   links:
     # - label: "Website"
-    #  url: "https://konstantinthumm.github.io"
+    #  url: "https://konstantinthumm.de"
     #  icon: "fas fa-link"
     - label: "GitHub"
       url: "https://github.com/konstantinthumm"

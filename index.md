@@ -24,7 +24,6 @@ Seit den 1990ern faszinieren mich das Internet, digitale Werkzeuge und alles, wa
 Heute beschäftige ich mich besonders mit Themen rund um Projektmanagement, Künstliche Intelligenz und agile Methoden. Mich interessiert, wie Organisationen diese Entwicklungen so nutzen können, dass sie echten Mehrwert schaffen – für ihre Arbeit, ihre Teams und die Menschen, die sie erreichen wollen.
 
 Digitalisierung bedeutet für mich nicht schneller, sondern bewusster zu werden: Zusammenhänge zu verstehen, Prozesse einfacher zu machen und Neues mutig auszuprobieren. Dabei geht es weniger um Tools, sondern darum, wie wir miteinander arbeiten und lernen.<br>
-[Mehr über mich erfahren →](/about/)
 
 ### Was es braucht, damit sie gelingt
 
