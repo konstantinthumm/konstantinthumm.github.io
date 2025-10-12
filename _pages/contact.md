@@ -2,10 +2,8 @@
 layout: single
 title: Kontakt
 permalink: /kontakt/
-author_profile: false
-robots: noindex,nofollow
-sitemap: false
-canonical: false
+author_profile: true
+classes: wide
 ---
 
 <p>Sie erreichen mich vorzugsweise über LinkedIn oder per E-Mail.</p>
