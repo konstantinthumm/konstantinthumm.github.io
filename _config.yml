@@ -153,6 +153,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope: { path: "kategorie" }
+    values:
+      layout: archive
+      author_profile: true
+      entries_layout: grid   # oder 'list'
+  - scope: { path: "tag" }
+    values:
+      layout: archive
+      author_profile: true
+      entries_layout: grid
+
 
 category_archive:
   type: liquid
