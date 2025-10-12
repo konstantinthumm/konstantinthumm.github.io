@@ -13,6 +13,9 @@ header:
 
 # Thumbnail für Grids/Listen (nur nötig, wenn du /posts im Grid benutzt)
 teaser: /assets/images/posts/spidey-600.jpg
+categories: [digitalisierung]     # Mehrzahl + Liste!
+tags: [sozialwirtschaft, scrum, leitfaden]   # Liste
+
 ---
 
 ## überschrift 2
