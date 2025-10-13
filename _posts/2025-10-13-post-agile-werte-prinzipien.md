@@ -4,7 +4,7 @@ title: "Agiles Manifest: Werte, Prinzipien – und wie du Cargo-Cult vermeidest"
 date: 2025-10-13
 excerpt: "Scrum ist kein Ritual, sondern ein Mindset: vier Werte, zwölf Prinzipien – richtig verstanden und gelebt. Ein Plädoyer gegen Cargo-Cult."
 author_profile: true
-classes: ["wide","hero-tall","home-hero","hero-wide","hero-focus-down"]
+classes: ["wide","hero-tall"]
 toc: true
 toc_label: "Inhalt"
 toc_icon: "list-ul"   # optional
