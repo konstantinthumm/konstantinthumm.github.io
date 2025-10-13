@@ -13,8 +13,8 @@ header:
 
 # Thumbnail für Grids/Listen (nur nötig, wenn du /posts im Grid benutzt)
 teaser: /assets/images/posts/spidey-600.jpg
-categories: [digitalisierung]     # Mehrzahl + Liste!
-tags: [sozialwirtschaft, scrum, leitfaden]   # Liste
+categories: [Digitalisierung]     # Mehrzahl + Liste!
+tags: [Sozialwirtschaft, Scrum, Leitfaden]   # Liste
 
 ---
 
@@ -50,3 +50,4 @@ Alternativ: <a href="mailto:deineemail">E-Mail</a> · <a rel="me" href="https://
    cta="Zum Glossar-Eintrag"
    url="/glossar/" %}
 
+Photo by <a href="https://unsplash.com/@edenconstantin0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eden Constantino</a> on <a href="https://unsplash.com/photos/person-holding-purple-and-white-card-OXmym9cuaEY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

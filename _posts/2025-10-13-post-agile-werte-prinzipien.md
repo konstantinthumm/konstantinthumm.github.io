@@ -23,8 +23,8 @@ header:
 # teaser: /assets/images/posts/scrum-values-principles-600.webp
 
 # Taxonomien
-categories: [projektmanagement]
-tags: [agil, scrum]
+categories: [Projektmanagement]
+tags: [Agil, Scrum]
 ---
 
 ## Die Werte und Prinzipien des agilen Manifests – Fundament moderner Zusammenarbeit
@@ -94,14 +94,48 @@ Pläne sind wichtig, aber sie dürfen nicht zur Fessel werden.
 
 ### Die 12 Prinzipien des agilen Manifests – gelebte Haltung
 
-Während die Werte die Haltung definieren, beschreiben die Prinzipien, **wie diese Haltung konkret gelebt wird**. Einige zentrale Aspekte aus der Praxis:
+Während die Werte die Haltung definieren, beschreiben die Prinzipien, **wie diese Haltung konkret gelebt wird**.
+Sie sind die Handlungsleitlinien, die aus den Werten entstehen – und machen Agilität im Alltag sichtbar.
 
-- **Kundennutzen durch kontinuierliche Lieferung:** Häufige Releases schaffen Vertrauen – und liefern echten Nutzen.
-- **Änderungen willkommen heißen – auch spät:** Teams reagieren flexibel statt an veralteten Plänen festzuhalten.
-- **Motivierte Individuen fördern:** Gute Führung schafft Rahmenbedingungen, keine Mikrovorschriften.
-- **Funktionierende Software als Fortschrittsmaß:** Qualität ist sichtbar, messbar, überprüfbar.
-- **Selbstorganisation ermöglicht bessere Lösungen:** Verantwortung liegt dort, wo das Wissen ist.
-- **Regelmäßige Reflexion:** Lernen ist integraler Bestandteil des Prozesses, nicht Nacharbeit.
+1. **Kundenzufriedenheit durch kontinuierliche Lieferung wertvoller Software**
+   Das Ziel ist echter Nutzen – regelmäßig, verlässlich und mit spürbarem Mehrwert für den Kunden.
+
+2. **Änderungen willkommen heißen, selbst spät im Projekt**
+   Anforderungen dürfen sich ändern – Teams reagieren flexibel statt an überholten Plänen festzuhalten.
+
+3. **Häufige Lieferung funktionierender Software in kurzen Zyklen**
+   Statt großer Meilensteine entstehen früh nutzbare Ergebnisse – sichtbarer Fortschritt schafft Vertrauen.
+
+4. **Tägliche Zusammenarbeit zwischen Fachseite und Entwicklern**
+   Kommunikation ersetzt Spezifikationen – Fachwissen und Umsetzung kommen zusammen.
+
+5. **Motivierte Individuen – Vertrauen, Unterstützung und das richtige Umfeld bereitstellen**
+   Wer Verantwortung übernehmen darf, liefert die besten Ergebnisse. Führung bedeutet, Rahmen zu schaffen.
+
+6. **Face-to-Face-Kommunikation ist die effektivste Form des Informationsaustauschs**
+   Persönliche Gespräche klären Missverständnisse schneller als jede E-Mail oder jedes Tool.
+
+7. **Funktionierende Software ist das wichtigste Fortschrittsmaß**
+   Dokumente und Pläne sind Hilfsmittel – Wert entsteht erst, wenn etwas tatsächlich funktioniert.
+
+8. **Nachhaltige Entwicklung – gleichbleibendes Tempo ist dauerhaft möglich**
+   Agilität heißt nicht, ständig schneller zu werden, sondern ein stabiles Arbeitstempo zu halten.
+
+9. **Technische Exzellenz und gutes Design fördern Agilität**
+   Sauberer Code, wartbare Systeme und bewusste Architekturentscheidungen sind die Basis für Anpassungsfähigkeit.
+
+10. **Einfachheit – die Kunst, das Unwesentliche zu minimieren**
+    Fokus auf das Wesentliche: Weniger tun, aber das Richtige. Jede Komplexität kostet Energie.
+
+11. **Selbstorganisierte Teams erzeugen die besten Architekturen, Anforderungen und Designs**
+    Vertrauen in Kompetenz statt Steuerung von außen – wer nah am Problem ist, findet die besten Lösungen.
+
+12. **Regelmäßige Reflexion und Anpassung des eigenen Verhaltens**
+    In Retrospektiven lernt das Team aus Erfahrung und verbessert kontinuierlich seine Zusammenarbeit.
+
+
+Diese Prinzipien machen aus agiler Arbeit mehr als eine Methode – sie schaffen eine **lernende, anpassungsfähige und wertorientierte Kultur**, die Veränderungen nicht fürchtet, sondern aktiv nutzt.
+
 
 ---
 
