@@ -14,3 +14,59 @@
   slug: kommentare
   url: /glossar/github/#giscus-kommentare
   summary: Wie du in meinem Blog kommentierst (Login via GitHub, Spam-Schutz, Datenschutz).
+
+# Agilität – Kernbegriffe
+- term: Agiles Manifest
+  slug: agiles-manifest
+  url: /glossar/agiles-manifest/
+  summary: Leitdokument der agilen Bewegung (2001) mit 4 Werten und 12 Prinzipien für moderne Zusammenarbeit.
+
+- term: Werte (Agile Values)
+  slug: agile-values
+  url: /glossar/agiles-manifest/#werte
+  summary: Die vier Werte des Agilen Manifests – sie gewichten, was in der Zusammenarbeit wichtiger ist.
+
+- term: Prinzipien (Agile Principles)
+  slug: agile-principles
+  url: /glossar/agiles-manifest/#prinzipien
+  summary: Die zwölf Prinzipien des Agilen Manifests – Leitlinien, die Werte im Alltag konkret machen.
+
+- term: Scrum
+  slug: scrum
+  url: /glossar/agiles-manifest/#scrum-und-das-manifest
+  summary: Agiles Framework für komplexe Produktentwicklung – setzt Werte und Prinzipien in Praktiken um.
+
+- term: Cargo Cult
+  slug: cargo-cult
+  url: /glossar/cargo-cult/
+  summary: Rituale ohne Verständnis des Prinzips – in "agiler" Arbeit die Fassade ohne Haltung.
+
+- term: Mindset
+  slug: mindset
+  url: /glossar/agiles-manifest/#warum-das-wichtig-ist
+  summary: Grundhaltung; in Agilität die Basis für Lernen, Feedback und Anpassung.
+
+- term: Timeboxing
+  slug: timeboxing
+  url: /glossar/agiles-manifest/#werte-und-scrum-in-aktion
+  summary: Feste Zeitfenster steuern Meetings/Aufgaben; fördern Fokus, Rhythmus und empirisches Arbeiten.
+
+- term: Definition of Done (DoD)
+  slug: definition-of-done
+  url: /glossar/agiles-manifest/#werte-und-scrum-in-aktion
+  summary: Vereinbarte Qualitätskriterien, die erfüllt sein müssen, damit Arbeitsergebnisse "fertig" sind.
+
+- term: Sprint Review
+  slug: sprint-review
+  url: /glossar/agiles-manifest/#werte-und-scrum-in-aktion
+  summary: Termin zur Sichtbarmachung von Fortschritt am Ende des Sprints; Feedback & Richtung schärfen.
+
+- term: Retrospektive
+  slug: retrospektive
+  url: /glossar/agiles-manifest/#werte-und-scrum-in-aktion
+  summary: Regelmäßige Reflexion der Zusammenarbeit; verbessert Teamdynamik, Prozesse und Praktiken.
+
+- term: Empirie
+  slug: empirie
+  url: /glossar/agiles-manifest/#warum-das-wichtig-ist
+  summary: Lernen aus Erfahrung durch Beobachtung, Feedback und Anpassung – Grundlage agiler Arbeit.

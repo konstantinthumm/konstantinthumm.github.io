@@ -3,6 +3,8 @@ layout: single
 title: "Agiles Manifest: Werte, Prinzipien – und wie du Cargo-Cult vermeidest"
 date: 2025-10-13
 excerpt: "Scrum ist kein Ritual, sondern ein Mindset: vier Werte, zwölf Prinzipien – richtig verstanden und gelebt. Ein Plädoyer gegen Cargo-Cult."
+description: "Das Agile Manifest erklärt: vier Werte, zwölf Prinzipien – und warum Cargo-Cult-Agilität nichts mit echtem Scrum zu tun hat."
+permalink: /agiles-manifest-werte-prinzipien-scrum/
 author_profile: true
 classes: ["wide","hero-tall"]
 toc: true
@@ -170,6 +172,11 @@ Agile Werte und Prinzipien sind kein Werkzeugkasten, sondern ein **Kompass**:
 - **Empirisch:** Entscheidungen basieren auf Feedback und Erfahrung.
 
 Agilität ist damit keine Methode, die man „einführt“, sondern eine **Haltung, die man lebt**.
+
+{% include glossar-box.html
+   term="Glossar: DoD, Review, Retrospektive"
+   summary="Kernartefakte & Events in Scrum – kurze Erklärungen und Bezug zum Manifest."
+   url="/glossar/agiles-manifest/#scrum-und-das-manifest" %}
 
 ---
 
