@@ -310,6 +310,37 @@ ul.glossar-list li { margin: .2rem 0; }
 .glossar-box__text { margin: 0.1rem 0 0.35rem; }
 .glossar-box__cta { text-decoration: underline; }
 
+/* --- Glossar Box: kleine Verbesserungen (optional) --- */
+
+/* 1) Hover/Focus für den CTA: besser sichtbare Interaktion */
+.glossar-box__cta {
+  text-underline-offset: 2px;
+}
+.glossar-box__cta:focus-visible {
+  outline: 2px solid #00adb5;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* 2) Kompaktere Variante für enge Passagen (per zusätzlicher Klasse nutzbar) */
+.glossar-box.glossar-box--compact {
+  margin: .75rem 0;
+  padding: .6rem .75rem;
+}
+
+/* 3) Mobile Feinschliff: Boxen nicht zu wuchtig */
+@media (max-width: 640px) {
+  .glossar-box { margin: 1rem 0; padding: .75rem .85rem; }
+}
+
+/* 4) Print-Stile: Rahmen dezent, Hintergrund bleibt lesbar */
+@media print {
+  .glossar-box { background: #fff; border-color: #888; }
+}
+
+/* 5) Optional: Icon-Farbanpassung leicht abtönen (Dark Skin freundlich) */
+.glossar-box__icon { opacity: .9; }
+
 
 .legal-links {
   display:block;
@@ -319,3 +350,34 @@ ul.glossar-list li { margin: .2rem 0; }
 }
 .legal-links a { text-decoration:none; }
 .legal-links a:hover { text-decoration:underline; }
+
+/* Abstand zwischen H2 "Blogpost zum Thema" und der Feature-Row-Karte */
+.page__content h2 + .blogpost-card {
+  margin-top: 1.25rem;  /* mehr Luft unter der H2-Linie */
+}
+
+/* Falls du es noch luftiger willst, nimm 1.5–2rem */
+
+/* Entfernt die untere Linie unter der Blogpost-Karte (alle üblichen MM-Fälle) */
+.blogpost-card .feature__wrapper,
+.blogpost-card .feature__item {
+  border-bottom: 0 !important;
+  box-shadow: none;        /* falls die Trennlinie via shadow kommt */
+  margin-bottom: 0;        /* Restabstand eliminieren */
+  padding-bottom: 0;
+}
+
+/* Falls das Theme ein Pseudo-Element für die Linie nutzt */
+.blogpost-card .feature__wrapper::after,
+.blogpost-card .feature__item::after {
+  content: none !important;
+}
+
+/* Falls danach ein <hr> vom Theme/Markdown kommt */
+.blogpost-card + hr,
+.blogpost-card hr {
+  display: none !important;
+}
+
+
+
