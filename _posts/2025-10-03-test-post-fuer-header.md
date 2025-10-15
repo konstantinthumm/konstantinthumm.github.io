@@ -10,6 +10,7 @@ header:
   overlay_image: /assets/images/posts/spidey-1600.jpg
   # overlay_filter kommt aus den Defaults (kannst du hier überschreiben)
   caption: "Foto: Max Mustermann"
+  teaser: /assets/images/posts/spidey-600.jpg
 
 # Thumbnail für Grids/Listen (nur nötig, wenn du /posts im Grid benutzt)
 teaser: /assets/images/posts/spidey-600.jpg

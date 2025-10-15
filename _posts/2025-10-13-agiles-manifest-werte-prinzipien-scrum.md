@@ -22,7 +22,7 @@ header:
   teaser: /assets/images/posts/scrum-values-principles-600.webp
 
 # Thumbnail / Teaser für Post-Listen (ca. 600 × 400 px)
-# teaser: /assets/images/posts/scrum-values-principles-600.webp
+teaser: /assets/images/posts/scrum-values-principles-600.webp
 
 # Taxonomien
 categories: [Projektmanagement]
