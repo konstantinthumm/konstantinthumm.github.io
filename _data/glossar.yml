@@ -70,3 +70,29 @@
   slug: empirie
   url: /glossar/agiles-manifest/#warum-das-wichtig-ist
   summary: Lernen aus Erfahrung durch Beobachtung, Feedback und Anpassung – Grundlage agiler Arbeit.
+
+# --- Scrum Poker & Schätzen ---
+- term: Scrum Poker
+  slug: scrum-poker
+  url: /glossar/scrum-poker/
+  summary: Kollaborative Methode zum relativen Schätzen (Planning Poker) – gegen Anker- & Optimismus-Bias.
+
+- term: Story Points
+  slug: story-points
+  url: /glossar/story-points/
+  summary: Team-spezifisches, relatives Maß für Umfang/Komplexität; Basis für Velocity und Forecasts.
+
+- term: Velocity
+  slug: velocity
+  url: /glossar/velocity/
+  summary: Beobachteter Durchsatz pro Sprint (fertige Story Points); Indikator für Forecasts, kein Zielwert.
+
+- term: Product Goal
+  slug: product-goal
+  url: /glossar/product-goal/
+  summary: Nordstern für das Product Backlog über mehrere Sprints; Outcome-orientiert statt Feature-Liste.
+
+- term: Empirie
+  slug: empirie
+  url: /glossar/empirie/
+  summary: Arbeiten auf Basis beobachteter Realität (Transparenz, Inspektion, Anpassung) statt Wunschprognosen.
