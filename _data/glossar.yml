@@ -96,3 +96,8 @@
   slug: empirie
   url: /glossar/empirie/
   summary: Arbeiten auf Basis beobachteter Realität (Transparenz, Inspektion, Anpassung) statt Wunschprognosen.
+
+- term: Product Owner
+  slug: product-owner
+  url: /glossar/product-owner/
+  summary: Verantwortlich für Produktwert, Backlog-Priorisierung und Vision im Scrum-Prozess.
