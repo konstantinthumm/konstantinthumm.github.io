@@ -1,0 +1,63 @@
+<div class="archive-filters is-card">
+
+  <div class="archive-filters__row archive-filters__row--bar">
+    <div class="archive-filters__group">
+      <span class="archive-filters__title">
+        <i class="fas fa-filter" aria-hidden="true"></i> Filter
+      </span>
+      <span class="archive-filters__hint">Kategorien · Tags</span>
+    </div>
+
+    <!-- Globale Suche öffnen (Lupe) + Fallback auf /search/ -->
+    <a href="{{ '/search/' | relative_url }}"
+       class="btn btn--primary btn--small archive-filters__opensearch js-open-global-search"
+       title="Globale Suche öffnen">
+      <i class="fas fa-search" aria-hidden="true"></i>
+      <span>Globale Suche</span>
+    </a>
+  </div>
+
+  <div class="archive-filters__row">
+    <span class="archive-filters__label"><i class="fas fa-folder-open" aria-hidden="true"></i> Kategorien</span>
+    <div class="archive-filters__chips" role="navigation" aria-label="Kategorien">
+      {%- assign cats = site.categories | sort -%}
+      {%- for c in cats -%}
+        {%- assign name = c[0] -%}
+        {%- assign count = c[1].size -%}
+        <a class="chip" href="{{ site.baseurl }}/categories/#{{ name | slugify }}" title="{{ name }} ({{ count }})">
+          <span class="chip__text">{{ name }}</span>
+          <span class="chip__badge">{{ count }}</span>
+        </a>
+      {%- endfor -%}
+      <a class="chip chip--ghost" href="{{ site.baseurl }}/categories/"><span class="chip__text">Alle Kategorien</span></a>
+    </div>
+  </div>
+
+  <div class="archive-filters__row">
+    <span class="archive-filters__label"><i class="fas fa-hashtag" aria-hidden="true"></i> Tags</span>
+    <div class="archive-filters__chips" role="navigation" aria-label="Tags">
+      {%- assign tags = site.tags | sort -%}
+      {%- for t in tags limit:20 -%}
+        {%- assign tname = t[0] -%}
+        {%- assign tcount = t[1].size -%}
+        <a class="chip" href="{{ site.baseurl }}/tags/#{{ tname | slugify }}" title="#{{ tname }} ({{ tcount }})">
+          <span class="chip__text">#{{ tname }}</span>
+          <span class="chip__badge">{{ tcount }}</span>
+        </a>
+      {%- endfor -%}
+      <a class="chip chip--ghost" href="{{ site.baseurl }}/tags/"><span class="chip__text">Alle Tags</span></a>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var link = document.querySelector('.js-open-global-search');
+    if (!link) return;
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      var toggle = document.querySelector('.search__toggle, .greedy-nav__toggle-search');
+      if (toggle) toggle.click(); else window.location.href = "{{ '/search/' | relative_url }}";
+    });
+  })();
+</script>

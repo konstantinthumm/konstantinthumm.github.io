@@ -11,6 +11,11 @@ toc: true
 toc_label: "Inhalt"
 toc_icon: "list-ul"   # optional
 
+# SEO & Social Media
+meta_description: "Das Agile Manifest erklärt vier Werte und zwölf Prinzipien – und zeigt, warum echter Scrum nichts mit Cargo-Cult-Agilität zu tun hat."
+og_title: "Agiles Manifest: Werte, Prinzipien & Cargo-Cult vermeiden"
+og_description: "Scrum ist kein Ritual, sondern eine Haltung: vier Werte, zwölf Prinzipien – und ein klarer Aufruf, Cargo-Cult-Agilität zu erkennen und zu überwinden."
+
 # Social Media / Open Graph (ca. 1200 × 630 px)
 image: /assets/images/posts/scrum-values-principles-1200.webp
 

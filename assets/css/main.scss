@@ -2,6 +2,8 @@
 ---
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
+@import "archive-filters";
+
 
 /* Bluesky icon color (sidebar + footer) */
 .author__urls .fa-bluesky,

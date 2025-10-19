@@ -11,6 +11,11 @@ toc: true
 toc_label: "Inhalt"
 toc_icon: "list-ul"
 
+# SEO & Social Media
+meta_description: "Scrum Poker ist mehr als Schätzen: Es fördert gemeinsames Verständnis, empirisches Denken und realistische Planung im Team."
+og_title: "Warum Scrum Poker mehr ist als Schätzen"
+og_description: "Scrum Poker hilft Teams, Aufwände gemeinsam zu verstehen – nicht um Termine zu erraten, sondern um durch Empirie und Austausch besser zu planen."
+
 # Social Media / Open Graph (ca. 1200 × 630 px)
 image: /assets/images/posts/scrum-poker-1200.webp
 

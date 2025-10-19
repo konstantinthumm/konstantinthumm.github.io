@@ -9,6 +9,11 @@ author_profile: true
 classes: ["wide","hero-tall"]
 toc: false
 
+# SEO & Social Media
+meta_description: "Henrik Kniberg erklärt, wie gute Product Ownership funktioniert – praxisnah, klar und humorvoll. Ein kompaktes Video für alle, die Scrum verstehen wollen."
+og_title: "Agile Product Ownership in a Nutshell – Tipp der Woche"
+og_description: "In 15 Minuten zeigt Henrik Kniberg, wie Product Owner Vision, Prioritäten und Wertschöpfung verbinden. Ein Must-Watch für agile Teams."
+
 # Social Media / Open Graph (ca. 1200 × 630 px)
 image: /assets/images/posts/agile-product-ownership-1200.webp
 
@@ -24,7 +29,7 @@ teaser: /assets/images/posts/agile-product-ownership-600.webp
 
 # Taxonomien
 categories: [Projektmanagement]
-tags: [Scrum, Agile, Tipp-der-Woche]
+tags: [Scrum, Agil, Tipp-der-Woche]
 ---
 
 ## Tipp der Woche

@@ -1,0 +1,36 @@
+.archive-filters {
+  --accent: #00adb5;
+  --bg: rgba(255,255,255,.03);
+  --bd: rgba(255,255,255,.10);
+  --bd-strong: rgba(255,255,255,.16);
+
+  margin: 0 0 1.25rem;
+  padding: .75rem .9rem;
+  border: 1px solid var(--bd);
+  border-radius: .9rem;
+  background: var(--bg);
+  backdrop-filter: saturate(120%) blur(2px);
+
+  &.is-card { box-shadow: 0 6px 20px rgba(0,0,0,.18); }
+
+  &__row { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; padding:.35rem 0; }
+  &__row--bar { justify-content:space-between; border-bottom:1px dashed var(--bd); padding-bottom:.55rem; margin-bottom:.35rem; }
+  &__group { display:flex; align-items:baseline; gap:.6rem; }
+  &__title { font-weight:700; letter-spacing:.2px; }
+  &__hint { opacity:.75; font-size:.9rem; }
+  &__label { font-weight:600; font-size:.95rem; opacity:.9; white-space:nowrap; min-width:8.5rem; display:flex; align-items:center; gap:.45rem; }
+  &__chips { display:flex; flex-wrap:wrap; gap:.5rem; }
+
+  .chip { display:inline-flex; align-items:center; gap:.45rem; padding:.35rem .6rem; border:1px solid var(--bd);
+    background: rgba(255,255,255,.02); border-radius:999px; text-decoration:none; line-height:1;
+    transition: border-color .15s ease, box-shadow .15s ease, transform .12s ease; }
+  .chip:hover { border-color:var(--accent); box-shadow:0 0 0 2px color-mix(in srgb, var(--accent) 32%, transparent); transform:translateY(-1px); }
+  .chip__text { font-size:.92rem; }
+  .chip__badge { font-size:.78rem; min-width:1.35rem; text-align:center; padding:.15rem .4rem; border-radius:999px;
+    border:1px solid var(--bd-strong); background:rgba(0,0,0,.18); opacity:.95; }
+  .chip--ghost { border-style:dashed; }
+
+  @media (max-width: 720px) {
+    &__label { min-width:auto; }
+  }
+}
