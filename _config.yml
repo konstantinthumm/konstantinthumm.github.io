@@ -37,6 +37,7 @@ include:
   - _pages
 breadcrumbs: true  # disabled by default
 enable_copy_code_button: true
+locale: de
 
 # Fallback für Related Posts + Post-Listen (Grid)
 # teaser: /assets/images/posts/spidey-600.jpg
@@ -64,6 +65,7 @@ comments:
     discussion_term: "pathname"
     reactions_enabled: "1"
     theme: "dark_dimmed"
+    lang: de
 
 
 # Plugins (previously gems:)
