@@ -1,103 +1,121 @@
 ---
-# _data/glossar.yml
-- term: GitHub
-  slug: github
-  url: /glossar/github/
-  summary: Plattform für Code & Diskussionen; wird für Kommentare via Giscus genutzt.
-
-- term: Giscus
-  slug: giscus
-  url: /glossar/github/#giscus-kommentare
-  summary: Kommentarsystem, das GitHub Discussions als Backend nutzt.
-
-- term: Kommentare
-  slug: kommentare
-  url: /glossar/github/#giscus-kommentare
-  summary: Wie du in meinem Blog kommentierst (Login via GitHub, Spam-Schutz, Datenschutz).
-
-# Agilität – Kernbegriffe
+# Grundlagen der Agilität
 - term: Agiles Manifest
   slug: agiles-manifest
-  url: /glossar/agiles-manifest/
-  summary: Leitdokument der agilen Bewegung (2001) mit 4 Werten und 12 Prinzipien für moderne Zusammenarbeit.
-
-- term: Werte (Agile Values)
-  slug: agile-values
-  url: /glossar/agiles-manifest/#werte
-  summary: Die vier Werte des Agilen Manifests – sie gewichten, was in der Zusammenarbeit wichtiger ist.
-
-- term: Prinzipien (Agile Principles)
-  slug: agile-principles
-  url: /glossar/agiles-manifest/#prinzipien
-  summary: Die zwölf Prinzipien des Agilen Manifests – Leitlinien, die Werte im Alltag konkret machen.
+  url: /glossar/grundlagen-agilitaet/#agiles-manifest
+  summary: Leitdokument agiler Arbeit mit 4 Werten und 12 Prinzipien.
 
 - term: Scrum
   slug: scrum
-  url: /glossar/agiles-manifest/#scrum-und-das-manifest
-  summary: Agiles Framework für komplexe Produktentwicklung – setzt Werte und Prinzipien in Praktiken um.
+  url: /glossar/grundlagen-agilitaet/#scrum
+  summary: Framework für komplexe Produktentwicklung – Umsetzung des agilen Manifests.
 
 - term: Cargo Cult
   slug: cargo-cult
-  url: /glossar/cargo-cult/
-  summary: Rituale ohne Verständnis des Prinzips – in "agiler" Arbeit die Fassade ohne Haltung.
-
-- term: Mindset
-  slug: mindset
-  url: /glossar/agiles-manifest/#warum-das-wichtig-ist
-  summary: Grundhaltung; in Agilität die Basis für Lernen, Feedback und Anpassung.
+  url: /glossar/grundlagen-agilitaet/#cargo-cult
+  summary: Agilität ohne Haltung – Rituale statt Prinzipien.
 
 - term: Timeboxing
   slug: timeboxing
-  url: /glossar/agiles-manifest/#werte-und-scrum-in-aktion
-  summary: Feste Zeitfenster steuern Meetings/Aufgaben; fördern Fokus, Rhythmus und empirisches Arbeiten.
+  url: /glossar/grundlagen-agilitaet/#timeboxing
+  summary: Feste Zeitfenster für Fokus, Feedback und Lernrhythmus.
 
-- term: Definition of Done (DoD)
-  slug: definition-of-done
-  url: /glossar/agiles-manifest/#werte-und-scrum-in-aktion
-  summary: Vereinbarte Qualitätskriterien, die erfüllt sein müssen, damit Arbeitsergebnisse "fertig" sind.
+# Rollen & Verantwortung
+- term: Product Owner
+  slug: product-owner
+  url: /glossar/rollen-und-verantwortung/#product-owner
+  summary: Verantwortlich für Vision, Backlog und Produktwert.
 
+- term: Empowerment
+  slug: empowerment
+  url: /glossar/rollen-und-verantwortung/#empowerment
+  summary: Befähigung und Entscheidungsfreiheit im Team – Grundlage für Selbstorganisation.
+
+- term: Delegation Poker
+  slug: delegation-poker
+  url: /glossar/rollen-und-verantwortung/#delegation-poker
+  summary: Workshop-Format zur Klärung von Entscheidungsgrenzen.
+
+- term: Selbstorganisation
+  slug: selbstorganisation
+  url: /glossar/rollen-und-verantwortung/#selbstorganisation
+  summary: Teams treffen operative Entscheidungen selbst – innerhalb klarer Ziele.
+
+# Events & Empirie
 - term: Sprint Review
   slug: sprint-review
-  url: /glossar/agiles-manifest/#werte-und-scrum-in-aktion
-  summary: Termin zur Sichtbarmachung von Fortschritt am Ende des Sprints; Feedback & Richtung schärfen.
+  url: /glossar/events-und-empirie/#sprint-review
+  summary: Feedback-Event am Sprintende zur Sichtbarmachung von Fortschritt.
 
 - term: Retrospektive
   slug: retrospektive
-  url: /glossar/agiles-manifest/#werte-und-scrum-in-aktion
-  summary: Regelmäßige Reflexion der Zusammenarbeit; verbessert Teamdynamik, Prozesse und Praktiken.
+  url: /glossar/events-und-empirie/#retrospektive
+  summary: Team reflektiert Zusammenarbeit und beschließt Verbesserungen.
 
-- term: Empirie
-  slug: empirie
-  url: /glossar/agiles-manifest/#warum-das-wichtig-ist
-  summary: Lernen aus Erfahrung durch Beobachtung, Feedback und Anpassung – Grundlage agiler Arbeit.
-
-# --- Scrum Poker & Schätzen ---
-- term: Scrum Poker
-  slug: scrum-poker
-  url: /glossar/scrum-poker/
-  summary: Kollaborative Methode zum relativen Schätzen (Planning Poker) – gegen Anker- & Optimismus-Bias.
-
-- term: Story Points
-  slug: story-points
-  url: /glossar/story-points/
-  summary: Team-spezifisches, relatives Maß für Umfang/Komplexität; Basis für Velocity und Forecasts.
-
-- term: Velocity
-  slug: velocity
-  url: /glossar/velocity/
-  summary: Beobachteter Durchsatz pro Sprint (fertige Story Points); Indikator für Forecasts, kein Zielwert.
+- term: Definition of Done (DoD)
+  slug: definition-of-done
+  url: /glossar/events-und-empirie/#definition-of-done
+  summary: Qualitätsstandard, wann Arbeit als „fertig“ gilt.
 
 - term: Product Goal
   slug: product-goal
-  url: /glossar/product-goal/
-  summary: Nordstern für das Product Backlog über mehrere Sprints; Outcome-orientiert statt Feature-Liste.
+  url: /glossar/events-und-empirie/#product-goal
+  summary: Langfristiges Ziel für das Produkt, das Fokus über Sprints hinweg schafft.
 
 - term: Empirie
   slug: empirie
-  url: /glossar/empirie/
-  summary: Arbeiten auf Basis beobachteter Realität (Transparenz, Inspektion, Anpassung) statt Wunschprognosen.
+  url: /glossar/events-und-empirie/#empirie
+  summary: Lernen durch Beobachtung, Feedback und Anpassung.
 
-- term: Product Owner
-  slug: product-owner
-  url: /glossar/product-owner/
-  summary: Verantwortlich für Produktwert, Backlog-Priorisierung und Vision im Scrum-Prozess.
+- term: Outcome
+  slug: outcome
+  url: /glossar/events-und-empirie/#outcome
+  summary: Wirkung statt Output – Nutzen des Produkts im Fokus.
+
+# Schätzen & Prognostizieren
+- term: Scrum Poker
+  slug: scrum-poker
+  url: /glossar/schaetzen-prognostizieren/#scrum-poker
+  summary: Gemeinsames Schätzen relativer Aufwände im Team.
+
+- term: Story Points
+  slug: story-points
+  url: /glossar/schaetzen-prognostizieren/#story-points
+  summary: Relative Maßeinheit für Aufwand und Komplexität.
+
+- term: Velocity
+  slug: velocity
+  url: /glossar/schaetzen-prognostizieren/#velocity
+  summary: Beobachteter Durchsatz pro Sprint – empirische Grundlage für Forecasts.
+
+# Lernen & Zusammenarbeit
+- term: Pair Programming
+  slug: pair-programming
+  url: /glossar/lernen-und-zusammenarbeit/#pair-programming
+  summary: Zwei Personen arbeiten gemeinsam am Code – Feedback & Wissenstransfer.
+
+- term: Communities of Practice
+  slug: communities-of-practice
+  url: /glossar/lernen-und-zusammenarbeit/#communities-of-practice
+  summary: Freiwillige Lernnetzwerke für Erfahrungsaustausch.
+
+- term: Story Mapping
+  slug: story-mapping
+  url: /glossar/lernen-und-zusammenarbeit/#story-mapping
+  summary: Methode zur Visualisierung der User Journey und Priorisierung nach Nutzen.
+
+# Tools & Kommentare
+- term: GitHub
+  slug: github
+  url: /glossar/tools-und-kommentare/#github
+  summary: Plattform für Code & Diskussionen; Basis für Kommentare im Blog.
+
+- term: Giscus
+  slug: giscus
+  url: /glossar/tools-und-kommentare/#giscus
+  summary: Kommentarsystem auf Basis von GitHub Discussions.
+
+- term: Kommentare
+  slug: kommentare
+  url: /glossar/tools-und-kommentare/#kommentare
+  summary: Wie du im Blog kommentierst (Login via GitHub, Spam-Schutz, Datenschutz).

@@ -1,8 +1,9 @@
 ---
 ---
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@charset "utf-8";
+@import "minimal-mistakes/skins/dark";
 @import "minimal-mistakes";
-@import "archive-filters";
+@import "archive-filters";   // ← bindet _sass/_archive-filters.scss ein
 
 
 /* Bluesky icon color (sidebar + footer) */

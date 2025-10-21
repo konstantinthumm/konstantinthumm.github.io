@@ -180,8 +180,8 @@ Agilität ist damit keine Methode, die man „einführt“, sondern eine **Haltu
 
 {% include glossar-box.html
    term="Glossar: DoD, Review, Retrospektive"
-   summary="Kernartefakte & Events in Scrum – kurze Erklärungen und Bezug zum Manifest."
-   url="/glossar/agiles-manifest/#scrum-und-das-manifest" %}
+   summary="Qualität, Feedback und Verbesserung – die zentralen Scrum-Events und Qualitätskriterien im Überblick."
+   url="/glossar/events-und-empirie/" %}
 
 ---
 

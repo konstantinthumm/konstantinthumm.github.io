@@ -110,13 +110,6 @@ Sie fördert:
 
 Es geht also **nicht um Kontrolle**, sondern um **Verständigung und Verantwortung** – der eigentliche Kern agiler Zusammenarbeit.
 
-{% include glossar-box.html
-   term="Glossar: Scrum Poker"
-   summary="Planning Poker: Ablauf, Skala, Nutzen – und warum relativ statt in Zeit geschätzt wird."
-   url="/glossar/scrum-poker/" %}
-
-
-
 ## tl;dr
 
 Schätzen ist keine exakte Wissenschaft, sondern eine **soziale Lernpraxis**.
@@ -128,5 +121,8 @@ Scrum Poker macht diese Praxis sichtbar:
 Scrum Poker ist daher weniger ein Werkzeug zur Aufwandsschätzung –
 sondern ein **Werkzeug für gemeinsames Lernen, Transparenz und Empirie**.
 
----
+{% include glossar-box.html
+   term="Glossar: Scrum Poker"
+   summary="Planning Poker: Ablauf, Skala, Nutzen – und warum relativ statt in Zeit geschätzt wird."
+   url="/glossar/schaetzen-prognostizieren/#scrum-poker" %}
 
