@@ -1,121 +1,174 @@
 ---
-# Grundlagen der Agilität
 - term: Agiles Manifest
   slug: agiles-manifest
-  url: /glossar/grundlagen-agilitaet/#agiles-manifest
   summary: Leitdokument agiler Arbeit mit 4 Werten und 12 Prinzipien.
+  url: /glossar/grundlagen-agilitaet/#agiles-manifest
 
 - term: Scrum
   slug: scrum
-  url: /glossar/grundlagen-agilitaet/#scrum
   summary: Framework für komplexe Produktentwicklung – Umsetzung des agilen Manifests.
+  url: /glossar/grundlagen-agilitaet/#scrum
+  posts:
+    - path: /reflexion-psm1-woche1/
+      title: Woche 1 meiner PSM-Weiterbildung - Lernen als Befreiung
+      teaser: /assets/images/posts/reflexion-scrum-600.webp
+      excerpt: "Warum sich Lernen fundamental anders anfühlt – und warum Scrum dafür den richtigen Rahmen bietet."
+      btn_label: Zum Blogpost
 
 - term: Cargo Cult
   slug: cargo-cult
-  url: /glossar/grundlagen-agilitaet/#cargo-cult
   summary: Agilität ohne Haltung – Rituale statt Prinzipien.
+  url: /glossar/grundlagen-agilitaet/#cargo-cult
 
 - term: Timeboxing
   slug: timeboxing
-  url: /glossar/grundlagen-agilitaet/#timeboxing
   summary: Feste Zeitfenster für Fokus, Feedback und Lernrhythmus.
+  url: /glossar/grundlagen-agilitaet/#timeboxing
 
 # Rollen & Verantwortung
 - term: Product Owner
   slug: product-owner
-  url: /glossar/rollen-und-verantwortung/#product-owner
   summary: Verantwortlich für Vision, Backlog und Produktwert.
+  url: /glossar/rollen-und-verantwortung/#product-owner
 
 - term: Empowerment
   slug: empowerment
-  url: /glossar/rollen-und-verantwortung/#empowerment
   summary: Befähigung und Entscheidungsfreiheit im Team – Grundlage für Selbstorganisation.
+  url: /glossar/rollen-und-verantwortung/#empowerment
+  posts:
+    - path: /involvement-scrum-team/
+      title: Involvement in Scrum - Wie du dein Team wirklich einbindest
+      teaser: /assets/images/posts/involvement-scrum-600.webp
+      excerpt: "So stärkst du als Scrum Master Involvement durch Meaning, Choice, Competence und Impact."
+      btn_label: Zum Blogpost
 
 - term: Delegation Poker
   slug: delegation-poker
-  url: /glossar/rollen-und-verantwortung/#delegation-poker
   summary: Workshop-Format zur Klärung von Entscheidungsgrenzen.
+  url: /glossar/rollen-und-verantwortung/#delegation-poker
 
 - term: Selbstorganisation
   slug: selbstorganisation
-  url: /glossar/rollen-und-verantwortung/#selbstorganisation
   summary: Teams treffen operative Entscheidungen selbst – innerhalb klarer Ziele.
+  url: /glossar/rollen-und-verantwortung/#selbstorganisation
 
 # Events & Empirie
 - term: Sprint Review
   slug: sprint-review
-  url: /glossar/events-und-empirie/#sprint-review
   summary: Feedback-Event am Sprintende zur Sichtbarmachung von Fortschritt.
+  url: /glossar/events-und-empirie/#sprint-review
 
 - term: Retrospektive
   slug: retrospektive
-  url: /glossar/events-und-empirie/#retrospektive
   summary: Team reflektiert Zusammenarbeit und beschließt Verbesserungen.
+  url: /glossar/events-und-empirie/#retrospektive
+  posts:
+    - path: /involvement-scrum-team/
+      title: Involvement in Scrum - Wie du dein Team wirklich einbindest
+      teaser: /assets/images/posts/involvement-scrum-600.webp
+      excerpt: "Reflexion als Werkzeug für Involvement: Was gute Retros leisten können."
+      btn_label: Zum Blogpost
 
 - term: Definition of Done (DoD)
   slug: definition-of-done
-  url: /glossar/events-und-empirie/#definition-of-done
   summary: Qualitätsstandard, wann Arbeit als „fertig“ gilt.
+  url: /glossar/events-und-empirie/#definition-of-done
 
 - term: Product Goal
   slug: product-goal
-  url: /glossar/events-und-empirie/#product-goal
   summary: Langfristiges Ziel für das Produkt, das Fokus über Sprints hinweg schafft.
+  url: /glossar/events-und-empirie/#product-goal
 
 - term: Empirie
   slug: empirie
-  url: /glossar/events-und-empirie/#empirie
   summary: Lernen durch Beobachtung, Feedback und Anpassung.
+  url: /glossar/events-und-empirie/#empirie
+  posts:
+    - path: /reflexion-psm1-woche1/
+      title: Woche 1 meiner PSM-Weiterbildung - Lernen als Befreiung
+      teaser: /assets/images/posts/reflexion-scrum-600.webp
+      excerpt: "Scrum als lernendes System – was Empirie wirklich bedeutet."
+      btn_label: Zum Blogpost
 
 - term: Outcome
   slug: outcome
-  url: /glossar/events-und-empirie/#outcome
   summary: Wirkung statt Output – Nutzen des Produkts im Fokus.
+  url: /glossar/events-und-empirie/#outcome
 
 # Schätzen & Prognostizieren
 - term: Scrum Poker
   slug: scrum-poker
-  url: /glossar/schaetzen-prognostizieren/#scrum-poker
   summary: Gemeinsames Schätzen relativer Aufwände im Team.
+  url: /glossar/schaetzen-prognostizieren/#scrum-poker
+  posts:
+    - path: /scrum-poker-schaetzen-aufwaende/
+      title: Warum Scrum Poker mehr ist als Schätzen
+      teaser: /assets/images/posts/scrum-poker-600.webp
+      excerpt: "Planning Poker: Ablauf, Skala, Nutzen – und warum relativ statt in Zeit geschätzt wird."
+      btn_label: Zum Blogpost
 
 - term: Story Points
   slug: story-points
-  url: /glossar/schaetzen-prognostizieren/#story-points
   summary: Relative Maßeinheit für Aufwand und Komplexität.
+  url: /glossar/schaetzen-prognostizieren/#story-points
 
 - term: Velocity
   slug: velocity
-  url: /glossar/schaetzen-prognostizieren/#velocity
   summary: Beobachteter Durchsatz pro Sprint – empirische Grundlage für Forecasts.
+  url: /glossar/schaetzen-prognostizieren/#velocity
+  posts:
+    - path: /scrum-poker-schaetzen-aufwaende/
+      title: Warum Scrum Poker mehr ist als Schätzen
+      teaser: /assets/images/posts/scrum-poker-600.webp
+      excerpt: "Wie Teams durch Erfahrungswerte planbar werden – ohne Micromanagement."
+      btn_label: Zum Blogpost
 
 # Lernen & Zusammenarbeit
 - term: Pair Programming
   slug: pair-programming
-  url: /glossar/lernen-und-zusammenarbeit/#pair-programming
   summary: Zwei Personen arbeiten gemeinsam am Code – Feedback & Wissenstransfer.
+  url: /glossar/lernen-und-zusammenarbeit/#pair-programming
 
 - term: Communities of Practice
   slug: communities-of-practice
-  url: /glossar/lernen-und-zusammenarbeit/#communities-of-practice
   summary: Freiwillige Lernnetzwerke für Erfahrungsaustausch.
+  url: /glossar/lernen-und-zusammenarbeit/#communities-of-practice
 
 - term: Story Mapping
   slug: story-mapping
-  url: /glossar/lernen-und-zusammenarbeit/#story-mapping
   summary: Methode zur Visualisierung der User Journey und Priorisierung nach Nutzen.
+  url: /glossar/lernen-und-zusammenarbeit/#story-mapping
+  posts:
+    - path: /involvement-scrum-team/
+      title: Involvement in Scrum - Wie du dein Team wirklich einbindest
+      teaser: /assets/images/posts/involvement-scrum-600.webp
+      excerpt: "User Journey greifbar machen: Warum Story Mapping Involvement stärkt."
+      btn_label: Zum Blogpost
 
 # Tools & Kommentare
 - term: GitHub
   slug: github
-  url: /glossar/tools-und-kommentare/#github
   summary: Plattform für Code & Diskussionen; Basis für Kommentare im Blog.
+  url: /glossar/tools-und-kommentare/#github
+  posts:
+    - path: /reflexion-psm1-woche1/
+      title: Woche 1 meiner PSM-Weiterbildung - Lernen als Befreiung
+      teaser: /assets/images/posts/reflexion-scrum-600.webp
+      excerpt: "Open-Source-Kultur und agile Lernräume: Wie GitHub Feedback ermöglicht."
+      btn_label: Zum Blogpost
 
 - term: Giscus
   slug: giscus
-  url: /glossar/tools-und-kommentare/#giscus
   summary: Kommentarsystem auf Basis von GitHub Discussions.
+  url: /glossar/tools-und-kommentare/#giscus
+  posts:
+    - path: /reflexion-psm1-woche1/
+      title: Woche 1 meiner PSM-Weiterbildung - Lernen als Befreiung
+      teaser: /assets/images/posts/reflexion-scrum-600.webp
+      excerpt: "Kommentare als Feedback-Kultur: Warum Giscus mehr ist als ein Widget."
+      btn_label: Zum Blogpost
 
 - term: Kommentare
   slug: kommentare
-  url: /glossar/tools-und-kommentare/#kommentare
   summary: Wie du im Blog kommentierst (Login via GitHub, Spam-Schutz, Datenschutz).
+  url: /glossar/tools-und-kommentare/#kommentare

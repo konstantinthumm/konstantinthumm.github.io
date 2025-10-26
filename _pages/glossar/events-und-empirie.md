@@ -6,16 +6,6 @@ description: "Scrum-Events und empirische Prinzipien: Review, Retrospektive, Def
 toc: true
 toc_sticky: true
 toc_label: "Auf dieser Seite"
-
-feature_row:
-  - image_path: /assets/images/posts/involvement-scrum-600.webp
-    alt: Involvement in Scrum
-    title: "Involvement in Scrum"
-    excerpt: "Empirie, Feedback und Outcome – wie Scrum Lernen ermöglicht."
-    url: /involvement-scrum-team/
-    btn_label: "Zum Blogpost"
-    btn_class: "btn--primary"
-
 ---
 
 ## Sprint Review
@@ -84,8 +74,7 @@ Teams, die nur Output messen (z. B. Story Points), verlieren den Blick für Wert
 Outcome-Metriken wie Nutzungsraten, Kundenzufriedenheit oder Qualitätsverbesserung zeigen, ob ein Produkt wirklich Wirkung entfaltet.
 Sie machen Fortschritt messbar – im Sinne echter Wirksamkeit statt bloßer Aktivität.
 
-## Link zum Blogpost
+{% assign page_slugs = "sprint-review,retrospektive,definition-of-done,product-goal,empirie,outcome" | split: ',' %}
+{% include glossar-post-cards.html slugs=page_slugs %}
 
-<div class="blogpost-card">
-  {% include feature_row id="feature_row" type="center" %}
-</div>
+

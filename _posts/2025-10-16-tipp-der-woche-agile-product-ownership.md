@@ -108,7 +108,5 @@ Ein Klassiker für alle, die **Scrum im Kern** verstehen wollen:
 
 Kurz: 15 Minuten, die jede Sekunde wert sind – für angehende und aktive **Product Owner** gleichermaßen.
 
-{% include glossar-box.html
-   term="Glossar: Product Owner"
-   summary="Zentrale Rolle im Scrum-Prozess – verantwortlich für Vision, Backlog, Priorisierung und Wertmaximierung."
-   url="/glossar/rollen-und-verantwortung/#product-owner" %}
+{% include glossar-box.html slugs="product-owner" %}
+

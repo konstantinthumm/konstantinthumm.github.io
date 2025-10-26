@@ -6,16 +6,6 @@ description: "GitHub, Giscus und Blog-Kommentare – wie Open-Source-Tools Austa
 toc: true
 toc_sticky: true
 toc_label: "Auf dieser Seite"
-
-feature_row:
-  - image_path: /assets/images/posts/reflexion-scrum-600.webp
-    alt: PSM-Weiterbildung – Reflexion
-    title: "Woche 1 meiner PSM-Weiterbildung: Lernen als Befreiung"
-    excerpt: "Transparenz, Feedback und Zusammenarbeit – warum Offenheit der Kern agiler Kultur ist."
-    url: /reflexion-psm1-woche1/
-    btn_label: "Zum Blogpost"
-    btn_class: "btn--primary"
-
 ---
 
 ## GitHub
@@ -47,8 +37,5 @@ Kommentare erscheinen sowohl im Blog als auch in der zugehörigen GitHub-Discuss
 Diese Integration macht Feedback zu einem Teil des Lernprozesses – genau wie in Scrum-Reviews oder Retrospektiven.
 Transparenz, Austausch und gemeinsames Lernen stehen im Mittelpunkt – Werte, die Softwareentwicklung, Projektmanagement und Organisationskultur miteinander verbinden.
 
-## Link zum Blogpost
-
-<div class="blogpost-card">
-  {% include feature_row id="feature_row" type="center" %}
-</div>
+{% assign page_slugs = "github,giscus,kommentare" | split: ',' %}
+{% include glossar-post-cards.html slugs=page_slugs %}

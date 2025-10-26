@@ -6,16 +6,6 @@ description: "Product Owner, Empowerment, Delegation Poker und Selbstorganisatio
 toc: true
 toc_sticky: true
 toc_label: "Auf dieser Seite"
-
-feature_row:
-  - image_path: /assets/images/posts/agile-product-ownership-600.webp
-    alt: Agile Product Ownership – Teaser
-    title: "Tipp der Woche: Agile Product Ownership in a Nutshell"
-    excerpt: "Wie Product Owner Vision, Prioritäten und Wertschöpfung verbinden – Klarheit statt Kontrolle."
-    url: /tipp-der-woche-agile-product-ownership/
-    btn_label: "Zum Blogpost"
-    btn_class: "btn--primary"
-
 ---
 
 ## Product Owner
@@ -73,8 +63,6 @@ Im größeren Kontext ist Selbstorganisation eine Haltung, die über Scrum hinau
 Auch in IPMA-Teams, in agilen KI-Projekten oder in selbstführenden Organisationen gilt – Verantwortung gehört dorthin, wo Kompetenz liegt.
 Das erfordert Vertrauen von oben und Mut von unten.
 
-## Link zum Blogpost
+{% assign page_slugs = "product-owner,empowerment,delegation-poker,selbstorganisation" | split: ',' %}
+{% include glossar-post-cards.html slugs=page_slugs %}
 
-<div class="blogpost-card">
-  {% include feature_row id="feature_row" type="center" %}
-</div>

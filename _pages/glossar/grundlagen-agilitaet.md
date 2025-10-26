@@ -6,16 +6,6 @@ description: "Kernprinzipien, Werte und Denkweisen der agilen Arbeit – vom Agi
 toc: true
 toc_sticky: true
 toc_label: "Auf dieser Seite"
-
-feature_row:
-  - image_path: /assets/images/posts/scrum-values-principles-600.webp
-    alt: Agiles Manifest – Teaser
-    title: "Agiles Manifest: Werte, Prinzipien – und wie du Cargo-Cult vermeidest"
-    excerpt: "Vier Werte, zwölf Prinzipien – und warum Agilität ohne Haltung nicht funktioniert."
-    url: /agiles-manifest-werte-prinzipien-scrum/
-    btn_label: "Zum Blogpost"
-    btn_class: "btn--primary"
-
 ---
 
 ## Agiles Manifest
@@ -96,8 +86,7 @@ Man „macht Scrum“, aber man **ist nicht agil**.
 Cargo-Cult-Agilität ist symptomatisch für Transformationen ohne Kulturwandel: viele Regeln, wenig Haltung.
 Sie erinnert daran, dass echte Agilität nicht aus Frameworks entsteht, sondern aus **Verstehen, Vertrauen und Verantwortung**.
 
-## Link zum Blogpost
+{% assign page_slugs = "agiles-manifest,scrum,cargo-cult,timeboxing" | split: ',' %}
+{% include glossar-post-cards.html slugs=page_slugs %}
 
-<div class="blogpost-card">
-  {% include feature_row id="feature_row" type="center" %}
-</div>
+

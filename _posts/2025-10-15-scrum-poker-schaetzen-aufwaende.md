@@ -121,8 +121,6 @@ Scrum Poker macht diese Praxis sichtbar:
 Scrum Poker ist daher weniger ein Werkzeug zur Aufwandsschätzung –
 sondern ein **Werkzeug für gemeinsames Lernen, Transparenz und Empirie**.
 
-{% include glossar-box.html
-   term="Glossar: Scrum Poker"
-   summary="Planning Poker: Ablauf, Skala, Nutzen – und warum relativ statt in Zeit geschätzt wird."
-   url="/glossar/schaetzen-prognostizieren/#scrum-poker" %}
+{% include glossar-box.html slugs="scrum-poker" %}
+
 

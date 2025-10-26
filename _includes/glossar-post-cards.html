@@ -1,0 +1,52 @@
+{% comment %} slugs als Array oder CSV erlaubt {% endcomment %}
+{% assign slugs_param = include.slugs %}
+{% if slugs_param %}
+  {% if slugs_param contains ',' %}
+    {% assign slugs = slugs_param | split: ',' %}
+  {% else %}
+    {% assign slugs = slugs_param %}
+  {% endif %}
+{% else %}
+  {% assign slugs = "" | split: "" %}
+{% endif %}
+
+{% assign cards = "" | split: "" %}
+{% for raw in slugs %}
+  {% assign s = raw | strip %}
+  {% assign g = site.data.glossar | where: "slug", s | first %}
+  {% if g and g.posts %}
+    {% for p in g.posts %}
+      {% assign cards = cards | push: p %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{%- comment -%} Duplikate nach path entfernen {%- endcomment -%}
+{% assign seen_paths = "" | split: "" %}
+{% assign unique_cards = "" | split: "" %}
+{% for c in cards %}
+  {% assign key = c.path %}
+  {% if seen_paths contains key %}{% continue %}{% endif %}
+  {% assign seen_paths = seen_paths | push: key %}
+  {% assign unique_cards = unique_cards | push: c %}
+{% endfor %}
+
+{% if unique_cards.size > 0 %}
+  <h2>Blogposts zum Thema</h2>
+  <div class="feature__wrapper kt-feature-cards">
+    {% for c in unique_cards %}
+      <div class="feature__item kt-card">
+        <div class="archive__item">
+          <div class="archive__item-teaser">
+            {% if c.teaser %}<img src="{{ c.teaser | relative_url }}" alt="">{% endif %}
+          </div>
+          <div class="archive__item-body">
+            <h3 class="archive__item-title"><a href="{{ c.path | relative_url }}">{{ c.title }}</a></h3>
+            {% if c.excerpt %}<div class="archive__item-excerpt">{{ c.excerpt }}</div>{% endif %}
+            <a href="{{ c.path | relative_url }}" class="btn btn--primary">{{ c.btn_label | default: "Zum Blogpost" }}</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

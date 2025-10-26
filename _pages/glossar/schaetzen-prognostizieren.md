@@ -6,16 +6,6 @@ description: "Scrum Poker, Story Points und Velocity – wie Teams Komplexität 
 toc: true
 toc_sticky: true
 toc_label: "Auf dieser Seite"
-
-feature_row:
-  - image_path: /assets/images/posts/scrum-poker-600.webp
-    alt: Scrum Poker – Teaser
-    title: "Warum Scrum Poker mehr ist als Schätzen"
-    excerpt: "Vom Schätzen zur Empirie: Wie Teams realistisch planen und lernen."
-    url: /scrum-poker-schaetzen-aufwaende/
-    btn_label: "Zum Blogpost"
-    btn_class: "btn--primary"
-
 ---
 
 ## Scrum Poker
@@ -58,8 +48,7 @@ Wenn ein Team im Mittel 30 Story Points pro Sprint schafft und das Product Goal 
 Empirische Planung ersetzt so die Illusion exakter Kontrolle.
 Auch in KI- oder Datenprojekten kann dieses Prinzip genutzt werden, um Komplexität zu steuern, ohne Kreativität zu behindern.
 
-## Link zum Blogpost
+---
 
-<div class="blogpost-card">
-  {% include feature_row id="feature_row" type="center" %}
-</div>
+{% assign page_slugs = "..." | split: ',' %}
+{% include glossar-post-cards.html slugs=page_slugs %}
