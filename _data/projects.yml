@@ -1,0 +1,15 @@
+---
+- id: proj-sozialverband-relaunch
+  title: "Wie föderale Vielfalt digitale Einheit schafft – der Webrelaunch eines Sozialverbands"
+  slug: "sozialverband-relaunch"
+  url: "/projekte/sozialverband-relaunch/"
+  status: "abgeschlossen"         # aktiv | abgeschlossen | pilotprojekt | konzeptphase
+  domain: "sozialwirtschaft"       # frei wählbar (Domäne)
+  method_tags: ["stakeholder-management","governance","change","informationsarchitektur","mandantenfaehigkeit"]
+  hero:
+    image: "/assets/images/projects/sozialverband-relaunch-hero-2000.webp"
+    og: "/assets/images/og/sozialverband-relaunch-1200.webp"
+    teaser: "/assets/images/projects/sozialverband-relaunch-600.webp"
+  seo:
+    title: "Wie föderale Vielfalt digitale Einheit schafft – Webrelaunch eines Sozialverbands"
+    description: "Von TYPO3-Monolith zu Master-Clone: Architektur, Governance und Change in föderalen Strukturen."

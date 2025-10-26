@@ -2,3 +2,7 @@
 main:
   - title: "Blog"
     url: /blog/
+  - title: "Projekte"
+    url: /projekte/
+  - title: "Glossar"
+    url: /glossar/

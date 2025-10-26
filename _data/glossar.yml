@@ -172,3 +172,121 @@
   slug: kommentare
   summary: Wie du im Blog kommentierst (Login via GitHub, Spam-Schutz, Datenschutz).
   url: /glossar/tools-und-kommentare/#kommentare
+
+# — NEU: Organisation & Governance —
+#- term: Stakeholder-Management
+#  slug: stakeholder-management
+#  summary: Interessen erkennen, Erwartungen steuern, Beziehungen gestalten – die Brücke zwischen Organisation, Technik und Nutzen.
+#  url: /glossar/rollen-und-verantwortung/#stakeholder-management
+#  posts:
+#    - path: /involvement-scrum-team/
+#      title: Involvement in Scrum – Meaning & Empowerment im Team
+#      teaser: /assets/images/posts/involvement-scrum-600.webp
+#      excerpt: "Warum Beteiligung ohne klares Stakeholder-Bild kaum gelingt."
+#      btn_label: Zum Blogpost
+#
+#- term: Governance
+#  slug: governance
+#  summary: Entscheidungslogik, Verantwortlichkeiten und Leitplanken, die Orientierung und Verlässlichkeit schaffen.
+#  url: /glossar/rollen-und-verantwortung/#governance
+#
+#- term: Autonomie
+#  slug: autonomie
+#  summary: Eigenständigkeit mit klaren Grenzen – Grundlage für Selbstorganisation und Ownership.
+#  url: /glossar/rollen-und-verantwortung/#autonomie
+#
+# — NEU: Architektur & Change —
+#- term: Informationsarchitektur
+#  slug: informationsarchitektur
+#  summary: Struktur und Logik von Inhalten, Navigation und Beziehungen – das Rückgrat digitaler Systeme.
+#  url: /glossar/digitale-struktur-und-change/#informationsarchitektur
+#
+#- term: Mandantenfähigkeit
+#  slug: mandantenfaehigkeit
+#  summary: Mehrere Organisationseinheiten auf einer Plattform – Autonomie und Standardisierung zugleich.
+#  url: /glossar/digitale-struktur-und-change/#mandantenfaehigkeit
+
+#- term: Change-Management
+#  slug: change-management
+#  summary: Wandel verstehen, gestalten und verankern – mit Kommunikation, Beteiligung und Struktur.
+#  url: /glossar/digitale-struktur-und-change/#change-management
+
+# _data/glossar.yml
+# Kanonische IDs: g-<slug>, proj-<slug>
+# Ein Glossarbegriff kennt seine verwandten Begriffe, zugehörige Blogposts UND Projekte.
+
+- id: g-stakeholder-management
+  term: Stakeholder-Management
+  slug: stakeholder-management
+  summary: "Interessen erkennen, Erwartungen steuern, Beziehungen gestalten – Brücke zwischen Organisation, Technik und Nutzen."
+  anchors:
+    page: "/glossar/rollen-und-verantwortung/"
+    fragment: "#stakeholder-management"
+  related_ids: [g-governance, g-autonomie, g-change-management]
+  posts:
+    - url: "/involvement-scrum-team/"
+      title: "Involvement in Scrum – Meaning & Empowerment im Team"
+      image: "/assets/images/posts/involvement-scrum-600.webp"
+      excerpt: "Wie Beteiligung Sinn stiftet – und Teams gemeinsame Richtung finden."
+      btn_label: "Zum Blogpost"
+  projects:
+    - proj-sozialverband-relaunch
+  seo:
+    title: "Stakeholder-Management – Rolle des Product Owners"
+    description: "Stakeholder-Management als Kern agiler Produktführung: Erwartungen, Kommunikation, Entscheidungen."
+    og_image: "/assets/images/og/glossar-stakeholder-management-1200x630.webp"
+
+- id: g-governance
+  term: Governance
+  slug: governance
+  summary: "Entscheidungslogik, Verantwortlichkeiten und Leitplanken, die Orientierung und Verlässlichkeit schaffen."
+  anchors:
+    page: "/glossar/rollen-und-verantwortung/"
+    fragment: "#governance"
+  related_ids: [g-stakeholder-management, g-autonomie, g-informationsarchitektur]
+  posts: []
+  projects: [proj-sozialverband-relaunch]
+
+- id: g-autonomie
+  term: Autonomie
+  slug: autonomie
+  summary: "Verantwortete Freiheit: klare Ziele, klare Grenzen, klare Verantwortungen."
+  anchors:
+    page: "/glossar/rollen-und-verantwortung/"
+    fragment: "#autonomie"
+  related_ids: [g-governance, g-stakeholder-management]
+  posts: []
+  projects: [proj-sozialverband-relaunch]
+
+- id: g-informationsarchitektur
+  term: Informationsarchitektur
+  slug: informationsarchitektur
+  summary: "Struktur, Navigation, Inhaltsmodelle und Taxonomien – das Rückgrat digitaler Systeme."
+  anchors:
+    page: "/glossar/digitale-struktur-und-change/"
+    fragment: "#informationsarchitektur"
+  related_ids: [g-mandantenfaehigkeit, g-governance, g-change-management]
+  posts: []
+  projects: [proj-sozialverband-relaunch]
+
+- id: g-mandantenfaehigkeit
+  term: Mandantenfähigkeit
+  slug: mandantenfaehigkeit
+  summary: "Mehrere Organisationseinheiten auf einer Plattform – Autonomie und Standardisierung zugleich."
+  anchors:
+    page: "/glossar/digitale-struktur-und-change/"
+    fragment: "#mandantenfaehigkeit"
+  related_ids: [g-informationsarchitektur, g-governance]
+  posts: []
+  projects: [proj-sozialverband-relaunch]
+
+- id: g-change-management
+  term: Change-Management
+  slug: change-management
+  summary: "Wandel verstehen, gestalten, verankern – mit Sinn, Beteiligung, Enablement und Stabilisierung."
+  anchors:
+    page: "/glossar/digitale-struktur-und-change/"
+    fragment: "#change-management"
+  related_ids: [g-stakeholder-management, g-governance]
+  posts: []
+  projects: [proj-sozialverband-relaunch]

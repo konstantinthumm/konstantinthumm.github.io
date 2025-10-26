@@ -63,6 +63,58 @@ Im größeren Kontext ist Selbstorganisation eine Haltung, die über Scrum hinau
 Auch in IPMA-Teams, in agilen KI-Projekten oder in selbstführenden Organisationen gilt – Verantwortung gehört dorthin, wo Kompetenz liegt.
 Das erfordert Vertrauen von oben und Mut von unten.
 
+## Stakeholder-Management
+{: #stakeholder-management }
+
+**Stakeholder-Management** ist die Kunst, aus divergierenden Interessen tragfähige Entscheidungen zu formen.
+Es umfasst das **Identifizieren** relevanter Anspruchsgruppen, das **Verstehen** ihrer Motive, das **Priorisieren** von Erwartungen und das **Gestalten** verlässlicher Kommunikationskanäle.
+In agilen Kontexten heißt das: kontinuierliche Transparenz statt einmalige Abholung, konsistente Botschaften statt Change-Theater.
+
+**Rolle des Product Owners:**
+Der PO wird zum **Übersetzer** zwischen Nutzerwert, Organisationszielen und technischer Umsetzung. Er hütet die Produktvision, priorisiert das Backlog und vermittelt Sinn: *Wozu* bauen wir was?
+Im Verbandsrelaunch (siehe Projekt unten) lag der Schwerpunkt auf **föderalen Interessen** (Länder) vs. **zentraler Verantwortung** (Bund). Ein strukturiertes Stakeholder-Mapping und regelmäßige Dialogformate (u. a. eine **Infoveranstaltung** mit Landesgeschäftsführungen und Öffentlichkeitsarbeit) bauten Vertrauen auf und räumten Blockaden aus.
+
+**Praktiken & Artefakte:**
+- Stakeholder-Landkarte (Einfluss/Betroffenheit, Chancen/Risiken)
+- Kommunikationsplan (Ziel, Botschaft, Kanal, Frequenz)
+- Review-Rituale mit echten Demos statt Folien
+- Entscheidungslogik sichtbar machen (Governance, s. u.)
+
+> Verweis: [Involvement in Scrum](/involvement-scrum-team/) – Beteiligung entsteht, wenn Sinn, Wahlfreiheit, Kompetenz und Wirkung spürbar werden (Meaning/Choice/Competence/Impact). :contentReference[oaicite:9]{index=9}
+
+
+## Governance
+{: #governance }
+
+**Governance** beschreibt die **Entscheidungs- und Verantwortungslogik** eines Systems: Wer entscheidet was, auf welcher Basis, mit welchen Leitplanken?
+Gute Governance balanciert **Freiheit** und **Sicherheit**: klare Standards, wo sie nötig sind (z. B. Barrierefreiheit, Sicherheit, Performance), Autonomie, wo sie Wert schafft (Inhalte, Schwerpunktsetzung, regionale Navigation).
+
+Im Projekt *„Webrelaunch eines Sozialverbands“* bedeutete das:
+- Zentrale Master-Instanz (CD, Komponenten, Qualität)
+- Dezentrale Klone (Inhalte, Menü, regionale Fokusthemen)
+- Geteilte Datenbank für Stellen, aber getrennte Verantwortlichkeiten
+So entsteht **Einheit durch Architektur**, nicht durch Mikro-Kontrolle.
+
+
+## Autonomie
+{: #autonomie }
+
+**Autonomie** ist nicht Beliebigkeit, sondern **verantwortete Freiheit**.
+Sie setzt **klare Ziele** (z. B. Product Goal), **klare Grenzen** (CD, Sicherheit, DoD) und **klare Verantwortungen** (PO, Team).
+In Verbänden ist Autonomie die Bedingung für Akzeptanz – Länder arbeiten dort mit, wo sie gestalten dürfen. Architektur kann diese Freiheit **ermöglichen**, indem sie Standards als **Enabler** statt als Einengung erfahrbar macht.
+
+**Bezug zu Empowerment & Selbstorganisation:**
+Autonomie ist der Rahmen, **Empowerment** (Befähigung) und **Selbstorganisation** die Praxis. Gemeinsam erzeugen sie Ownership – die Voraussetzung, dass Governance **gelebt** wird statt nur existiert.
+
+
 {% assign page_slugs = "product-owner,empowerment,delegation-poker,selbstorganisation" | split: ',' %}
 {% include glossar-post-cards.html slugs=page_slugs %}
 
+{% include feature_row
+  image_path="/assets/images/projects/sozialverband-relaunch-hero-2000.webp"
+  alt="Case: Verbandsrelaunch"
+  title="Case: Webrelaunch eines Sozialverbands"
+  excerpt="Governance, Autonomie und Stakeholder-Management in einer Master-Clone-Architektur."
+  url="/projekte/sozialverband-relaunch/"
+  btn_label="Zum Projekt"
+  btn_class="btn--primary" %}

@@ -1,0 +1,17 @@
+# Neuer Begriff (ohne verlinkten Post)
+- term: [Term Klartext]
+  slug: [slug-klein-mit-bindestrich]
+  summary: "[Kurzdefinition, 100–140 Zeichen]"
+  url: /glossar/[seiten-slug]/#[slug-klein-mit-bindestrich]
+
+# Neuer Begriff (mit verlinktem Post)
+- term: [Term Klartext]
+  slug: [slug]
+  summary: "[Kurzdefinition]"
+  url: /glossar/[seiten-slug]/#[slug]
+  posts:
+    - path: /[post-permalink]/
+      title: [Posttitel]
+      teaser: /assets/images/posts/[post-key]-600.webp
+      excerpt: "[1–2 Sätze (Doppelpunkt in Anführungszeichen)]"
+      btn_label: Zum Blogpost

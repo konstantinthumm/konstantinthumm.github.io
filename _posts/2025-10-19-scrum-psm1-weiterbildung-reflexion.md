@@ -31,7 +31,7 @@ teaser: /assets/images/posts/reflexion-scrum-600.webp
 
 # Taxonomien
 categories: [Reflexion]
-tags: [Sozialwirtschaft, Agil, Scrum, Change]
+tags: [Sozialwirtschaft, Agil, Scrum, Change, Strategie]
 ---
 
 ## Ankommen im Lernen
@@ -134,5 +134,5 @@ Genau dort möchte ich Mehrwert stiften.
 **Notiz an mich selbst:**
 *Dranbleiben. Dinge einfach halten. Gespräche führen, nicht Formulare erweitern. Und: Lernen ist kein Luxus – es ist eine Haltung.*
 
-{% include glossar-box.html slugs="scrum,mindset" %}
+{% include glossar-box.html slugs="scrum" %}
 
