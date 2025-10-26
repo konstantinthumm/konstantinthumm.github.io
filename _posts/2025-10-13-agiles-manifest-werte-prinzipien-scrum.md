@@ -178,11 +178,6 @@ Agile Werte und Prinzipien sind kein Werkzeugkasten, sondern ein **Kompass**:
 
 Agilität ist damit keine Methode, die man „einführt“, sondern eine **Haltung, die man lebt**.
 
-{% include glossar-box.html
-   term="Glossar: DoD, Review, Retrospektive"
-   summary="Qualität, Feedback und Verbesserung – die zentralen Scrum-Events und Qualitätskriterien im Überblick."
-   url="/glossar/events-und-empirie/" %}
-
 ---
 
 ### tl;dr
@@ -194,3 +189,5 @@ Kurz gesagt:
 **Scrum ist kein Prozess, sondern ein Mindset.**
 Wer nur das Ritual kopiert, baut eine Bambuslandebahn –
 wer die Werte lebt, bringt die Flugzeuge wirklich zum Landen.
+
+{% include glossar-box.html slugs="definition-of-done,sprint-review,retrospektive" %}

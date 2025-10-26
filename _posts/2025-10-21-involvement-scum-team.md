@@ -128,12 +128,5 @@ nicht zu mehr Aktivität, sondern zu **besserem Involvement**.
 
 ---
 
-{% include glossar-box.html
-   term="Glossar: Empowerment & Selbstorganisation"
-   summary="Verantwortung ermöglichen, Entscheidungsräume klären und Teams wirksam machen."
-   url="/glossar/rollen-und-verantwortung/#empowerment" %}
+{% include glossar-box.html slugs="empowerment,selbstorganisation,retrospektive" %}
 
-{% include glossar-box.html
-   term="Glossar: Retrospektive"
-   summary="Gemeinsam aus Erfahrung lernen: Format, Ziele und konkrete Verbesserungsmaßnahmen."
-   url="/glossar/events-und-empirie/#retrospektive" %}

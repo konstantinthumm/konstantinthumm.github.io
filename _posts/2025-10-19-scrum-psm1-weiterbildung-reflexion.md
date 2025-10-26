@@ -134,7 +134,5 @@ Genau dort möchte ich Mehrwert stiften.
 **Notiz an mich selbst:**
 *Dranbleiben. Dinge einfach halten. Gespräche führen, nicht Formulare erweitern. Und: Lernen ist kein Luxus – es ist eine Haltung.*
 
-{% include glossar-box.html
-   term="Glossar: Scrum & Mindset"
-   summary="Warum Scrum ein lernendes System ist – und weshalb Haltung, Werte und Empirie entscheidend sind."
-   url="/glossar/grundlagen-agilitaet/#scrum" %}
+{% include glossar-box.html slugs="scrum,mindset" %}
+

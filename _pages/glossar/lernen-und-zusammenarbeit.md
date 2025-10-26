@@ -6,17 +6,8 @@ description: "Wie Teams durch Pair Programming, Communities of Practice und Stor
 toc: true
 toc_sticky: true
 toc_label: "Auf dieser Seite"
-
-feature_row:
-  - image_path: /assets/images/posts/involvement-scrum-600.webp
-    alt: Involvement in Scrum
-    title: "Involvement in Scrum"
-    excerpt: "Lernkultur, Austausch und Selbstorganisation – wie Teams durch Wissensteilung wachsen."
-    url: /involvement-scrum-team/
-    btn_label: "Zum Blogpost"
-    btn_class: "btn--primary"
-
 ---
+
 
 ## Pair Programming
 {: #pair-programming }
@@ -51,8 +42,6 @@ Im Scrum-Prozess hilft Story Mapping, das Product Backlog zu strukturieren und i
 Es verbindet *Meaning* (Sinn) mit *Outcome* (Wirkung) – zwei Dimensionen, die für Involvement entscheidend sind.
 Auch außerhalb agiler Teams – etwa im Design Thinking oder bei datengetriebenen Projekten – ist Story Mapping eine bewährte Methode zur Fokussierung.
 
-## Link zum Blogpost
+{% assign page_slugs = "pair-programming,communities-of-practice,story-mapping" | split: ',' %}
+{% include glossar-post-cards.html slugs=page_slugs %}
 
-<div class="blogpost-card">
-  {% include feature_row id="feature_row" type="center" %}
-</div>
