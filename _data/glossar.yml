@@ -223,18 +223,20 @@
     page: "/glossar/rollen-und-verantwortung/"
     fragment: "#stakeholder-management"
   related_ids: [g-governance, g-autonomie, g-change-management]
+  url: /glossar/rollen-und-verantwortung/#stakeholder-management
   posts:
     - url: "/involvement-scrum-team/"
       title: "Involvement in Scrum – Meaning & Empowerment im Team"
       image: "/assets/images/posts/involvement-scrum-600.webp"
       excerpt: "Wie Beteiligung Sinn stiftet – und Teams gemeinsame Richtung finden."
       btn_label: "Zum Blogpost"
+
   projects:
     - proj-sozialverband-relaunch
   seo:
     title: "Stakeholder-Management – Rolle des Product Owners"
     description: "Stakeholder-Management als Kern agiler Produktführung: Erwartungen, Kommunikation, Entscheidungen."
-    og_image: "/assets/images/og/glossar-stakeholder-management-1200x630.webp"
+    og_image: "/assets/images/projects/sozialverband-relaunch-1200.webp"
 
 - id: g-governance
   term: Governance
@@ -244,6 +246,7 @@
     page: "/glossar/rollen-und-verantwortung/"
     fragment: "#governance"
   related_ids: [g-stakeholder-management, g-autonomie, g-informationsarchitektur]
+  url: /glossar/rollen-und-verantwortung/#governance
   posts: []
   projects: [proj-sozialverband-relaunch]
 
@@ -255,6 +258,7 @@
     page: "/glossar/rollen-und-verantwortung/"
     fragment: "#autonomie"
   related_ids: [g-governance, g-stakeholder-management]
+  url: /glossar/rollen-und-verantwortung/#autonomie
   posts: []
   projects: [proj-sozialverband-relaunch]
 
@@ -266,6 +270,7 @@
     page: "/glossar/digitale-struktur-und-change/"
     fragment: "#informationsarchitektur"
   related_ids: [g-mandantenfaehigkeit, g-governance, g-change-management]
+  url: /glossar/digitale-struktur-und-change/#informationsarchitektur
   posts: []
   projects: [proj-sozialverband-relaunch]
 
@@ -277,6 +282,7 @@
     page: "/glossar/digitale-struktur-und-change/"
     fragment: "#mandantenfaehigkeit"
   related_ids: [g-informationsarchitektur, g-governance]
+  url: /glossar/digitale-struktur-und-change/#mandantenfaehigkeit
   posts: []
   projects: [proj-sozialverband-relaunch]
 
@@ -288,5 +294,6 @@
     page: "/glossar/digitale-struktur-und-change/"
     fragment: "#change-management"
   related_ids: [g-stakeholder-management, g-governance]
+  url: /glossar/digitale-struktur-und-change/#change-management
   posts: []
   projects: [proj-sozialverband-relaunch]
