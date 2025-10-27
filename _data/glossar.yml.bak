@@ -1,63 +1,37 @@
 ---
-# _data/glossar.yml
-# Kanonische IDs: g-<slug>, proj-<slug>
-# Ein Glossarbegriff kennt seine verwandten Begriffe, zugehörige Blogposts UND Projekte.
-
-- id: g-agiles-manifest
-  term: Agiles Manifest
+- term: Agiles Manifest
   slug: agiles-manifest
   summary: Leitdokument agiler Arbeit mit 4 Werten und 12 Prinzipien.
   url: /glossar/grundlagen-agilitaet/#agiles-manifest
 
-- id: g-scrum
-  term: Scrum
+- term: Scrum
   slug: scrum
   summary: Framework für komplexe Produktentwicklung – Umsetzung des agilen Manifests.
   url: /glossar/grundlagen-agilitaet/#scrum
   posts:
-    - path: /agiles-manifest-werte-prinzipien-scrum/
-      title: Agiles Manifest – Werte und Prinzipien in Scrum
-      teaser: /assets/images/posts/scrum-values-principles-600.webp
-      excerpt: "Wie das Agile Manifest die Wertehaltung von Scrum prägt und warum sie in Projekten oft verloren geht."
-      btn_label: Zum Blogpost
     - path: /reflexion-psm1-woche1/
       title: Woche 1 meiner PSM-Weiterbildung - Lernen als Befreiung
       teaser: /assets/images/posts/reflexion-scrum-600.webp
       excerpt: "Warum sich Lernen fundamental anders anfühlt – und warum Scrum dafür den richtigen Rahmen bietet."
       btn_label: Zum Blogpost
-    - path: /tipp-der-woche-agile-product-ownership/
-      title: Tipp der Woche - Agile Product Ownership in a Nutshell
-      teaser: /assets/images/posts/agile-product-ownership-600.webp
-      excerpt: "Henrik Kniberg erklärt in 15 Minuten, was gute Product Ownership ausmacht – klar, humorvoll und praxisnah."
-      btn_label: Zum Blogpost
 
-- id: g-cargo-cult
-  term: Cargo Cult
+- term: Cargo Cult
   slug: cargo-cult
   summary: Agilität ohne Haltung – Rituale statt Prinzipien.
   url: /glossar/grundlagen-agilitaet/#cargo-cult
 
-- id: g-timeboxing
-  term: Timeboxing
+- term: Timeboxing
   slug: timeboxing
   summary: Feste Zeitfenster für Fokus, Feedback und Lernrhythmus.
   url: /glossar/grundlagen-agilitaet/#timeboxing
 
 # Rollen & Verantwortung
-- id: g-product-owner
-  term: Product Owner
+- term: Product Owner
   slug: product-owner
   summary: Verantwortlich für Vision, Backlog und Produktwert.
-  url: /glossar/rollen-und-verantwortung/#product-
-  posts:
-    - path: /tipp-der-woche-agile-product-ownership/
-      title: Tipp der Woche - Agile Product Ownership in a Nutshell
-      teaser: /assets/images/posts/agile-product-ownership-600.webp
-      excerpt: "Henrik Kniberg erklärt in 15 Minuten, was gute Product Ownership ausmacht – klar, humorvoll und praxisnah."
-      btn_label: Zum Blogpost
+  url: /glossar/rollen-und-verantwortung/#product-owner
 
-- id: g-empowerment
-  term: Empowerment
+- term: Empowerment
   slug: empowerment
   summary: Befähigung und Entscheidungsfreiheit im Team – Grundlage für Selbstorganisation.
   url: /glossar/rollen-und-verantwortung/#empowerment
@@ -68,27 +42,23 @@
       excerpt: "So stärkst du als Scrum Master Involvement durch Meaning, Choice, Competence und Impact."
       btn_label: Zum Blogpost
 
-- id: g-delegation-poker
-  term: Delegation Poker
+- term: Delegation Poker
   slug: delegation-poker
   summary: Workshop-Format zur Klärung von Entscheidungsgrenzen.
   url: /glossar/rollen-und-verantwortung/#delegation-poker
 
-- id: g-selbstorganisation
-  term: Selbstorganisation
+- term: Selbstorganisation
   slug: selbstorganisation
   summary: Teams treffen operative Entscheidungen selbst – innerhalb klarer Ziele.
   url: /glossar/rollen-und-verantwortung/#selbstorganisation
 
 # Events & Empirie
-- id: g-sprint-review
-  term: Sprint Review
+- term: Sprint Review
   slug: sprint-review
   summary: Feedback-Event am Sprintende zur Sichtbarmachung von Fortschritt.
   url: /glossar/events-und-empirie/#sprint-review
 
-- id: g-retrospektive
-  term: Retrospektive
+- term: Retrospektive
   slug: retrospektive
   summary: Team reflektiert Zusammenarbeit und beschließt Verbesserungen.
   url: /glossar/events-und-empirie/#retrospektive
@@ -99,20 +69,17 @@
       excerpt: "Reflexion als Werkzeug für Involvement: Was gute Retros leisten können."
       btn_label: Zum Blogpost
 
-- id: g-definition-of-done
-  term: Definition of Done (DoD)
+- term: Definition of Done (DoD)
   slug: definition-of-done
   summary: Qualitätsstandard, wann Arbeit als „fertig“ gilt.
   url: /glossar/events-und-empirie/#definition-of-done
 
-- id: g-product-goal
-  term: Product Goal
+- term: Product Goal
   slug: product-goal
   summary: Langfristiges Ziel für das Produkt, das Fokus über Sprints hinweg schafft.
   url: /glossar/events-und-empirie/#product-goal
 
-- id: g-empirie
-  term: Empirie
+- term: Empirie
   slug: empirie
   summary: Lernen durch Beobachtung, Feedback und Anpassung.
   url: /glossar/events-und-empirie/#empirie
@@ -123,15 +90,13 @@
       excerpt: "Scrum als lernendes System – was Empirie wirklich bedeutet."
       btn_label: Zum Blogpost
 
-- id: g-outcome
-  term: Outcome
+- term: Outcome
   slug: outcome
   summary: Wirkung statt Output – Nutzen des Produkts im Fokus.
   url: /glossar/events-und-empirie/#outcome
 
 # Schätzen & Prognostizieren
-- id: g-scrum-poker
-  term: Scrum Poker
+- term: Scrum Poker
   slug: scrum-poker
   summary: Gemeinsames Schätzen relativer Aufwände im Team.
   url: /glossar/schaetzen-prognostizieren/#scrum-poker
@@ -142,14 +107,12 @@
       excerpt: "Planning Poker: Ablauf, Skala, Nutzen – und warum relativ statt in Zeit geschätzt wird."
       btn_label: Zum Blogpost
 
-- id: g-story-points
-  term: Story Points
+- term: Story Points
   slug: story-points
   summary: Relative Maßeinheit für Aufwand und Komplexität.
   url: /glossar/schaetzen-prognostizieren/#story-points
 
-- id: g-velocity
-  term: Velocity
+- term: Velocity
   slug: velocity
   summary: Beobachteter Durchsatz pro Sprint – empirische Grundlage für Forecasts.
   url: /glossar/schaetzen-prognostizieren/#velocity
@@ -161,20 +124,17 @@
       btn_label: Zum Blogpost
 
 # Lernen & Zusammenarbeit
-- id: g-pair-programming
-  term: Pair Programming
+- term: Pair Programming
   slug: pair-programming
   summary: Zwei Personen arbeiten gemeinsam am Code – Feedback & Wissenstransfer.
   url: /glossar/lernen-und-zusammenarbeit/#pair-programming
 
-- id: g-communities-of-practice
-  term: Communities of Practice
+- term: Communities of Practice
   slug: communities-of-practice
   summary: Freiwillige Lernnetzwerke für Erfahrungsaustausch.
   url: /glossar/lernen-und-zusammenarbeit/#communities-of-practice
 
-- id: g-story-mapping
-  term: Story Mapping
+- term: Story Mapping
   slug: story-mapping
   summary: Methode zur Visualisierung der User Journey und Priorisierung nach Nutzen.
   url: /glossar/lernen-und-zusammenarbeit/#story-mapping
@@ -186,8 +146,7 @@
       btn_label: Zum Blogpost
 
 # Tools & Kommentare
-- id: g-github
-  term: GitHub
+- term: GitHub
   slug: github
   summary: Plattform für Code & Diskussionen; Basis für Kommentare im Blog.
   url: /glossar/tools-und-kommentare/#github
@@ -198,8 +157,7 @@
       excerpt: "Open-Source-Kultur und agile Lernräume: Wie GitHub Feedback ermöglicht."
       btn_label: Zum Blogpost
 
-- id: g-giscus
-  term: Giscus
+- term: Giscus
   slug: giscus
   summary: Kommentarsystem auf Basis von GitHub Discussions.
   url: /glossar/tools-und-kommentare/#giscus
@@ -210,13 +168,53 @@
       excerpt: "Kommentare als Feedback-Kultur: Warum Giscus mehr ist als ein Widget."
       btn_label: Zum Blogpost
 
-- id: g-kommentare
-  term: Kommentare
+- term: Kommentare
   slug: kommentare
   summary: Wie du im Blog kommentierst (Login via GitHub, Spam-Schutz, Datenschutz).
   url: /glossar/tools-und-kommentare/#kommentare
 
-# — Organisation & Governance —
+# — NEU: Organisation & Governance —
+#- term: Stakeholder-Management
+#  slug: stakeholder-management
+#  summary: Interessen erkennen, Erwartungen steuern, Beziehungen gestalten – die Brücke zwischen Organisation, Technik und Nutzen.
+#  url: /glossar/rollen-und-verantwortung/#stakeholder-management
+#  posts:
+#    - path: /involvement-scrum-team/
+#      title: Involvement in Scrum – Meaning & Empowerment im Team
+#      teaser: /assets/images/posts/involvement-scrum-600.webp
+#      excerpt: "Warum Beteiligung ohne klares Stakeholder-Bild kaum gelingt."
+#      btn_label: Zum Blogpost
+#
+#- term: Governance
+#  slug: governance
+#  summary: Entscheidungslogik, Verantwortlichkeiten und Leitplanken, die Orientierung und Verlässlichkeit schaffen.
+#  url: /glossar/rollen-und-verantwortung/#governance
+#
+#- term: Autonomie
+#  slug: autonomie
+#  summary: Eigenständigkeit mit klaren Grenzen – Grundlage für Selbstorganisation und Ownership.
+#  url: /glossar/rollen-und-verantwortung/#autonomie
+#
+# — NEU: Architektur & Change —
+#- term: Informationsarchitektur
+#  slug: informationsarchitektur
+#  summary: Struktur und Logik von Inhalten, Navigation und Beziehungen – das Rückgrat digitaler Systeme.
+#  url: /glossar/digitale-struktur-und-change/#informationsarchitektur
+#
+#- term: Mandantenfähigkeit
+#  slug: mandantenfaehigkeit
+#  summary: Mehrere Organisationseinheiten auf einer Plattform – Autonomie und Standardisierung zugleich.
+#  url: /glossar/digitale-struktur-und-change/#mandantenfaehigkeit
+
+#- term: Change-Management
+#  slug: change-management
+#  summary: Wandel verstehen, gestalten und verankern – mit Kommunikation, Beteiligung und Struktur.
+#  url: /glossar/digitale-struktur-und-change/#change-management
+
+# _data/glossar.yml
+# Kanonische IDs: g-<slug>, proj-<slug>
+# Ein Glossarbegriff kennt seine verwandten Begriffe, zugehörige Blogposts UND Projekte.
+
 - id: g-stakeholder-management
   term: Stakeholder-Management
   slug: stakeholder-management
@@ -232,6 +230,7 @@
       image: "/assets/images/posts/involvement-scrum-600.webp"
       excerpt: "Wie Beteiligung Sinn stiftet – und Teams gemeinsame Richtung finden."
       btn_label: "Zum Blogpost"
+
   projects:
     - proj-sozialverband-relaunch
   seo:
