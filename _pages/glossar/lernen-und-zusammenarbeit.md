@@ -6,6 +6,12 @@ description: "Wie Teams durch Pair Programming, Communities of Practice und Stor
 toc: true
 toc_sticky: true
 toc_label: "Auf dieser Seite"
+seo:
+  title: "Lernen und Zusammenarbeit – Pair Programming, Communities of Practice & Story Mapping"
+  description: "Wie Teams durch Pair Programming, Communities of Practice und Story Mapping Wissen teilen, Sinn schaffen und kontinuierlich besser werden."
+  type: article
+  image: /assets/images/og/konstantinthumm-de-1200.webp
+
 ---
 
 

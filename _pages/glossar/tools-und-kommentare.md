@@ -6,6 +6,12 @@ description: "GitHub, Giscus und Blog-Kommentare – wie Open-Source-Tools Austa
 toc: true
 toc_sticky: true
 toc_label: "Auf dieser Seite"
+seo:
+  title: "Tools und Kommentare – GitHub, Giscus & Open-Source-Kultur"
+  description: "Wie GitHub, Giscus und Open-Source-Tools Transparenz, Feedback und Lernkultur fördern – für kollaborative Projekte und digitale Souveränität."
+  type: article
+  image: /assets/images/og/konstantinthumm-de-1200.webp
+
 ---
 
 ## GitHub

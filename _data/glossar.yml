@@ -298,3 +298,188 @@
   url: /glossar/digitale-struktur-und-change/#change-management
   posts: []
   projects: [proj-sozialverband-relaunch]
+
+# — IT-Architektur & Plattformen —
+- id: g-ms365
+  term: Microsoft 365 (M365)
+  slug: ms365
+  summary: Integriertes Ökosystem für Kommunikation, Zusammenarbeit und Sicherheit.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#ms365"
+  url: /glossar/it-architektur/#ms365
+  projects: [proj-it-architektur-teil1]
+
+- id: g-zero-trust
+  term: Zero Trust
+  slug: zero-trust
+  summary: Sicherheitsprinzip „vertraue nie, prüfe immer“ – Identität, Gerät und Kontext entscheiden.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#zero-trust"
+  url: /glossar/it-architektur/#zero-trust
+  projects: [proj-it-architektur-teil1]
+
+- id: g-identity-management
+  term: Identitätsmanagement
+  slug: identity-management
+  summary: Verwaltung von digitalen Identitäten, Rollen und Rechten – Basis für SSO und Governance.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#identity-management"
+  url: /glossar/it-architektur/#identity-management
+  projects: [proj-it-architektur-teil1, proj-it-architektur-teil2]
+
+- id: g-sso
+  term: Single Sign-On (SSO)
+  slug: sso
+  summary: Ein Login, viele Dienste – bessere UX, höhere Sicherheit, weniger Reibung.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#sso"
+  url: /glossar/it-architektur/#sso
+  projects: [proj-it-architektur-teil2, proj-it-architektur-teil1]
+
+- id: g-tenant
+  term: Tenant
+  slug: tenant
+  summary: Logische Mandanteninstanz in Cloud-Systemen – klare Trennung von Daten und Konfiguration.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#tenant"
+  url: /glossar/it-architektur/#tenant
+  projects: [proj-it-architektur-teil1]
+
+- id: g-multitenant
+  term: Multitenant
+  slug: multitenant
+  summary: Mehrere Organisationseinheiten auf einer Plattform – Autonomie und Standards zugleich.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#multitenant"
+  url: /glossar/it-architektur/#multitenant
+  projects: [proj-it-architektur-teil1]
+
+- id: g-subdomain
+  term: Subdomain
+  slug: subdomain
+  summary: Strukturierung von Namensräumen – macht föderale Verantwortlichkeiten sichtbar und administrierbar.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#subdomain"
+  url: /glossar/it-architektur/#subdomain
+  projects: [proj-it-architektur-teil1, proj-it-architektur-teil2]
+
+- id: g-domain
+  term: Domain
+  slug: domain
+  summary: Identität nach außen, Referenz nach innen – zentrale Mail-Domain reduziert Wildwuchs.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#domain"
+  url: /glossar/it-architektur/#domain
+  projects: [proj-it-architektur-teil2, proj-it-architektur-teil1]
+
+- id: g-active-directory
+  term: Active Directory / Entra ID
+  slug: active-directory
+  summary: Verzeichnisdienst als Drehkreuz für Identität, Gruppen, Geräte und Richtlinien.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#active-directory"
+  url: /glossar/it-architektur/#active-directory
+  projects: [proj-it-architektur-teil1]
+
+- id: g-ldap
+  term: LDAP
+  slug: ldap
+  summary: Protokoll für Verzeichnisdienste – Brücke für Provisionierung und Synchronisation.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#ldap"
+  url: /glossar/it-architektur/#ldap
+  projects: [proj-it-architektur-teil2]
+
+- id: g-exchange
+  term: Exchange (Online)
+  slug: exchange
+  summary: E-Mail/Kalender – mit lokalen Admin-Rollen föderal handhabbar.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#exchange"
+  url: /glossar/it-architektur/#exchange
+  projects: [proj-it-architektur-teil1]
+
+- id: g-collaboration
+  term: Collaboration
+  slug: collaboration
+  summary: Zusammenarbeit als Zusammenspiel von Informationsarchitektur, Rollen und Tools.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#collaboration"
+  url: /glossar/it-architektur/#collaboration
+  projects: [proj-it-architektur-teil1, proj-it-architektur-teil2]
+
+- id: g-opensource
+  term: Open-Source (OS)
+  slug: opensource
+  summary: Souveränität und Kostenhebel – professionell betrieben statt Do-it-yourself.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#opensource"
+  url: /glossar/it-architektur/#opensource
+  projects: [proj-it-architektur-teil2]
+
+- id: g-openxchange
+  term: OpenXchange (OX)
+  slug: openxchange
+  summary: E-Mail, Kalender, Drive, Office – skalierbar und datenschutzkonform.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#openxchange"
+  url: /glossar/it-architektur/#openxchange
+  projects: [proj-it-architektur-teil2]
+
+- id: g-rocket-chat
+  term: Rocket.Chat
+  slug: rocket-chat
+  summary: Selbsthostbare Chat-Plattform; Integrationen und Brücken zu Teams möglich.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#rocket-chat"
+  url: /glossar/it-architektur/#rocket-chat
+  projects: [proj-it-architektur-teil2]
+
+- id: g-opentalk
+  term: OpenTalk
+  slug: opentalk
+  summary: Videokonferenzen mit Datenschutzfokus – sinnvoll als Baustein einer SSO-Plattform.
+  anchors:
+    page: "/glossar/it-architektur/"
+    fragment: "#opentalk"
+  url: /glossar/it-architektur/#opentalk
+  projects: [proj-it-architektur-teil2]
+
+# — Projekte (für Rückbezüge) —
+- id: proj-it-architektur-teil1
+  term: IT-Architektur – Teil 1 (M365)
+  slug: it-architektur-verband-teil1
+  summary: M365 als Plattform fürs Hauptamt – Architektur, Governance, Change.
+  url: /projekte/it-architektur-verband-teil1/
+  # optional, falls du in den Karten ein festes Teaserbild ziehen willst:
+  hero:
+    teaser: /assets/images/projects/it-architektur-teil1-600.webp
+    image: /assets/images/projects/it-architektur-teil1-1200.webp
+  seo:
+    description: "Strategie, Governance, Change: Wie eine Multi-Tenant-Architektur auf Microsoft 365 eine gemeinsame Arbeitsumgebung für einen großen Verband schaffen sollte – mit föderaler Autonomie über Exchange-Admin-Rollen."
+
+- id: proj-it-architektur-teil2
+  term: IT-Architektur – Teil 2 (Open-Source)
+  slug: it-architektur-verband-teil2
+  summary: Open-Source fürs Ehrenamt – Identität zuerst, Dienste danach.
+  url: /projekte/it-architektur-verband-teil2/
+  hero:
+    teaser: /assets/images/projects/it-architektur-teil2-600.webp
+    image: /assets/images/projects/it-architektur-teil2-1200.webp
+  seo:
+    description: "OpenXchange, Rocket.Chat, OpenTalk: Warum Identität zuerst kommt – und Dienste danach. Kosteneffizient, datenschutzkonform, skalierbar."

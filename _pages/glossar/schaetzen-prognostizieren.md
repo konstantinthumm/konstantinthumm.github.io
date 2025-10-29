@@ -6,6 +6,12 @@ description: "Scrum Poker, Story Points und Velocity – wie Teams Komplexität 
 toc: true
 toc_sticky: true
 toc_label: "Auf dieser Seite"
+seo:
+  title: "Schätzen und Prognostizieren in Scrum – Story Points, Velocity & Planning Poker"
+  description: "Wie Teams mit Scrum Poker, Story Points und Velocity Komplexität einschätzen, Prognosen verbessern und empirisch lernen."
+  type: article
+  image: /assets/images/og/konstantinthumm-de-1200.webp
+
 ---
 
 ## Scrum Poker

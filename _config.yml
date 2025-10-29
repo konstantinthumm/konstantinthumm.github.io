@@ -137,6 +137,8 @@ defaults:
       comments: true
       share: true
       related: true
+      image: /assets/images/og/konstantinthumm-de-1200.webp
+      teaser: /assets/images/og/konstantinthumm-de-600.webp
       overlay_filter: 0.35
       toc: true
       toc_sticky: true
@@ -156,6 +158,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      image: /assets/images/og/konstantinthumm-de-1200.webp
+      teaser: /assets/images/og/konstantinthumm-de-600.webp
   - scope: { path: "kategorie" }
     values:
       layout: archive

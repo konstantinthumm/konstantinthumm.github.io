@@ -3,11 +3,8 @@ layout: single
 title: "Glossar"
 permalink: /glossar/
 description: "Begriffe, die ich im Blog nutze – kurz erklärt. Mit Links zu weiterführenden Seiten."
-toc: true
-toc_sticky: true
-toc_label: "Inhalt"
-toc_h_min: 2
-toc_h_max: 3
+toc: false
+classes: wide
 ---
 
 <div class="glossar-nav">
@@ -17,23 +14,23 @@ toc_h_max: 3
   {% endfor %}
 </div>
 
-<div class="glossar-listing" markdown="1">
+<div class="glossar-compact" markdown="0">
+  {% assign items = site.data.glossar | sort_natural: "term" %}
+  {% assign grouped = items | group_by_exp: "i", "i.term | slice: 0, 1 | upcase" %}
 
-{% assign items = site.data.glossar | sort_natural: "term" %}
-{% assign grouped = items | group_by_exp: "i", "i.term | slice: 0, 1 | upcase" %}
-
-{% for group in grouped %}
-## {{ group.name }}
-{:#{{ group.name }} .no_toc}
-
-{% for it in group.items %}
-### [{{ it.term }}]({{ it.url | relative_url }})
-{:#{{ it.slug }}}
-<p class="glossar-summary">– {{ it.summary }}</p>
-{% endfor %}
-
-{% endfor %}
-
+  {% for group in grouped %}
+    <h2 id="{{ group.name }}" class="glossar-letter">{{ group.name }}</h2>
+    <ul class="glossar-list">
+      {% for it in group.items %}
+        <li>
+          <a class="glossar-term" href="{{ it.url | relative_url }}">{{ it.term }}</a>
+          {% if it.summary %}
+            <span class="glossar-summary"> – {{ it.summary }}</span>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
 </div>
 
 > Tipp: Fehlt dir ein Begriff? Schreib mir gern: [kt@konstantinthumm.de](mailto:kt@konstantinthumm.de).

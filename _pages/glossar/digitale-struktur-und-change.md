@@ -1,10 +1,16 @@
 ---
 layout: single
 title: "Digitale Strukturen und Change Management"
+description: "Wie Informationsarchitektur, Mandantenfähigkeit und Change-Management zusammenwirken – Grundlagen, Prinzipien und Projektbezug aus föderalen Organisationen."
 permalink: /glossar/digitale-struktur-und-change/
 toc: true
-categories: ["Digitalisierung"]
-tags: ["Architektur", "Change", "Governance", "Organisation"]
+toc_sticky: true
+seo:
+  title: "Digitale Strukturen und Change-Management – Architektur, Mandantenfähigkeit & Wandel"
+  description: "Wie digitale Architektur, Mandantenfähigkeit und Change-Management Organisationen verändern – mit Beispielen aus föderalen Projekten."
+  type: article
+  image: /assets/images/og/konstantinthumm-de-1200.webp
+
 ---
 
 Diese Seite bündelt zentrale Begriffe, die an der Schnittstelle von **digitaler Architektur**, **Organisation** und **Veränderung** liegen.

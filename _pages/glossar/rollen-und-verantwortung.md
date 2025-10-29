@@ -6,6 +6,12 @@ description: "Product Owner, Empowerment, Delegation Poker und Selbstorganisatio
 toc: true
 toc_sticky: true
 toc_label: "Auf dieser Seite"
+seo:
+  title: "Rollen und Verantwortung im Scrum – Product Owner, Empowerment & Governance"
+  description: "Wie Verantwortung in Scrum verteilt ist: Product Owner, Empowerment, Selbstorganisation und Governance als Fundament agiler Organisationen."
+  type: article
+  image: /assets/images/og/konstantinthumm-de-1200.webp
+
 ---
 
 ## Product Owner

@@ -13,3 +13,33 @@
   seo:
     title: "Wie föderale Vielfalt digitale Einheit schafft – Webrelaunch eines Sozialverbands"
     description: "Von TYPO3-Monolith zu Master-Clone: Architektur, Governance und Change in föderalen Strukturen."
+
+- id: proj-it-architektur-teil1
+  title: "Von föderaler Vielfalt zur gemeinsamen Cloud – Teil 1: M365 als Plattform für das Hauptamt"
+  slug: "it-architektur-verband-teil1"
+  url: "/projekte/it-architektur-verband-teil1/"
+  status: "konzeptphase"
+  domain: "sozialwirtschaft"
+  method_tags: ["strategie","infrastruktur","change","microsoft365","cloud","governance","identity-management"]
+  hero:
+    image: "/assets/images/projects/it-architektur-2000.webp"
+    og: "/assets/images/projects/it-architektur-1200.webp"
+    teaser: "/assets/images/projects/it-architektur-600.webp"
+  seo:
+    title: "M365 als Plattform für das Hauptamt – IT-Architekturkonzept (Teil 1)"
+    description: "Strategie, Governance, Change: Wie eine Multi-Tenant-Architektur auf Microsoft 365 eine gemeinsame Arbeitsumgebung für einen großen Verband schaffen sollte – mit föderaler Autonomie über Exchange-Admin-Rollen."
+
+- id: proj-it-architektur-teil2
+  title: "Souveräne Infrastruktur für viele – Teil 2: Open-Source-Plattform fürs Ehrenamt"
+  slug: "it-architektur-verband-teil2"
+  url: "/projekte/it-architektur-verband-teil2/"
+  status: "konzeptphase"
+  domain: "sozialwirtschaft"
+  method_tags: ["strategie","infrastruktur","change","opensource","collaboration","identity-management","sso"]
+  hero:
+    image: "/assets/images/projects/it-architektur-2000.webp"
+    og: "/assets/images/projects/it-architektur-1200.webp"
+    teaser: "/assets/images/projects/it-architektur-600.webp"
+  seo:
+    title: "Open-Source-Lösungen für das Ehrenamt – IT-Architekturkonzept (Teil 2)"
+    description: "OpenXchange, Rocket.Chat, OpenTalk: Warum Identität zuerst kommt – und Dienste danach. Kosteneffizient, datenschutzkonform, skalierbar."

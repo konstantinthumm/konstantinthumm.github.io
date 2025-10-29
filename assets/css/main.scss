@@ -565,3 +565,201 @@ ul.glossar-list li { margin: .2rem 0; }
   color: #00adb5;
 }
 
+/* —— Glossar: Cluster-Layout & Links —— */
+.glossar-toplinks {
+  display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem;
+}
+.pill {
+  display: inline-block; padding: .35rem .6rem; border-radius: 999px;
+  border: 1px solid var(--mm-accent, #00adb5); text-decoration: none;
+  font-size: .9rem;
+}
+.glossar-term-list {
+  list-style: none; padding-left: 0; margin: .5rem 0 2rem;
+  display: grid; grid-template-columns: 1fr; gap: .35rem;
+}
+.glossar-term-list .term { text-decoration: none; font-weight: 600; }
+.glossar-term-list .summary { color: var(--mm-muted, #aab0b6); }
+
+/* kleine „Zurück nach oben“-Links */
+a.toplink { display: inline-block; margin: .5rem 0 2rem; font-size: .9rem; }
+
+/* Dark Skin Feintuning */
+:root {
+  --mm-accent: #00adb5; /* deine Akzentfarbe */
+  --mm-muted: #9aa3aa;
+}
+
+/* --- Glossar: kompakter Listenstil --- */
+.glossar-nav {
+  margin-bottom: 1rem;
+}
+.glossar-nav .pill {
+  display: inline-block;
+  padding: .25rem .55rem;
+  margin: 0 .25rem .4rem 0;
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: .5rem;
+  text-decoration: none;
+  line-height: 1.1;
+  font-size: .9rem;
+}
+
+.glossar-letter {
+  margin: 1.25rem 0 .4rem; /* deutlich enger als default */
+  font-size: 1.15rem;
+  letter-spacing: .02em;
+  border-bottom: 1px dashed rgba(255,255,255,.1);
+  padding-bottom: .25rem;
+}
+
+.glossar-list {
+  list-style: none;
+  margin: 0 0 1.0rem 0;
+  padding: 0;
+
+  /* kompakte Zeilen */
+  li {
+    margin: 0;               /* entfernt große Abstände */
+    padding: .15rem 0;       /* sehr knapp */
+    line-height: 1.35;
+    display: block;
+    white-space: normal;
+  }
+
+  /* Begriff-Link */
+  .glossar-term {
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 0; /* folgt Minimal Mistakes Linkstil */
+  }
+
+  /* Kurzerklärung direkt daneben – kein extra Absatz */
+  .glossar-summary {
+    opacity: .85;
+    font-weight: 400;
+  }
+}
+
+/* Optional: responsiv in mehrere Spalten aufweiten (nur Liste, nicht Headlines) */
+@media (min-width: 992px) {
+  .glossar-list {
+    column-count: 2;         /* 2 Spalten auf breiten Screens */
+    column-gap: 2rem;
+  }
+  .glossar-list li {
+    break-inside: avoid;     /* verhindert „zerrissene“ Einträge */
+  }
+}
+
+/* Optional: sehr kompakter Modus (falls du noch enger willst)
+.glossar-list li { padding: .08rem 0; line-height: 1.25; }
+*/
+
+/* Crosslink Card (Teile 1 ↔ 2) */
+:root {
+  --accent: #00adb5; /* deine Akzentfarbe */
+}
+
+.project-crosslink {
+  position: relative;
+  padding: 1.1rem 1.25rem 1.25rem 1.25rem;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-left: 4px solid var(--accent);
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(0,0,0,0.18),
+    rgba(0,0,0,0.10)
+  );
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+  margin: 2rem 0 2.25rem;
+}
+
+.project-crosslink:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.22);
+  border-left-color: color-mix(in srgb, var(--accent) 86%, white);
+}
+
+.project-crosslink__eyebrow {
+  margin: 0 0 .25rem 0;
+  font-size: .8rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  opacity: .8;
+}
+
+.project-crosslink__title {
+  margin: 0 0 .35rem 0;
+  line-height: 1.25;
+  font-size: 1.15rem;
+}
+
+.project-crosslink__title a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.project-crosslink__title a:hover {
+  border-bottom-color: var(--accent);
+}
+
+.project-crosslink__meta {
+  margin: 0 0 .9rem 0;
+  opacity: .9;
+}
+
+.project-crosslink__cta {
+  display: inline-block;
+  margin-top: .2rem;
+}
+
+/* Light skin fallback */
+@media (prefers-color-scheme: light) {
+  .project-crosslink {
+    border: 1px solid rgba(0,0,0,0.08);
+    background: linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.86));
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  }
+}
+
+/* Media layout mit kleinem Teaserbild */
+.project-crosslink {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 0.9rem 1rem;
+}
+
+.project-crosslink__media {
+  align-self: start;
+}
+
+.project-crosslink__thumb {
+  width: 72px;
+  height: 72px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Größere Thumbs auf breiteren Viewports */
+@media (min-width: 720px) {
+  .project-crosslink__thumb { width: 88px; height: 88px; }
+}
+
+/* Content-Spalte */
+.project-crosslink__content {
+  align-self: center;
+}
+
+/* Dark/Light already handled oben; hier nur leichte Anpassung im Light-Mode */
+@media (prefers-color-scheme: light) {
+  .project-crosslink__thumb {
+    border-color: rgba(0,0,0,0.06);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+  }
+}

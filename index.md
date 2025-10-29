@@ -14,7 +14,7 @@ header:
   #    url: /about/
   #  - label: "Newsletter abonnieren"
   #    url: /newsletter/
-excerpt: "Wie verändert Digitalisierung unsere Arbeit - und was braucht es, damit sie gelingt?<br>Ich teile hier Gedanken, Erfahrungen und Perspektiven aus dem, was ich in Projekten erlebt, gelernt und ausprobiert habe."
+excerpt: "Wie verändert Digitalisierung unsere Arbeit - und was braucht es, damit sie gelingt?<br>Ich teile hier Gedanken, Erfahrungen und Perspektiven aus dem,<br> was ich in Projekten erlebt, gelernt und ausprobiert habe."
 ---
 
 ## Warum Digitalisierung für mich mehr ist als Technik

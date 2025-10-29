@@ -6,6 +6,12 @@ description: "Kernprinzipien, Werte und Denkweisen der agilen Arbeit – vom Agi
 toc: true
 toc_sticky: true
 toc_label: "Auf dieser Seite"
+seo:
+  title: "Grundlagen der Agilität – Werte, Prinzipien und Scrum erklärt"
+  description: "Das Agile Manifest, Scrum-Prinzipien und das agile Mindset – verständlich erklärt mit Praxisbezug zu IPMA und modernen Organisationsformen."
+  type: article
+  image: /assets/images/og/konstantinthumm-de-1200.webp
+
 ---
 
 ## Agiles Manifest

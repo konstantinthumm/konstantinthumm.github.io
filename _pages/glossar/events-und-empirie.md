@@ -6,6 +6,12 @@ description: "Scrum-Events und empirische Prinzipien: Review, Retrospektive, Def
 toc: true
 toc_sticky: true
 toc_label: "Auf dieser Seite"
+seo:
+  title: "Scrum-Events und Empirie – Review, Retrospektive und Outcome erklärt"
+  description: "Empirie in Scrum verstehen: wie Review, Retrospektive, Definition of Done und Product Goal Transparenz, Lernen und Wirkung ermöglichen."
+  type: article
+  image: /assets/images/og/konstantinthumm-de-1200.webp
+
 ---
 
 ## Sprint Review
