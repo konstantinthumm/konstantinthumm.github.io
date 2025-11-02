@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Meine Vorbereitung auf die PSM I Prüfung – warum Verstehen wichtiger ist als Auswendiglernen"
+title: "Meine Vorbereitung auf die PSM I und PSPO I Prüfung – warum Verstehen wichtiger ist als Auswendiglernen"
 date: 2025-10-31
 excerpt: "Wie ich mich auf die Scrum.org-Prüfungen vorbereitet habe, warum uhligland.de mein wichtigstes Lernwerkzeug wurde – und wieso echtes Scrum nichts mit Cargo Cult zu tun hat."
-description: "Persönlicher Erfahrungsbericht zur Vorbereitung auf die Scrum-Zertifizierungen PSM I und II – mit Scrum Guide, Open Assessments und uhligland.de als Lernpartner."
-permalink: /psm1-psm2-pruefungsvorbereitung/
+description: "Persönlicher Erfahrungsbericht zur Vorbereitung auf die Scrum-Zertifizierungen PSM I und PSPO 1 – mit Scrum Guide, Open Assessments und uhligland.de als Lernpartner."
+permalink: /psm1-pspo1-pruefungsvorbereitung/
 author_profile: true
 classes: ["wide","hero-tall"]
 toc: true
@@ -116,7 +116,7 @@ Man kann sie nicht verordnen – man kann sie nur leben.
 
 ## Fazit
 
-Die Vorbereitung auf PSM I und II war für mich mehr als Lernen.
+Die Vorbereitung auf PSM I und PSPO I war für mich mehr als Lernen.
 Sie war ein Stück Selbstreflexion über Arbeit, Verantwortung und Zusammenarbeit.
 Die Prüfung war nur der sichtbare Abschluss einer inneren Veränderung.
 
