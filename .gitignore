@@ -1,8 +1,13 @@
-_site
-.sass-cache
-.jekyll-metadata
-Gemfile.lock
-.DS_Store
+# Jekyll build
 _site/
 .jekyll-cache/
-.sass-cache/
+.jekyll-metadata
+
+# Bundler (lokale Gems)
+vendor/
+.bundle/
+Gemfile.lock
+
+# System
+.DS_Store
+*.log
