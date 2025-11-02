@@ -763,3 +763,12 @@ a.toplink { display: inline-block; margin: .5rem 0 2rem; font-size: .9rem; }
     box-shadow: 0 4px 14px rgba(0,0,0,0.12);
   }
 }
+/* Variante ohne Teaserbild */
+.project-crosslink.no-thumb {
+  grid-template-columns: 1fr;      /* statt auto 1fr */
+  padding-left: 1.1rem;            /* etwas kompakter ohne Media-Spalte */
+}
+
+.project-crosslink.no-thumb .project-crosslink__content {
+  align-self: start;
+}

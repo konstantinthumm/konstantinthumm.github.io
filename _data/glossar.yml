@@ -37,6 +37,13 @@
   summary: Agilität ohne Haltung – Rituale statt Prinzipien.
   url: /glossar/grundlagen-agilitaet/#cargo-cult
 
+- id: g-mindset
+  term: Mindset
+  slug: mindset
+  summary: Haltung und Denkweise hinter agiler Arbeit – geprägt von Offenheit und Commitment.
+  url: /glossar/grundlagen-agilitaet/#mindset
+
+
 - id: g-timeboxing
   term: Timeboxing
   slug: timeboxing
