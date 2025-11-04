@@ -1,27 +1,63 @@
-# Minimal Mistakes remote theme starter
+# 🌐 konstantinthumm.github.io
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Dies ist das Repository für meine persönliche Website und meinen Blog unter
+👉 **[konstantinthumm.de](https://konstantinthumm.de)**
 
-Contains basic configuration to get you a site with:
+Die Seite basiert auf dem **[Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)**
+und wird über **GitHub Pages** bereitgestellt.
+Sie dient als zentrale Plattform für meine Inhalte rund um **Digitalisierung, agiles Projektmanagement (Scrum, IPMA)** und **künstliche Intelligenz in Organisationen**.
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## Über das Projekt
+
+**Ziel:** Eine moderne, minimalistische und schnelle Website mit Fokus auf Inhalt, Lesbarkeit und Struktur.
+Die Seite ist als Content-Hub aufgebaut und verbindet Blogposts, Glossar und Projektseiten miteinander.
+
+**Technische Basis:**
+- Static Site mit **Jekyll** & **Minimal Mistakes Theme**
+- Deployment über **GitHub Actions → GitHub Pages**
+- Analytics: **GoatCounter** (cookiefrei, DSGVO-konform)
+- SEO-Optimierung mit **Open Graph**, **Meta-Tags** und **Schema.org**
+- Eigene Domain: [konstantinthumm.de](https://konstantinthumm.de)
+
+
+## Inhalte
+
+- **Blog:** Beiträge zu *Digitalisierung*, *Projektmanagement* und *KI in der Praxis*
+- **Glossar:** Fachbegriffe verständlich erklärt – mit Querverweisen zu Blogposts
+- **Projekte:** Fallbeispiele aus realen Digitalisierungs- und IT-Projekten
+- **Ressourcen:** Tools, Frameworks, Templates und persönliche Empfehlungen
+
+
+##  Struktur des Repositories
+
+```text
+_data/        → YAML-Daten für Glossar, Projekte, Kategorien
+_includes/    → Custom-Includes (z. B. Glossarbox, Feature Rows)
+_pages/       → Statische Seiten (About, Kontakt, Glossar, Projekte)
+_posts/       → Blogartikel (Markdown mit Frontmatter)
+assets/       → Bilder, Stylesheets, Favicon etc.
+_sass/        → SCSS-Partials und Theme-Anpassungen
+_config.yml   → Hauptkonfiguration (SEO, Layout, Plugins)
+```
+
+## Über mich
+
+Ich bin **Konstantin Thumm**, IT-Consultant und Coach für Digitalisierung, Web- und IT-Projekte.
+Der Fokus meiner Arbeit liegt auf nachhaltiger digitaler Transformation, agilen Methoden und der sinnvollen Integration von KI in Organisationen.
+
+Mehr über mich und meine Arbeit findest du unter:
+🔗 **[konstantinthumm.de](https://konstantinthumm.de)**
 
 ---
 
-## Troubleshooting
+##  Kontakt & Netzwerke
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+- **GitHub:** [github.com/konstantinthumm](https://github.com/konstantinthumm)
+- **LinkedIn:** [linkedin.com/in/konstantinthumm](https://linkedin.com/in/konstantinthumm)
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+---
+
+<p align="center">
+  <sub>Built with ❤️ using <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a></sub>
+</p>
