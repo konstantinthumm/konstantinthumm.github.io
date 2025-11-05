@@ -1,4 +1,4 @@
-# 🌐 konstantinthumm.github.io
+# konstantinthumm.github.io
 
 Dies ist das Repository für meine persönliche Website und meinen Blog unter
 👉 **[konstantinthumm.de](https://konstantinthumm.de)**
@@ -18,7 +18,6 @@ Die Seite ist als Content-Hub aufgebaut und verbindet Blogposts, Glossar und Pro
 - Deployment über **GitHub Actions → GitHub Pages**
 - Analytics: **GoatCounter** (cookiefrei, DSGVO-konform)
 - SEO-Optimierung mit **Open Graph**, **Meta-Tags** und **Schema.org**
-- Eigene Domain: [konstantinthumm.de](https://konstantinthumm.de)
 
 
 ## Inhalte
