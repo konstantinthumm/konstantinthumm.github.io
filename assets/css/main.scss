@@ -772,3 +772,137 @@ a.toplink { display: inline-block; margin: .5rem 0 2rem; font-size: .9rem; }
 .project-crosslink.no-thumb .project-crosslink__content {
   align-self: start;
 }
+
+/* === KT Kontakt-Kachel · Mittelweg Akzent/Grau === */
+:root {
+  --kt-accent: #00adb5;                         /* CI */
+  --kt-ink: var(--mm-text-color, #eaeaea);
+  --kt-ink-soft: rgba(234, 234, 234, .9);
+
+  /* Mischung aus neutral + Akzent (Dark-Skin freundlich) */
+  --kt-card-bg: linear-gradient(
+    180deg,
+    rgba(0, 173, 181, .10) 0%,
+    rgba(255, 255, 255, .015) 100%
+  );
+  --kt-card-bg-hover: linear-gradient(
+    180deg,
+    rgba(0, 173, 181, .14) 0%,
+    rgba(255, 255, 255, .04) 100%
+  );
+  --kt-card-border: rgba(0, 173, 181, .28);
+  --kt-card-border-hover: rgba(0, 173, 181, .45);
+
+  --kt-chip-border: rgba(0, 173, 181, .35);
+  --kt-chip-bg: rgba(0, 173, 181, .10);
+  --kt-chip-bg-hover: rgba(0, 173, 181, .16);
+}
+
+.kt-contact-card {
+  margin: 1.5rem 0 0;
+  padding: 1rem 1.1rem 1.05rem;
+  border-radius: 12px;
+  background: var(--kt-card-bg);
+  border: 1px solid var(--kt-card-border);
+  transition: transform .18s ease, box-shadow .18s ease, background .18s ease, border-color .18s ease;
+  will-change: transform;
+}
+
+.kt-contact-card:hover {
+  transform: translateY(-1px) scale(1.006);
+  background: var(--kt-card-bg-hover);
+  border-color: var(--kt-card-border-hover);
+  box-shadow: 0 10px 22px rgba(0, 173, 181, .12);
+}
+
+.kt-contact-card__eyebrow {
+  margin: 0 0 .15rem 0;
+  font-size: .83rem;
+  letter-spacing: .02em;
+  color: var(--kt-accent);
+  opacity: .95;
+}
+
+.kt-contact-card__title {
+  margin: 0 0 .35rem 0;
+  font-size: 1.08rem;
+  line-height: 1.25;
+  color: var(--kt-ink);
+}
+
+.kt-contact-card__text {
+  margin: 0 0 .7rem 0;
+  font-size: .98rem;
+  line-height: 1.5;
+  color: var(--kt-ink-soft);
+}
+
+.kt-contact-card__links {
+  margin: 0;
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+
+.kt-contact-card__link {
+  display: inline-block;
+  padding: .3rem .68rem;
+  border-radius: 9px;
+  text-decoration: none;
+  color: var(--kt-ink);
+  border: 1px solid var(--kt-chip-border);
+  background: transparent;
+  transition: transform .16s ease, background .16s ease, border-color .16s ease, color .16s ease;
+}
+.kt-contact-card__link:hover,
+.kt-contact-card__link:focus {
+  background: var(--kt-chip-bg);
+  border-color: var(--kt-card-border-hover);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+/* Primäre Aktion (LinkedIn) – leicht stärker, aber nicht laut */
+.kt--primary {
+  background: var(--kt-chip-bg);
+  border-color: var(--kt-card-border-hover);
+}
+.kt--primary:hover,
+.kt--primary:focus {
+  background: var(--kt-chip-bg-hover);
+}
+
+/* Mobile Feinschliff */
+@media (max-width: 640px) {
+  .kt-contact-card { padding: .9rem; }
+  .kt-contact-card__title { font-size: 1.03rem; }
+  .kt-contact-card__text { font-size: .96rem; }
+  .kt-contact-card__link { padding: .28rem .6rem; }
+}
+/* === Patch: LinkedIn-Button soll wie "E-Mail senden" aussehen (idle) === */
+.kt-contact-card .kt--primary {
+  background: transparent;                 /* wie der E-Mail-Button */
+  border-color: var(--kt-chip-border);     /* wie der E-Mail-Button */
+  color: var(--kt-ink);                    /* wie der E-Mail-Button */
+}
+
+/* Hover/Fokus identisch zu den anderen Links */
+.kt-contact-card .kt--primary:hover,
+.kt-contact-card .kt--primary:focus {
+  background: var(--kt-chip-bg);           /* gleiche Hover-Fläche */
+  border-color: var(--kt-card-border-hover);
+  transform: translateY(-1px);
+  outline: none;
+}
+/* === Patch: Beide Buttons mit weißer Schrift im Hover/Fokus === */
+.kt-contact-card .kt-contact-card__link:hover,
+.kt-contact-card .kt-contact-card__link:focus,
+.kt-contact-card .kt--primary:hover,
+.kt-contact-card .kt--primary:focus {
+  color: #fff !important;                 /* weißer Text */
+}
+
+/* Optional: visited-State neutral halten */
+.kt-contact-card .kt-contact-card__link:visited {
+  color: var(--kt-ink);
+}

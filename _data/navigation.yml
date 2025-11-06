@@ -4,5 +4,7 @@ main:
     url: /blog/
   - title: "Projekte"
     url: /projekte/
+  - title: "Profil"
+    url: /profil/
   - title: "Glossar"
     url: /glossar/
