@@ -906,3 +906,12 @@ a.toplink { display: inline-block; margin: .5rem 0 2rem; font-size: .9rem; }
 .kt-contact-card .kt-contact-card__link:visited {
   color: var(--kt-ink);
 }
+a.ext::after {
+  content: "↗";
+  margin-left: .25rem;
+  font-size: 0.9em;
+  opacity: 0.75;
+}
+a.ext:hover::after {
+  opacity: 1;
+}

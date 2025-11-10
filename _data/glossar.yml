@@ -490,3 +490,75 @@
     image: /assets/images/projects/it-architektur-teil2-1200.webp
   seo:
     description: "OpenXchange, Rocket.Chat, OpenTalk: Warum Identität zuerst kommt – und Dienste danach. Kosteneffizient, datenschutzkonform, skalierbar."
+
+- id: g-digitalisierung-in-der-pflege
+  term: Digitalisierung in der stationären Pflege
+  slug: digitalisierung-in-der-pflege
+  summary: Digitale Prozesse senken Verwaltungskosten.
+  url: /glossar/digitalisierung-in-der-pflege/
+  posts:
+    - path: /digitalisierung-pflegeeinrichtungen/
+      title: Digitalisierung in Pflegeeinrichtungen – weniger Overhead, mehr Zeit am Menschen
+      teaser: /assets/images/posts/digitalisierung-pflege-600.webp
+      excerpt: Warum 20 % der Kosten in Verwaltung fließen und wie Digitalisierung diesen Anteil senken kann.
+      btn_label: Zum Blogpost
+
+- id: g-verwaltungskosten
+  term: Verwaltungskosten (Overhead) in der Pflege
+  slug: verwaltungskosten
+  summary: Anteil der Gesamtausgaben.
+  url: /glossar/digitalisierung-in-der-pflege/#verwaltungskosten
+  posts:
+    - path: /digitalisierung-pflegeeinrichtungen/
+      title: Overhead senken, Pflege stärken
+      teaser: /assets/images/posts/digitalisierung-pflege-600.webp
+      excerpt: Warum Verwaltung 18–26 % ausmacht – und wo Integration wirklich wirkt.
+      btn_label: Zum Blogpost
+
+- id: g-pflegedokumentation
+  term: Pflegedokumentation
+  slug: pflegedokumentation
+  summary: Nachweis- und Qualitätsdokumentation
+  url: /glossar/digitalisierung-in-der-pflege/#pflegedokumentation
+  posts:
+    - path: /digitalisierung-pflegeeinrichtungen/
+      title: Dokumentation entlasten – mit Methode und KI
+      teaser: /assets/images/posts/digitalisierung-pflege-600.webp
+      excerpt: Von SIS bis Sprachassistenz - weniger Aufwand, bessere Prüfbarkeit.
+      btn_label: Zum Blogpost
+
+- id: g-sis-modell
+  term: SIS-Modell (Strukturierte Informationssammlung)
+  slug: sis-modell
+  summary: Methodische Vereinfachung der Doku
+  url: /glossar/digitalisierung-in-der-pflege/#sis-modell
+  posts:
+    - path: /digitalisierung-pflegeeinrichtungen/
+      title: Entbürokratisierung zuerst, dann digitalisieren
+      teaser: /assets/images/posts/digitalisierung-pflege-600.webp
+      excerpt: Warum Papierlogik erst vereinfacht werden muss.
+      btn_label: Zum Blogpost
+
+- id: g-prozessdigitalisierung
+  term: Prozessdigitalisierung
+  slug: prozessdigitalisierung
+  summary: End-to-end-Digitalisierung von Dokumentation
+  url: /glossar/digitalisierung-in-der-pflege/#prozessdigitalisierung
+  posts:
+    - path: /digitalisierung-pflegeeinrichtungen/
+      title: Schnittstellen statt Silos
+      teaser: /assets/images/posts/digitalisierung-pflege-600.webp
+      excerpt: Wie Integration Verwaltungskosten messbar senkt.
+      btn_label: Zum Blogpost
+
+- id: g-entbuerokratisierung
+  term: Entbürokratisierung
+  slug: entbuerokratisierung
+  summary: Gezielter Abbau von Doppelstrukturen
+  url: /glossar/digitalisierung-in-der-pflege/#entbuerokratisierung
+  posts:
+    - path: /digitalisierung-pflegeeinrichtungen/
+      title: Weniger ist mehr – strukturiert
+      teaser: /assets/images/posts/digitalisierung-pflege-600.webp
+      excerpt: Wie methodische Reduktion digitale Effekte erst ermöglicht.
+      btn_label: Zum Blogpost
