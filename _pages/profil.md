@@ -44,7 +44,7 @@ Gute Projekte gelingen dort, wo Verständnis entsteht – nicht nur für Systeme
 Ich bringe langjährige Erfahrung aus über 15 Jahren IT- und Digitalprojekten mit – von Webarchitekturen über Prozessdigitalisierung bis hin zu Change- und Kommunikationsprojekten.
 Aktuell erweitere ich mein Profil mit Zertifizierungen im agilen und KI-Umfeld:
 
-- Professional Scrum Master I (PSM I)
+- [Professional Scrum Master I (PSM I)](https://www.credly.com/badges/8648e673-6f6c-4afc-9c26-7fd42d44d8c0/public_url){:target="_blank" rel="noopener noreferrer" .ext}
 - Professional Scrum Product Owner I (PSPO I)
 - IPMA Level D – Certified Project Management Associate
 - MyCareerNow: KI Basic & Expert (8 Wochen Intensivkurs)
