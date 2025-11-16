@@ -80,7 +80,7 @@ Teams, die nur Output messen (z. B. Story Points), verlieren den Blick für Wert
 Outcome-Metriken wie Nutzungsraten, Kundenzufriedenheit oder Qualitätsverbesserung zeigen, ob ein Produkt wirklich Wirkung entfaltet.
 Sie machen Fortschritt messbar – im Sinne echter Wirksamkeit statt bloßer Aktivität.
 
-{% assign page_slugs = "sprint-review,retrospektive,definition-of-done,product-goal,empirie,outcome" | split: ',' %}
+{% assign page_slugs = "sprint-review,retrospektive,definition-of-done,product-goal,empirie,outcome,kpi" | split: ',' %}
 {% include glossar-post-cards.html slugs=page_slugs %}
 
 

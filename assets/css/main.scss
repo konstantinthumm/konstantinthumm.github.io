@@ -915,3 +915,157 @@ a.ext::after {
 a.ext:hover::after {
   opacity: 1;
 }
+.series-nav {
+  margin-top: 1.75rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.series-nav ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.series-nav li {
+  margin: 0.15rem 0;
+}
+
+/* Hero bereit machen */
+.page__hero,
+.page__hero--overlay {
+  position: relative;
+}
+
+/* ----------------------------------------------------------
+   Agile Value Management – Serien-Design
+   Hero-Badge (oben links) + Untere Linie (unten rechts)
+   Teilnummer per Klassen avm-part-1 ... avm-part-8
+   ---------------------------------------------------------- */
+
+/* 1) Hero-Container vorbereiten */
+.page__hero,
+.page__hero--overlay {
+  position: relative;
+}
+
+/* 2) Serien-Badge oben links (ähnlich wie PROJEKT-Badge) */
+/* Serien-Badge oben links – verbesserte Proportionen */
+body.layout--single.agile-value-series .page__hero::before,
+body.layout--single.agile-value-series .page__hero--overlay::before {
+  content: "AGILE VALUE MANAGEMENT";
+  position: absolute;
+  top: 1.4rem;
+  left: 1.6rem;
+
+  /* mehr Luft */
+  padding: 0.35rem 1rem;
+
+  /* ruhigerer Look */
+  border-radius: 8px;
+
+  background: #00adb5;
+  color: #ffffff;
+
+  /* etwas kleinere, elegantere Typo */
+  font-size: 0.7rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  line-height: 1.1;
+  z-index: 5;
+  pointer-events: none;
+}
+
+
+/* 3) Serien-Linie + Teilnummer unten rechts */
+body.layout--single.agile-value-series .page__hero::after,
+body.layout--single.agile-value-series .page__hero--overlay::after {
+  content: "Agile Value Management – Teil X"; /* Default */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.45rem 1.5rem 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: right;
+  color: #ffffff;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 173, 181, 0.9) 0%,
+    rgba(0, 173, 181, 0.55) 40%,
+    rgba(0, 173, 181, 0.0) 100%
+  );
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ----------------------------------------------------------
+   4) Teil-spezifische Texte (wird pro Post via Klassen gesetzt)
+   ---------------------------------------------------------- */
+
+body.layout--single.avm-part-1 .page__hero::after,
+body.layout--single.avm-part-1 .page__hero--overlay::after {
+  content: "Agile Value Management – Teil 1 von 8";
+}
+
+body.layout--single.avm-part-2 .page__hero::after,
+body.layout--single.avm-part-2 .page__hero--overlay::after {
+  content: "Agile Value Management – Teil 2 von 8";
+}
+
+body.layout--single.avm-part-3 .page__hero::after,
+body.layout--single.avm-part-3 .page__hero--overlay::after {
+  content: "Agile Value Management – Teil 3 von 8";
+}
+
+body.layout--single.avm-part-4 .page__hero::after,
+body.layout--single.avm-part-4 .page__hero--overlay::after {
+  content: "Agile Value Management – Teil 4 von 8";
+}
+
+body.layout--single.avm-part-5 .page__hero::after,
+body.layout--single.avm-part-5 .page__hero--overlay::after {
+  content: "Agile Value Management – Teil 5 von 8";
+}
+
+body.layout--single.avm-part-6 .page__hero::after,
+body.layout--single.avm-part-6 .page__hero--overlay::after {
+  content: "Agile Value Management – Teil 6 von 8";
+}
+
+body.layout--single.avm-part-7 .page__hero::after,
+body.layout--single.avm-part-7 .page__hero--overlay::after {
+  content: "Agile Value Management – Teil 7 von 8";
+}
+
+body.layout--single.avm-part-8 .page__hero::after,
+body.layout--single.avm-part-8 .page__hero--overlay::after {
+  content: "Agile Value Management – Teil 8 von 8";
+}
+
+/* ----------------------------------------------------------
+   5) Responsives Verhalten
+   ---------------------------------------------------------- */
+@media (max-width: 768px) {
+  /* Badge etwas kleiner */
+  body.layout--single.agile-value-series .page__hero::before,
+  body.layout--single.agile-value-series .page__hero--overlay::before {
+    top: 1rem;
+    left: 1rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.7rem;
+  }
+
+  /* Untere Linie kompakter */
+  body.layout--single.agile-value-series .page__hero::after,
+  body.layout--single.agile-value-series .page__hero--overlay::after {
+    font-size: 0.8rem;
+    padding: 0.35rem 1rem 0.55rem;
+  }
+}

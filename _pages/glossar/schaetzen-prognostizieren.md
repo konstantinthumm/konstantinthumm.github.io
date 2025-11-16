@@ -54,7 +54,6 @@ Wenn ein Team im Mittel 30 Story Points pro Sprint schafft und das Product Goal 
 Empirische Planung ersetzt so die Illusion exakter Kontrolle.
 Auch in KI- oder Datenprojekten kann dieses Prinzip genutzt werden, um Komplexität zu steuern, ohne Kreativität zu behindern.
 
----
 
-{% assign page_slugs = "..." | split: ',' %}
+{% assign page_slugs = "scrum-poker" | split: ',' %}
 {% include glossar-post-cards.html slugs=page_slugs %}

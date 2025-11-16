@@ -104,20 +104,5 @@ Diese Schritte reduzieren Reibung, schaffen Vertrauen und sind Voraussetzung, um
 > „Entbürokratisierung ist die Kunst, weniger zu wollen – und mehr zu erreichen.“
 
 
-## Zum Blogpost
-
-{% assign term = site.data.glossar | where: "slug", "digitalisierung-in-der-pflege" | first %}
-{% if term and term.posts %}
-  <div class="glossar-grid">
-    {% for post in term.posts %}
-      <article class="glossar-card">
-        <a href="{{ post.path }}">
-          <img src="{{ post.teaser }}" alt="{{ post.title }}" loading="lazy" class="card-thumb">
-        </a>
-        <h3><a href="{{ post.path }}">{{ post.title }}</a></h3>
-        <p>{{ post.excerpt }}</p>
-        <a href="{{ post.path }}" class="btn btn--primary">{{ post.btn_label }}</a>
-      </article>
-    {% endfor %}
-  </div>
-{% endif %}
+{% assign page_slugs = "digitalisierung-in-der-pflege" | split: ',' %}
+{% include glossar-post-cards.html slugs=page_slugs %}

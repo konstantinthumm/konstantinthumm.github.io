@@ -115,12 +115,3 @@ Autonomie ist der Rahmen, **Empowerment** (Befähigung) und **Selbstorganisation
 
 {% assign page_slugs = "product-owner,empowerment,delegation-poker,selbstorganisation" | split: ',' %}
 {% include glossar-post-cards.html slugs=page_slugs %}
-
-{% include feature_row
-  image_path="/assets/images/projects/sozialverband-relaunch-hero-2000.webp"
-  alt="Case: Verbandsrelaunch"
-  title="Case: Webrelaunch eines Sozialverbands"
-  excerpt="Governance, Autonomie und Stakeholder-Management in einer Master-Clone-Architektur."
-  url="/projekte/sozialverband-relaunch/"
-  btn_label="Zum Projekt"
-  btn_class="btn--primary" %}

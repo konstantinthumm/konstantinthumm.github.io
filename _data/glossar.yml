@@ -562,3 +562,251 @@
       teaser: /assets/images/posts/digitalisierung-pflege-600.webp
       excerpt: Wie methodische Reduktion digitale Effekte erst ermöglicht.
       btn_label: Zum Blogpost
+
+# — Agile Value Management —
+
+- id: g-value-management
+  term: Value Management
+  slug: value-management
+  summary: Entscheidungen konsequent an wahrgenommenem Wert statt an Aktivität ausrichten.
+  url: /glossar/agile-value-management-grundbegriffe/#value-management
+  posts:
+    - path: /ebm-okr-kpi-integriertes-modell/
+      title: EBM × OKR × KPI – das integrierte Modell für modernes Management
+      teaser: /assets/images/posts/avm-part8-600.png
+      excerpt: "Scrum liefert den Rahmen, OKR gibt Richtung, KPIs machen Veränderung sichtbar – Evidence-Based Management verbindet alles zu einem Modell."
+      btn_label: Zum Blogpost
+
+- id: g-outcomes-vs-outputs
+  term: Outcomes vs Outputs
+  slug: outcomes-vs-outputs
+  summary: Unterschied zwischen interner Aktivität und tatsächlicher Wirkung bei Menschen.
+  url: /glossar/agile-value-management-grundbegriffe/#outcomes-vs-outputs
+  posts:
+    - path: /moderne-kpi-was-messen/
+      title: Moderne KPIs – was wirklich gemessen werden muss
+      teaser: /assets/images/posts/avm-part6-600.png
+      excerpt: "Kennzahlen helfen nur dann, wenn sie Entscheidungen verändern – moderne KPIs messen Wirkung statt bloßer Aktivität."
+      btn_label: Zum Blogpost
+
+- id: g-stakeholder-value
+  term: Stakeholder Value
+  slug: stakeholder-value
+  summary: Wahrgenommener Nutzen aus Sicht aller beteiligten Gruppen.
+  url: /glossar/agile-value-management-grundbegriffe/#stakeholder-value
+  posts:
+    - path: /okr-non-profit-verbaende/
+      title: OKR in der Non-Profit- und Verbandswelt – Orientierung im föderalen Alltag
+      teaser: /assets/images/posts/avm-part5-600.png
+      excerpt: "Wie OKR in Verbänden und Non-Profits Orientierung schafft, ohne Autonomie und demokratische Strukturen zu unterlaufen."
+      btn_label: Zum Blogpost
+
+- id: g-evidence
+  term: Evidence
+  slug: evidence
+  summary: Beobachtbare Hinweise und Daten, die Entscheidungen fundieren.
+  url: /glossar/agile-value-management-grundbegriffe/#evidence
+  posts:
+    - path: /ebm-bruecke-scrum-management/
+      title: Evidence-Based Management als Brücke zwischen Scrum und Management
+      teaser: /assets/images/posts/avm-part1-600.png
+      excerpt: "Wie Evidence-Based Management agile Teams und klassisches Management auf einer gemeinsamen Entscheidungsbasis zusammenbringt."
+      btn_label: Zum Blogpost
+
+# — Evidence-Based Management – Kernkonzepte —
+
+- id: g-ebm
+  term: Evidence-Based Management (EBM)
+  slug: ebm
+  summary: Entscheidungsmodell, das Wert, Potenzial und Lernfähigkeit sichtbar macht.
+  url: /glossar/ebm-kernkonzepte/#ebm
+  posts:
+    - path: /ebm-bruecke-scrum-management/
+      title: Evidence-Based Management als Brücke zwischen Scrum und Management
+      teaser: /assets/images/posts/avm-part1-600.png
+      excerpt: "Warum EBM nicht nur ein weiteres Tool, sondern ein grundlegendes Denkmodell für moderne Organisationen ist."
+      btn_label: Zum Blogpost
+
+- id: g-kva
+  term: Key Value Areas (KVA)
+  slug: kva
+  summary: Vier Perspektiven auf Wert und Fortschritt - CV, UV, A2I und T2M.
+  url: /glossar/ebm-kernkonzepte/#kva
+  posts:
+    - path: /ebm-key-value-areas/
+      title: Die vier Key Value Areas – was Organisationen oft falsch machen
+      teaser: /assets/images/posts/avm-part2-600.png
+      excerpt: "Current Value, Unrealized Value, Ability to Innovate und Time-to-Market verständlich erklärt – mit typischen Fehlinterpretationen."
+      btn_label: Zum Blogpost
+
+- id: g-current-value
+  term: Current Value (CV)
+  slug: current-value
+  summary: Wirkung, die ein Produkt oder eine Organisation heute bereits entfaltet.
+  url: /glossar/ebm-kernkonzepte/#current-value
+  posts:
+    - path: /ebm-key-value-areas/
+      title: Die vier Key Value Areas – was Organisationen oft falsch machen
+      teaser: /assets/images/posts/avm-part2-600.png
+      excerpt: "Wie Organisationen ihren aktuellen Wert realistisch einschätzen – statt sich von Aktivität blenden zu lassen."
+      btn_label: Zum Blogpost
+
+- id: g-unrealized-value
+  term: Unrealized Value (UV)
+  slug: unrealized-value
+  summary: Noch ungenutztes Potenzial und zukünftiger möglicher Wert.
+  url: /glossar/ebm-kernkonzepte/#unrealized-value
+  posts:
+    - path: /ebm-key-value-areas/
+      title: Die vier Key Value Areas – was Organisationen oft falsch machen
+      teaser: /assets/images/posts/avm-part2-600.png
+      excerpt: "Warum ‚kein akutes Problem‘ nicht bedeutet, dass es kein Potenzial gibt – und wie UV dabei hilft, Chancen sichtbar zu machen."
+      btn_label: Zum Blogpost
+
+- id: g-ability-to-innovate
+  term: Ability to Innovate (A2I)
+  slug: ability-to-innovate
+  summary: Fähigkeit einer Organisation, sinnvolle Veränderungen tatsächlich umzusetzen.
+  url: /glossar/ebm-kernkonzepte/#ability-to-innovate
+  posts:
+    - path: /ebm-key-value-areas/
+      title: Die vier Key Value Areas – was Organisationen oft falsch machen
+      teaser: /assets/images/posts/avm-part2-600.png
+      excerpt: "Wie strukturelle Barrieren Innovation verhindern – und warum A2I mehr ist als nur ‚Innovationskraft‘."
+      btn_label: Zum Blogpost
+
+- id: g-time-to-market
+  term: Time-to-Market (T2M)
+  slug: time-to-market
+  summary: Zeitspanne, bis eine erste spürbare Verbesserung beim Menschen ankommt.
+  url: /glossar/ebm-kernkonzepte/#time-to-market
+  posts:
+    - path: /moderne-kpi-was-messen/
+      title: Moderne KPIs – was wirklich gemessen werden muss
+      teaser: /assets/images/posts/avm-6-600.png
+      excerpt: "Warum Geschwindigkeit nichts nützt, wenn keine Verbesserungen erlebbar werden – und wie T2M sinnvoll gemessen werden kann."
+      btn_label: Zum Blogpost
+
+# — OKR – Ziele, Hypothesen, Wirkung —
+
+- id: g-objective
+  term: Objective
+  slug: objective
+  summary: Verständliche, sinnstiftende Zielrichtung, die Wirkung beschreibt statt Maßnahmen.
+  url: /glossar/okr-ziele-hypothesen-wirkung/#objective
+  posts:
+    - path: /okr-richtig-verstehen/
+      title: OKR richtig verstehen – warum OKRs erst mit EBM funktionieren
+      teaser: /assets/images/posts/avm-part4-600.png
+      excerpt: "Objectives als Richtung, nicht als Kontrolle – und warum sie ohne EBM oft ins Leere laufen."
+      btn_label: Zum Blogpost
+
+- id: g-key-result
+  term: Key Result
+  slug: key-result
+  summary: Beobachtbare Veränderung, die zeigt, ob ein Objective erreicht wird.
+  url: /glossar/okr-ziele-hypothesen-wirkung/#key-result
+  posts:
+    - path: /okr-richtig-verstehen/
+      title: OKR richtig verstehen – warum OKRs erst mit EBM funktionieren
+      teaser: /assets/images/posts/avm-part4-600.png
+      excerpt: "Warum gute Key Results Verhalten und Wirkung beobachten – statt Aktivitäten abzuhaken."
+      btn_label: Zum Blogpost
+
+- id: g-okr-zyklus
+  term: OKR-Zyklus
+  slug: okr-zyklus
+  summary: Rhythmus, in dem Ziele definiert, verfolgt und reflektiert werden.
+  url: /glossar/okr-ziele-hypothesen-wirkung/#okr-zyklus
+  posts:
+    - path: /okr-non-profit-verbaende/
+      title: OKR in der Non-Profit- und Verbandswelt – Orientierung im föderalen Alltag
+      teaser: /assets/images/posts/avm-part5-600.png
+      excerpt: "Warum längere OKR-Zyklen in Verbänden sinnvoll sind – und wie Reflexion fest im Alltag verankert werden kann."
+      btn_label: Zum Blogpost
+
+- id: g-outcome-hypothese
+  term: Outcome-Hypothese
+  slug: outcome-hypothese
+  summary: Annahme darüber, warum ein Ziel überhaupt Wirkung erzeugen sollte.
+  url: /glossar/okr-ziele-hypothesen-wirkung/#outcome-hypothese
+  posts:
+    - path: /okr-richtig-verstehen/
+      title: OKR richtig verstehen – warum OKRs erst mit EBM funktionieren
+      teaser: /assets/images/posts/avm-part4-600.png
+      excerpt: "OKR als Hypothesen-System statt als Planungsinstrument – warum Outcome-Hypothesen dafür zentral sind."
+      btn_label: Zum Blogpost
+
+- id: g-zielklarheit
+  term: Zielklarheit
+  slug: zielklarheit
+  summary: Verständliche, gemeinsame Vorstellung darüber, was ein Ziel bedeutet und warum es wichtig ist.
+  url: /glossar/okr-ziele-hypothesen-wirkung/#zielklarheit
+  posts:
+    - path: /okr-non-profit-verbaende/
+      title: OKR in der Non-Profit- und Verbandswelt – Orientierung im föderalen Alltag
+      teaser: /assets/images/posts/avm-part5-600.png
+      excerpt: "Wie klare Ziele in föderalen Strukturen helfen, Richtung zu geben, ohne Autonomie zu verlieren."
+      btn_label: Zum Blogpost
+
+# — KPIs & Messkonzepte —
+
+- id: g-kpi
+  term: KPI
+  slug: kpi
+  summary: Kennzahl, die eine relevante Veränderung sichtbar macht und Entscheidungen beeinflusst.
+  url: /glossar/kpi-messkonzepte/#kpi
+  posts:
+    - path: /moderne-kpi-was-messen/
+      title: Moderne KPIs – was wirklich gemessen werden muss
+      teaser: /assets/images/posts/avm-part6-600.png
+      excerpt: "Warum weniger Kennzahlen oft mehr Orientierung bringen – und wie gute KPIs definiert werden."
+      btn_label: Zum Blogpost
+
+- id: g-leading-indicator
+  term: Leading Indicator
+  slug: leading-indicator
+  summary: Frühes Signal für mögliche Entwicklungen, das rechtzeitiges Handeln ermöglicht.
+  url: /glossar/kpi-messkonzepte/#leading-indicator
+  posts:
+    - path: /moderne-kpi-was-messen/
+      title: Moderne KPIs – was wirklich gemessen werden muss
+      teaser: /assets/images/posts/avm-part6-600.png
+      excerpt: "Wie frühe Signale helfen, Probleme zu erkennen, bevor sie in den Lagging Indicators sichtbar werden."
+      btn_label: Zum Blogpost
+
+- id: g-lagging-indicator
+  term: Lagging Indicator
+  slug: lagging-indicator
+  summary: Rückblickende Kennzahl, die das Ergebnis vergangener Entwicklungen zeigt.
+  url: /glossar/kpi-messkonzepte/#lagging-indicator
+  posts:
+    - path: /moderne-kpi-was-messen/
+      title: Moderne KPIs – was wirklich gemessen werden muss
+      teaser: /assets/images/posts/avm-part6-600.png
+      excerpt: "Warum rückblickende Kennzahlen wichtig sind – aber ohne Leading Indicators zu spät kommen."
+      btn_label: Zum Blogpost
+
+- id: g-north-star-metric
+  term: North-Star-Metric
+  slug: north-star-metric
+  summary: Übergeordnete Kennzahl, die langfristige Wertentwicklung am besten abbildet.
+  url: /glossar/kpi-messkonzepte/#north-star-metric
+  posts:
+    - path: /moderne-kpi-was-messen/
+      title: Moderne KPIs – was wirklich gemessen werden muss
+      teaser: /assets/images/posts/avm-part6-600.png
+      excerpt: "Eine zentrale Kennzahl als Kompass – ohne komplexe Realitäten zu verleugnen."
+      btn_label: Zum Blogpost
+
+- id: g-vanity-metric
+  term: Vanity Metric
+  slug: vanity-metric
+  summary: Kennzahl, die gut aussieht, aber wenig über tatsächliche Wirkung aussagt.
+  url: /glossar/kpi-messkonzepte/#vanity-metric
+  posts:
+    - path: /ebm-kpi-fehlerkultur/
+      title: Warum viele Teams KPIs falsch verstehen – eine Frage der Fehlerkultur
+      teaser: /assets/images/posts/avm-part3-600.png
+      excerpt: "Wie Kennzahlen Druck erzeugen, ohne Orientierung zu bieten – und warum Vanity Metrics Teil des Problems sind."
+      btn_label: Zum Blogpost

@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "Digitalisierung in Pflegeeinrichtungen – weniger Overhead, mehr Zeit am Menschen"
-date: 2025-11-10
 excerpt: "Stationäre Pflegeeinrichtungen stehen unter enormem Kostendruck. Rund ein Fünftel ihrer Ausgaben fließt in Verwaltung – Zeit und Geld, die Pflegekräften fehlen. Wie Digitalisierung hier strukturell entlastet."
 description: "Analyse der Kostenstruktur in stationären Pflegeeinrichtungen: warum Verwaltung und Dokumentation bis zu 25 % der Ausgaben beanspruchen – und wie digitale Prozesse diesen Anteil senken können."
 permalink: /digitalisierung-pflegeeinrichtungen/
