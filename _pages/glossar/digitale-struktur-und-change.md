@@ -5,6 +5,7 @@ description: "Wie Informationsarchitektur, Mandantenfähigkeit und Change-Manage
 permalink: /glossar/digitale-struktur-und-change/
 toc: true
 toc_sticky: true
+toc_label: "Auf dieser Seite"
 seo:
   title: "Digitale Strukturen und Change-Management – Architektur, Mandantenfähigkeit & Wandel"
   description: "Wie digitale Architektur, Mandantenfähigkeit und Change-Management Organisationen verändern – mit Beispielen aus föderalen Projekten."
