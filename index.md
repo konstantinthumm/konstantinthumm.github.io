@@ -6,33 +6,45 @@ author_profile: true
 classes: ["wide","hero-tall","home-hero","hero-wide","hero-focus-down"]
 
 header:
-  overlay_color: "#252a34"   # bleibt Dark-Skin-freundlich
+  overlay_color: "#252a34"
   overlay_filter: 0.1
   overlay_image: /assets/images/hero/konstantinthumm-hero2.webp
-  # actions:
-  #  - label: "Über mich"
-  #    url: /about/
-  #  - label: "Newsletter abonnieren"
-  #    url: /newsletter/
-excerpt: "Wie verändert Digitalisierung unsere Arbeit - und was braucht es, damit sie gelingt?<br>Ich teile hier Gedanken, Erfahrungen und Perspektiven aus dem,<br> was ich in Projekten erlebt, gelernt und ausprobiert habe."
+
+excerpt: "Wie verändert Digitalisierung unsere Arbeit – und was braucht es, damit sie gelingt?<br>Ich teile hier Gedanken, Erfahrungen und Perspektiven aus dem,<br> was ich in Projekten erlebt, gelernt und ausprobiert habe."
 ---
 
-## Warum Digitalisierung für mich mehr ist als Technik
+## Worum es hier geht
 
-Seit den 1990ern faszinieren mich das Internet, digitale Werkzeuge und alles, was mit technologischem Wandel zu tun hat. Aus Neugier wurde Beruf, aus Beruf Leidenschaft. Ich habe über die Jahre viele Seiten der IT kennengelernt – von Projekten in Unternehmen bis hin zu Aufgaben, bei denen Menschen und Technologie aufeinandertreffen.
+Diese Website ist ein persönlicher Arbeits- und Denkraum.
+Ich schreibe über digitale Transformation, Projektarbeit, Künstliche Intelligenz und Zusammenarbeit – nicht aus der Theorie, sondern aus Projekten, Beobachtungen und echter Praxis.
 
-Heute beschäftige ich mich besonders mit Themen rund um Projektmanagement, Künstliche Intelligenz und agile Methoden. Mich interessiert, wie Organisationen diese Entwicklungen so nutzen können, dass sie echten Mehrwert schaffen – für ihre Arbeit, ihre Teams und die Menschen, die sie erreichen wollen.
+Mich interessiert weniger, welche Tools eingesetzt werden, sondern wie Organisationen Entscheidungen treffen, wie Prioritäten entstehen und was es braucht, damit Veränderung nicht nur geplant, sondern auch umgesetzt wird.
 
-Digitalisierung bedeutet für mich nicht schneller, sondern bewusster zu werden: Zusammenhänge zu verstehen, Prozesse einfacher zu machen und Neues mutig auszuprobieren. Dabei geht es weniger um Tools, sondern darum, wie wir miteinander arbeiten und lernen.<br>
+> Mehr zur Einordnung: In meinem Profil findest du eine kompakte Übersicht zu Rolle, Schwerpunkt und Kontext.
+> → [Zum Profil](/profil/)
 
-### Was es braucht, damit sie gelingt
+## Mein Blick auf Digitalisierung
 
-Ich habe keine fertigen Antworten – aber viele Fragen, Gedanken und Erfahrungen, die ich hier teile. In meinem Blog schreibe ich über Grundlagen, Methoden und Beobachtungen aus der Praxis. Ich möchte Themen anstoßen, Denkanstöße geben und Diskussionen eröffnen.
+Digitalisierung bedeutet für mich nicht, alles schneller zu machen.
+Sie bedeutet, Komplexität zu reduzieren, Zusammenhänge besser zu verstehen und bewusst zu entscheiden, was wirklich hilft.
 
+Oft geht es dabei weniger um Technik als um Fragen wie:
+- Wer entscheidet eigentlich was?
+- Wie entstehen Prioritäten?
+- Wie arbeiten Menschen sinnvoll zusammen?
 
+## Blog
+
+Im Blog sammle ich Gedanken, Methoden und Beobachtungen aus der Praxis.
+Mal geht es um Grundlagen, mal um konkrete Formate, mal um aktuelle Entwicklungen rund um KI und Organisationen.
+
+> Einstiegshilfe: Wenn du nur stöbern willst, nimm die Blog-Übersicht. Wenn du wissen willst, wer hinter den Inhalten steht, nimm das Profil.
+> → [Zur Blog-Übersicht](/posts/) · [Zum Profil](/profil/)
 
 ## Neue Gedanken und Artikel im Blog
-<p>Die neuesten Beiträge findest du gebündelt auf der <a href="/posts/">Posts-Übersicht</a>.</p>
+
+<p>Die neuesten Beiträge findest du gebündelt in der <a href="/posts/">Blog-Übersicht</a>.</p>
+
 <div class="posts--home-grid">
   {% assign recent = site.posts | where_exp: "p", "p.hidden != true" %}
   {% for post in recent limit:3 %}
@@ -47,14 +59,13 @@ Ich habe keine fertigen Antworten – aber viele Fragen, Gedanken und Erfahrunge
     </article>
   {% endfor %}
 </div>
-<hr>
-Schauen Sie sich gern um, lesen Sie mit, diskutieren Sie mit mir im Blog oder auf [LinkedIn](https://www.linkedin.com/in/konstantinthumm), [Mastodon](https://social.tchncs.de/@konstantinthumm) oder [Bluesky](https://bsky.app/profile/konstantinthumm.bsky.social) – oder entdecken Sie einfach etwas, das Sie inspiriert.
 
-<!-- Newsletter-Block vorübergehend deaktiviert.
-     Hinweis: Später mit Mailtrain-Integration wieder einsetzen. -->
-<!-- ## Newsletter
-<p>Kurz, fokussiert, unregelmäßig — direkt aus Projekten & Recherchen.</p>
-<p><a class="btn btn--primary" href="/newsletter/">Zur Anmeldung</a></p>
--->
+<hr>
+
+Schau dich gern um, lies mit oder diskutiere mit mir im Blog oder auf
+[LinkedIn](https://www.linkedin.com/in/konstantinthumm){:target="_blank" rel="noopener noreferrer" .ext},
+[Mastodon](https://social.tchncs.de/@konstantinthumm){:target="_blank" rel="noopener noreferrer" .ext}
+oder
+[Bluesky](https://bsky.app/profile/konstantinthumm.bsky.social){:target="_blank" rel="noopener noreferrer" .ext}.
 
 
