@@ -1,71 +1,88 @@
 ---
 layout: single
 title: "Konstantin Thumm"
-subtitle: "Digitale Transformation, Projektmanagement & KI in der Sozialwirtschaft"
+subtitle: "KI-Transformation strukturiert integrieren"
 author_profile: true
 classes: ["wide","hero-tall","home-hero","hero-wide","hero-focus-down"]
 
 header:
   overlay_color: "#252a34"
-  overlay_filter: 0.1
+  overlay_filter: 0.2
   overlay_image: /assets/images/hero/konstantinthumm-hero2.webp
 
-excerpt: "Wie verändert Digitalisierung unsere Arbeit – und was braucht es, damit sie gelingt?<br>Ich teile hier Gedanken, Erfahrungen und Perspektiven aus dem,<br> was ich in Projekten erlebt, gelernt und ausprobiert habe."
+excerpt: "KI-Transformation, Governance und Entscheidungsarchitektur – strategische Integration in bestehende Organisationen."
+seo:
+  title: "Konstantin Thumm – KI Transformation & Integration Manager"
+  description: "Strategische KI-Transformation, AI Governance und strukturierte Use-Case-Analyse. Entscheidungsmodelle und Portfolio-Priorisierung für Organisationen."
+  type: website
+  image: /assets/images/hero/konstantinthumm-hero2.webp
 ---
 
-## Worum es hier geht
+## KI-Transformation ist kein Tool-Thema.
+**Sie ist ein Entscheidungsproblem.**
 
-Diese Website ist ein persönlicher Arbeits- und Denkraum.
-Ich schreibe über digitale Transformation, Projektarbeit, Künstliche Intelligenz und Zusammenarbeit – nicht aus der Theorie, sondern aus Projekten, Beobachtungen und echter Praxis.
+Organisationen scheitern nicht an Technologie.
+Sie scheitern an fehlender Priorisierung, unklarer Governance und mangelnder Entscheidungsarchitektur.
 
-Mich interessiert weniger, welche Tools eingesetzt werden, sondern wie Organisationen Entscheidungen treffen, wie Prioritäten entstehen und was es braucht, damit Veränderung nicht nur geplant, sondern auch umgesetzt wird.
+Ich unterstütze Organisationen dabei,
 
-> Mehr zur Einordnung: In meinem Profil findest du eine kompakte Übersicht zu Rolle, Schwerpunkt und Kontext.
+- tragfähige KI-Use-Cases zu identifizieren und zu bewerten,
+- AI Governance unter Berücksichtigung des EU AI Act aufzubauen,
+- Investitions- und Portfolioentscheidungen strukturiert vorzubereiten,
+- KI systemisch in bestehende Geschäfts- und IT-Landschaften zu integrieren.
+
 > → [Zum Profil](/profil/)
 
-## Mein Blick auf Digitalisierung
+## Mein Fokus
 
-Digitalisierung bedeutet für mich nicht, alles schneller zu machen.
-Sie bedeutet, Komplexität zu reduzieren, Zusammenhänge besser zu verstehen und bewusst zu entscheiden, was wirklich hilft.
+Ich arbeite in frühen Transformationsphasen:
 
-Oft geht es dabei weniger um Technik als um Fragen wie:
-- Wer entscheidet eigentlich was?
-- Wie entstehen Prioritäten?
-- Wie arbeiten Menschen sinnvoll zusammen?
+- Potenziale klären
+- Risiken bewerten
+- Entscheidungsoptionen strukturieren
+- Umsetzungsfähigkeit vorbereiten
 
-## Blog
+Meine Perspektive verbindet:
 
-Im Blog sammle ich Gedanken, Methoden und Beobachtungen aus der Praxis.
-Mal geht es um Grundlagen, mal um konkrete Formate, mal um aktuelle Entwicklungen rund um KI und Organisationen.
+- KI-Integration & Governance
+- Portfolio-Priorisierung
+- Hybrid Project Management (Scrum & IPMA)
+- Management- und Stakeholder-Alignment
 
-> Einstiegshilfe: Wenn du nur stöbern willst, nimm die Blog-Übersicht. Wenn du wissen willst, wer hinter den Inhalten steht, nimm das Profil.
-> → [Zur Blog-Übersicht](/posts/) · [Zum Profil](/profil/)
 
-## Neue Gedanken und Artikel im Blog
+## Entscheidungsmodell
 
-<p>Die neuesten Beiträge findest du gebündelt in der <a href="/posts/">Blog-Übersicht</a>.</p>
+Strategische KI-Integration folgt keiner Hype-Logik, sondern einer strukturierten Abfolge:
 
-<div class="posts--home-grid">
-  {% assign recent = site.posts | where_exp: "p", "p.hidden != true" %}
-  {% for post in recent limit:3 %}
-    <article class="archive__item">
-      <a class="archive__item-teaser" href="{{ post.url | relative_url }}">
-        <img src="{{ post.teaser | default: site.teaser }}" alt="{{ post.title | escape }}">
-      </a>
-      <h3 class="archive__item-title" style="margin-top:.5rem;">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h3>
-      <p class="archive__item-excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
-    </article>
-  {% endfor %}
-</div>
+**Wert → Use-Case → Hypothese → Messung → Evidence → Governance-Entscheidung**
 
-<hr>
+Nicht jeder Use-Case wird skaliert.
+Nicht jede Idee wird automatisiert.
+Nicht jede Automatisierung ist sinnvoll.
 
-Schau dich gern um, lies mit oder diskutiere mit mir im Blog oder auf
-[LinkedIn](https://www.linkedin.com/in/konstantinthumm){:target="_blank" rel="noopener noreferrer" .ext},
-[Mastodon](https://social.tchncs.de/@konstantinthumm){:target="_blank" rel="noopener noreferrer" .ext}
-oder
-[Bluesky](https://bsky.app/profile/konstantinthumm.bsky.social){:target="_blank" rel="noopener noreferrer" .ext}.
+Struktur ersetzt Euphorie.
+
+## Aktuelle Vertiefung
+
+2026 vertiefe ich meine Arbeit im Rahmen einer strategischen Qualifizierungsphase mit Fokus auf:
+
+- LLM-Architekturen & Agentenmodelle
+- Use-Case-Bewertung und Machbarkeitsanalyse
+- Risiko- und Compliance-Bewertung
+- EU AI Act & AI Governance
+- Verbindung agiler und klassischer Steuerungsmodelle
+
+Transparenz ist Teil meiner Positionierung.
+
+## Blog & Denkraum
+
+Im Blog dokumentiere ich Entscheidungsmodelle, Bewertungslogiken und strukturierte Management-Ansätze – unter anderem zu:
+
+- Evidence-Based Management
+- OKR & KPI-Systemen
+- Governance in komplexen Organisationen
+- KI im Organisationskontext
+
+> → [Zur Blog-Übersicht](/blog/)
 
 

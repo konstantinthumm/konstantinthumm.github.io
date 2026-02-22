@@ -1,96 +1,90 @@
 ---
 layout: single
 title: "Konstantin Thumm"
-subtitle: "Senior IT & Product Consulting zwischen Agilität und Struktur"
+subtitle: "KI Transformation & Integration"
 permalink: /profil/
-redirect_from:
-  - /about/
 classes: ["wide","hero-tall","home-hero","hero-wide","hero-focus-down"]
 toc: false
 seo:
-  title: "Konstantin Thumm – Senior IT & Product Consultant"
-  description: "Senior IT & Product Consultant: Product Discovery, Anforderungsanalyse und Entscheidungsreife in digitalen Vorhaben – teamnah, pragmatisch, hybrid."
+  title: "Konstantin Thumm – KI Transformation & Integration Manager"
+  description: "KI-Transformation, AI Governance, Use-Case-Analyse und Portfolio-Priorisierung. Strategische Integration von KI in bestehende Organisationen."
   type: profile
   image: /assets/images/hero/konstantin-thumm-profil-1200.webp
 header:
   overlay_image: /assets/images/hero/konstantin-thumm-profil-2000.webp
   overlay_filter: 0.1
   caption: "Foto: Konstantin Thumm"
-excerpt: "Struktur schaffen, Entscheidungen ermöglichen, Wirkung entfalten."
+excerpt: "Struktur schaffen. Entscheidungsfähigkeit erhöhen. KI verantwortungsvoll integrieren."
 ---
 
 ## Profil
 
-Ich arbeite als Senior IT & Product Consultant an der Schnittstelle von Fachlichkeit, Technologie und Organisation.
-Mein Schwerpunkt liegt auf Product Discovery, Anforderungsanalyse und Entscheidungsreife in digitalen Vorhaben – besonders dort, wo Ausgangslagen unklar sind, Interessen kollidieren und Teams Orientierung brauchen, um iterativ Wirkung zu entfalten.
+Senior IT & Digital Consultant mit Schwerpunkt KI-Transformation & Integration.
 
-> Ich verbinde produktorientierte, teamnahe Arbeit mit der strukturierten Klarheit, die Organisationen brauchen, um Entscheidungen zu treffen und ins Liefern zu kommen.
+Ich unterstütze Organisationen dabei, KI nicht als Technologieprojekt, sondern als strategische Managementaufgabe zu behandeln.
+
+Mein Fokus liegt auf:
+
+- Identifikation und Priorisierung von KI-Use-Cases
+- Aufbau tragfähiger AI Governance-Strukturen
+- Integration regulatorischer Anforderungen (EU AI Act)
+- Portfolio- und Investitionsentscheidungen
+- Entscheidungsarchitektur in komplexen Organisationsumfeldern
+
+Ich arbeite an der Schnittstelle von Management, Fachbereich und IT.
+
 
 ## Wofür ich eingesetzt werde
 
-Ich bin dort am wirksamsten, wo Klarheit fehlt: über Ziele, Prioritäten oder den eigentlichen Kern eines Vorhabens.
+Ich bin dort wirksam, wo Organisationen:
 
-Ich unterstütze Organisationen dabei:
-- komplexe Ausgangslagen zu strukturieren,
-- relevante Anforderungen herauszuarbeiten,
-- Entscheidungsoptionen transparent zu machen,
-- und nächste Schritte so zu schneiden, dass Teams handlungsfähig werden
+- Potenziale erkennen, aber nicht priorisieren können,
+- Risiken sehen, aber keine Bewertungslogik haben,
+- KI einsetzen wollen, ohne Governance vorbereitet zu haben,
+- zwischen Innovationsdruck und regulatorischen Anforderungen stehen.
 
-Besonders wirksam bin ich in Umfeldern, die produktorientierter und agiler arbeiten wollen, ohne dafür ihre bestehenden Strukturen über Bord zu werfen.
-Ich helfe dabei, zwischen Zielbild, Entscheidungslogik und teamnaher Umsetzung zu vermitteln – pragmatisch, kontextabhängig und ohne methodischen Dogmatismus.
+Ich strukturiere Entscheidungsräume und mache Optionen bewertbar.
 
-## Wie ich arbeite
 
-Meine Arbeitsweise ist analytisch, strukturiert und dialogorientiert.
-Ich kombiniere methodisches Vorgehen mit der Fähigkeit, unterschiedliche Perspektiven zusammenzubringen und in eine gemeinsame Sprache zu übersetzen.
+## Mein Arbeitsansatz
 
-Konkret arbeite ich so:
-- Klärung vor Lösung,
-- eine saubere Trennung von Problemverständnis, Lösungsoptionen und Entscheidung,
-- kurze Feedbackschleifen, wo sie sinnvoll sind,
-- und ein pragmatischer Umgang mit Methoden: so viel wie nötig, so wenig wie möglich.
+Meine Arbeit folgt einer klaren Logik:
 
-## Fachliche Schwerpunkte
+1. Problem- und Kontextklärung
+2. Strukturierte Use-Case-Analyse
+3. Risiko- und Machbarkeitsbewertung
+4. Priorisierung & Portfolio-Einordnung
+5. Governance-Integration
+6. Vorbereitung skalierbarer Umsetzung
 
-### Product Discovery & Anforderungsanalyse
-Ich unterstütze dabei, Probleme sauber zu formulieren, Annahmen sichtbar zu machen und Anforderungen zu priorisieren – insbesondere in frühen Projektphasen oder bei strategischen Fragestellungen.
+Dabei kombiniere ich:
 
-### Projektarbeit & Entscheidungsstrukturen
-Ich arbeite in und mit Projekten, die durch mehrere Stakeholder, föderale Strukturen oder komplexe Governance geprägt sind.
-Ein Schwerpunkt liegt auf Entscheidungsfähigkeit, Rollenklärung und Transparenz.
+- analytische Struktur
+- strategische Perspektive
+- hybride Projektsteuerung (Scrum & IPMA)
+- pragmatische Umsetzungsvorbereitung
 
-### Agile Arbeitsweisen & Organisationskontext
-Ich nutze agile Prinzipien und Methoden dort, wo sie helfen, Lernen und Anpassung zu ermöglichen – nicht als Selbstzweck, sondern als Werkzeug zur besseren Zusammenarbeit in konkreten Kontexten.
 
-### Künstliche Intelligenz & digitale Werkzeuge
-Ich beschäftige mich mit dem sinnvollen Einsatz von KI in Organisationen – insbesondere dort, wo sie Analyse, Automatisierung oder Effizienz unterstützt.
-Mein Fokus liegt auf der strategischen Einordnung von KI, der Bewertung von Einsatzszenarien und der Übersetzung technischer Möglichkeiten in realistische, alltagstaugliche Anwendungsfälle
+## Erfahrungsschwerpunkt
 
-## Methoden & Frameworks (Auswahl)
+15+ Jahre Erfahrung in digitalen Transformationsvorhaben mit Fokus auf:
 
-Ich arbeite mit unterschiedlichen Methoden und Frameworks – je nach Kontext und Fragestellung.
-Ein Schwerpunkt liegt dabei auf Analyse-, Strukturierungs- und Entscheidungsarbeit.
+- strategische Portfolio-Steuerung
+- Investitions- und Szenarioanalysen
+- föderale und regulierte Organisationskontexte
+- Plattform- und Systemintegration
+- Stakeholder-Alignment auf Managementebene
 
-Dazu zählen:
-- Scrum, Kanban und hybride Vorgehensmodelle
-- Methoden der Anforderungsanalyse und Priorisierung
-- IPMA-orientiertes Projektmanagement
-- strukturierte Analyse- und Moderationsformate
-
-## Erfahrungskontexte
-
-Meine Erfahrung stammt aus unterschiedlichen organisatorischen Umfeldern, unter anderem:
-- digitale Vorhaben in Verbänden und Non-Profit-Organisationen,
-- Projekte mit föderalen oder dezentralen Strukturen,
-- Vorhaben an der Schnittstelle von IT, Fachbereich und Management,
-- sowie Rollen, in denen Moderation, Analyse und Vermittlung gleichermaßen gefragt waren.
 
 ## Qualifikation
 
-- Scrum Master und Product Owner zertifiziert (jeweils bis Stufe II)
-- IPMA-zertifiziertes Projektmanagement (Level D)
-- Künstliche Intelligenz (u. a. Prompt Engineering, Data Analysis, Trustworthy GenAI)
-- New Work, agile Methoden und Moderation
+- IPMA Level D
+- PSM I & II
+- PSPO I & II
+- Vertiefung in LLM-Architekturen, Agentenmodellen & AI Governance
+
+---
+
 
 > Zertifikate und Nachweise sind auf meinem
 > <a href="https://www.linkedin.com/in/konstantinthumm" target="_blank" rel="noopener noreferrer" class="ext">LinkedIn-Profil</a> einsehbar.
@@ -103,7 +97,7 @@ Meine Erfahrung stammt aus unterschiedlichen organisatorischen Umfeldern, unter 
       Wenn du dir einen kompakten Überblick verschaffen möchtest, kannst du beides als PDF herunterladen.
     </p>
     <p class="kt-contact-card__links">
-      <a class="kt-contact-card__link kt--primary" href="/assets/pdf/Konstantin_Thumm_Profil.pdf" target="_blank" rel="noopener" aria-label="Profil als PDF öffnen">Profil (PDF)</a>
+      <a class="kt-contact-card__link kt--primary" href="#" target="_blank" rel="noopener" aria-label="Profil als PDF öffnen">Profil (PDF)</a>
       <a class="kt-contact-card__link" href="/assets/pdf/Konstantin_Thumm_CV.pdf" target="_blank" rel="noopener" aria-label="Lebenslauf als PDF öffnen">Lebenslauf (PDF)</a>
     </p>
   </div>
