@@ -940,7 +940,7 @@ a.ext:hover::after {
 }
 
 /* ----------------------------------------------------------
-   Agile Value Management – Serien-Design
+   Operating Model – Serien-Design
    Hero-Badge (oben links) + Untere Linie (unten rechts)
    Teilnummer per Klassen avm-part-1 ... avm-part-8
    ---------------------------------------------------------- */
@@ -955,7 +955,7 @@ a.ext:hover::after {
 /* Serien-Badge oben links – verbesserte Proportionen */
 body.layout--single.agile-value-series .page__hero::before,
 body.layout--single.agile-value-series .page__hero--overlay::before {
-  content: "AGILE VALUE MANAGEMENT";
+  content: "OPERATING MODEL";
   position: absolute;
   top: 1.4rem;
   left: 1.6rem;
@@ -984,7 +984,7 @@ body.layout--single.agile-value-series .page__hero--overlay::before {
 /* 3) Serien-Linie + Teilnummer unten rechts */
 body.layout--single.agile-value-series .page__hero::after,
 body.layout--single.agile-value-series .page__hero--overlay::after {
-  content: "Agile Value Management – Teil X"; /* Default */
+  content: "Operating Model – Teil X"; /* Default */
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1011,42 +1011,42 @@ body.layout--single.agile-value-series .page__hero--overlay::after {
 
 body.layout--single.avm-part-1 .page__hero::after,
 body.layout--single.avm-part-1 .page__hero--overlay::after {
-  content: "Agile Value Management – Teil 1 von 8";
+  content: "Operating Model – Teil 1 von 8";
 }
 
 body.layout--single.avm-part-2 .page__hero::after,
 body.layout--single.avm-part-2 .page__hero--overlay::after {
-  content: "Agile Value Management – Teil 2 von 8";
+  content: "Operating Model – Teil 2 von 8";
 }
 
 body.layout--single.avm-part-3 .page__hero::after,
 body.layout--single.avm-part-3 .page__hero--overlay::after {
-  content: "Agile Value Management – Teil 3 von 8";
+  content: "Operating Model – Teil 3 von 8";
 }
 
 body.layout--single.avm-part-4 .page__hero::after,
 body.layout--single.avm-part-4 .page__hero--overlay::after {
-  content: "Agile Value Management – Teil 4 von 8";
+  content: "Operating Model – Teil 4 von 8";
 }
 
 body.layout--single.avm-part-5 .page__hero::after,
 body.layout--single.avm-part-5 .page__hero--overlay::after {
-  content: "Agile Value Management – Teil 5 von 8";
+  content: "Operating Model – Teil 5 von 8";
 }
 
 body.layout--single.avm-part-6 .page__hero::after,
 body.layout--single.avm-part-6 .page__hero--overlay::after {
-  content: "Agile Value Management – Teil 6 von 8";
+  content: "Operating Model – Teil 6 von 8";
 }
 
 body.layout--single.avm-part-7 .page__hero::after,
 body.layout--single.avm-part-7 .page__hero--overlay::after {
-  content: "Agile Value Management – Teil 7 von 8";
+  content: "Operating Model – Teil 7 von 8";
 }
 
 body.layout--single.avm-part-8 .page__hero::after,
 body.layout--single.avm-part-8 .page__hero--overlay::after {
-  content: "Agile Value Management – Teil 8 von 8";
+  content: "Operating Model – Teil 8 von 8";
 }
 
 /* ----------------------------------------------------------

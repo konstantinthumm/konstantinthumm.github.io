@@ -3,8 +3,8 @@
   title: "Wie föderale Vielfalt digitale Einheit schafft – der Webrelaunch eines Sozialverbands"
   slug: "sozialverband-relaunch"
   url: "/projekte/sozialverband-relaunch/"
-  status: "abgeschlossen"         # aktiv | abgeschlossen | pilotprojekt | konzeptphase
-  domain: "sozialwirtschaft"       # frei wählbar (Domäne)
+  status: "Abgeschlossen"         # aktiv | abgeschlossen | pilotprojekt | konzeptphase
+  domain: "Sozialwirtschaft"       # frei wählbar (Domäne)
   method_tags: ["stakeholder-management","governance","change","informationsarchitektur","mandantenfaehigkeit"]
   hero:
     image: "/assets/images/projects/sozialverband-relaunch-hero-2000.webp"
@@ -18,8 +18,8 @@
   title: "Von föderaler Vielfalt zur gemeinsamen Cloud – Teil 1: M365 als Plattform für das Hauptamt"
   slug: "it-architektur-verband-teil1"
   url: "/projekte/it-architektur-verband-teil1/"
-  status: "konzeptphase"
-  domain: "sozialwirtschaft"
+  status: "Konzeptphase"
+  domain: "Sozialwirtschaft"
   method_tags: ["strategie","infrastruktur","change","microsoft365","cloud","governance","identity-management"]
   hero:
     image: "/assets/images/projects/it-architektur-2000.webp"
@@ -33,8 +33,8 @@
   title: "Souveräne Infrastruktur für viele – Teil 2: Open-Source-Plattform fürs Ehrenamt"
   slug: "it-architektur-verband-teil2"
   url: "/projekte/it-architektur-verband-teil2/"
-  status: "konzeptphase"
-  domain: "sozialwirtschaft"
+  status: "Konzeptphase"
+  domain: "Sozialwirtschaft"
   method_tags: ["strategie","infrastruktur","change","opensource","collaboration","identity-management","sso"]
   hero:
     image: "/assets/images/projects/it-architektur-2000.webp"
