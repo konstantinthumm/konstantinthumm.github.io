@@ -17,6 +17,11 @@ meta_description: "Involvement im Scrum-Team: Wie Sinn, Wahlfreiheit, Kompetenz 
 og_title: "Involvement in Scrum – Mehr Einbindung, echte Wirkung"
 og_description: "Vier Dimensionen, viele Hebel: Meaning, Choice, Competence und Impact gezielt nutzen, um Teams wirksam zu machen."
 
+sitemap: false
+search: false
+published: true
+robots: noindex,nofollow
+
 # Social Media / Open Graph (ca. 1200 × 630 px)
 image: /assets/images/posts/involvement-scrum-1200.webp
 
@@ -31,8 +36,8 @@ header:
 teaser: /assets/images/posts/involvement-scrum-600.webp
 
 # Taxonomien
-categories: [Projektmanagement]
-tags: [Agil, Scrum, Entwicklung]
+categories: []
+tags: []
 ---
 
 ## Warum Involvement mehr ist als „Motivation“

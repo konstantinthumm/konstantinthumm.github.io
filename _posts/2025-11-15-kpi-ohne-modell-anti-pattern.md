@@ -10,6 +10,8 @@ toc: true
 toc_label: "Inhalt"
 toc_sticky: true
 
+blog_visible: true
+
 meta_description: "Warum KPI-Listen häufig scheitern: Wenn Organisationen Kennzahlen ohne Modell sammeln, entsteht Scheintransparenz statt Orientierung. Eine Erklärung anhand von Evidence-Based Management."
 og_title: "KPIs ohne Modell – das Anti-Pattern vieler Organisationen"
 og_description: "Wie Kennzahlen ihre Wirkung verlieren, wenn ihnen ein Rahmen fehlt – und wie Organisationen wieder Klarheit gewinnen."
@@ -22,8 +24,8 @@ header:
 
 teaser: /assets/images/posts/avm-part7-600.png
 
-categories: [Agile Value Management]
-tags: [KPI, EBM, Management, Outcome, Leadership]
+categories: [Evidence-Based AI Management]
+tags: [KPI, Evidence-Based-Management]
 ---
 
 # KPIs ohne Modell – warum KPI-Listen oft scheitern
@@ -33,6 +35,12 @@ Viele Organisationen arbeiten mit wachsendem Druck daran, ihre Leistungen messba
 Eine KPI-Liste kann beeindruckend wirken. Sie suggeriert Überblick, Struktur und Kontrolle. Doch ohne klaren Rahmen entsteht oft das Gegenteil: Orientierungslosigkeit, Komplexität und Scheintransparenz. Menschen arbeiten an Zahlen, ohne zu verstehen, wie sie mit Wert zusammenhängen. Entscheidungen werden getroffen, ohne dass erkennbar ist, was sich für die Menschen verändert, für die man arbeitet.
 
 Evidence-Based Management bietet hier eine notwendige Grundlage. Es strukturiert Messung entlang von Wert, Potenzial, Lernfähigkeit und Geschwindigkeit. Dadurch entsteht Orientierung, bevor Zahlen gesammelt werden.
+
+### Warum das hier für KI-Transformation wichtig ist
+
+KI-Transformation scheitert selten an Modellen – sondern an fehlender Entscheidungslogik.
+
+Evidence-Based Management, OKR und KPI-Arbeit bilden das Steuerungsfundament, um KI-Initiativen wertorientiert zu priorisieren, Pilotierung messbar zu machen und Skalierung verantwortbar zu entscheiden.
 
 ## 1. Warum KPI-Listen ohne Modell nicht funktionieren
 
@@ -166,7 +174,7 @@ Es entsteht ein integriertes Modell, das Wert, Ziele und Messung miteinander ver
 Nächster Teil:
 [EBM × OKR × KPI – das integrierte Modell für modernes Management](/ebm-okr-kpi-integriertes-modell/)
 
-## Übersicht: Alle Teile der Serie „Agile Value Management“
+## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>

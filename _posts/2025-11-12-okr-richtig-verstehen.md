@@ -10,6 +10,8 @@ toc: true
 toc_label: "Inhalt"
 toc_sticky: true
 
+blog_visible: true
+
 meta_description: "OKR richtig verstehen: Wie Objectives und Key Results in Verbindung mit Evidence-Based Management Orientierung geben und warum OKRs ohne Evidenz oft scheitern."
 og_title: "OKR verstehen: Ziele, Wirkung und Evidenz"
 og_description: "OKRs sind kein Planungsinstrument, sondern ein Hypothesen-System über Wirkung. Dieser Beitrag zeigt, wie OKR und EBM zusammengehören."
@@ -22,8 +24,8 @@ header:
 
 teaser: /assets/images/posts/avm-part4-600.png
 
-categories: [Agile Value Management]
-tags: [OKR, EBM, Ziele, Agil, Leadership]
+categories: [Evidence-Based AI Management]
+tags: [OKR, Evidence-Based-Management]
 ---
 
 # OKR richtig verstehen – warum OKRs erst mit EBM funktionieren
@@ -31,6 +33,12 @@ tags: [OKR, EBM, Ziele, Agil, Leadership]
 OKR gilt heute als eines der modernsten Zielsysteme. Viele Organisationen führen es ein, um Klarheit zu schaffen, Prioritäten sichtbar zu machen oder Teams mehr Selbstorganisation zu ermöglichen. Doch die Realität zeigt ein anderes Bild: OKR wird oft missverstanden, falsch angewendet oder verliert sich in Detaildiskussionen. Statt Orientierung entsteht Verunsicherung.
 
 In diesem Beitrag geht es darum, wie OKR gedacht ist, warum es ohne Evidence-Based Management kaum Wirkung entfaltet und wie ein Zielsystem aussieht, das tatsächlich Lernen ermöglicht.
+
+### Warum das hier für KI-Transformation wichtig ist
+
+KI-Transformation scheitert selten an Modellen – sondern an fehlender Entscheidungslogik.
+
+Evidence-Based Management, OKR und KPI-Arbeit bilden das Steuerungsfundament, um KI-Initiativen wertorientiert zu priorisieren, Pilotierung messbar zu machen und Skalierung verantwortbar zu entscheiden.
 
 ## 1. OKR – ein Zielsystem, kein Planungswerkzeug
 
@@ -164,7 +172,7 @@ Der nächste Beitrag geht genau auf diese Besonderheiten ein. Wir schauen uns an
 Nächster Teil:
 [OKR in der Non-Profit- und Verbandswelt](/okr-non-profit-verbaende/)
 
-## Übersicht: Alle Teile der Serie „Agile Value Management“
+## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>

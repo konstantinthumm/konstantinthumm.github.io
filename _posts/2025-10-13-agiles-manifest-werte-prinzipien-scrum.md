@@ -16,6 +16,12 @@ og_title: "Agiles Manifest: Werte, Prinzipien & Cargo-Cult vermeiden"
 og_description: "Scrum ist kein Ritual, sondern eine Haltung: vier Werte, zwölf Prinzipien – und ein klarer Aufruf, Cargo-Cult-Agilität zu erkennen und zu überwinden."
 image: /assets/images/posts/scrum-values-principles-1200.webp
 
+sitemap: false
+search: false
+published: true
+robots: noindex,nofollow
+
+
 header:
   overlay_image: /assets/images/posts/scrum-values-principles-2000.webp
   overlay_filter: 0.25
@@ -23,8 +29,8 @@ header:
   teaser: /assets/images/posts/scrum-values-principles-600.webp
 teaser: /assets/images/posts/scrum-values-principles-600.webp
 
-categories: [Projektmanagement]
-tags: [Agil, Scrum]
+categories: []
+tags: []
 ---
 
 > „Scrum ist kein Prozess, sondern ein Mindset – ein Rahmen, in dem Teams lernen, beobachten und sich anpassen.“

@@ -14,6 +14,13 @@ toc_icon: "list-ul"
 meta_description: "Wie ich mich auf die Scrum-Zertifizierung PSM I & II vorbereitet habe – mit Scrum Guide 2020, Open Assessments, uhligland.de und der Erkenntnis: Nur wer Scrum versteht, kann es wirklich leben."
 og_title: "PSM I & II – Meine Vorbereitung zwischen Verstehen, Empirie und Haltung"
 og_description: "Mein persönlicher Weg zur Scrum.org-Prüfung – warum Verstehen wichtiger war als Auswendiglernen."
+
+sitemap: false
+search: false
+published: true
+robots: noindex,nofollow
+
+
 image: /assets/images/posts/psm-pruefung-1200.webp
 header:
   overlay_image: /assets/images/posts/psm-pruefung-2000.webp
@@ -25,8 +32,8 @@ header:
   teaser: /assets/images/posts/psm-pruefung-600.webp
 teaser: /assets/images/posts/psm-pruefung-600.webp
 
-categories: [Reflexion]
-tags: [Scrum, Agil]
+categories: []
+tags: []
 ---
 
 > „Scrum zu verstehen heißt, Empirie zu leben – nicht Rituale nachzuspielen.“

@@ -10,6 +10,8 @@ toc: true
 toc_label: "Inhalt"
 toc_sticky: true
 
+blog_visible: true
+
 meta_description: "OKR in Verbänden und Non-Profit-Organisationen: Wie Ziele in föderalen Strukturen funktionieren, wie man OKRs sinnvoll formuliert und welche typischen Stolperfallen entstehen."
 og_title: "OKR in Verbänden: Orientierung statt Detailsteuerung"
 og_description: "OKR für Non-Profits und Verbände erklärt – mit Fokus auf Autonomie, gemeinsamer Richtung und den besonderen Anforderungen demokratisch strukturierter Organisationen."
@@ -22,8 +24,8 @@ header:
 
 teaser: /assets/images/posts/avm-part5-600.png
 
-categories: [Agile Value Management]
-tags: [OKR, Verbände, Non-Profit, Ziele, Leadership]
+categories: [Evidence-Based AI Management]
+tags: [OKR, Evidence-Based-Management, Non-Profit]
 ---
 
 # OKR in der Non-Profit- und Verbandswelt – Orientierung im föderalen Alltag
@@ -33,6 +35,12 @@ Viele Non-Profit-Organisationen und Verbände stehen heute vor der gleichen Hera
 In diesem Umfeld wirkt OKR auf den ersten Blick untypisch. Doch gerade in föderalen und demokratisch strukturierten Organisationen kann OKR Orientierung schaffen, ohne Autonomie einzuschränken. Es bietet einen Rahmen, der Richtung gibt, ohne Wege vorzuschreiben.
 
 In diesem Beitrag geht es darum, wie OKR in Verbänden und Non-Profit-Strukturen funktionieren kann, warum die Methode dort besonders wertvoll ist und wie man typische Stolperfallen vermeidet.
+
+### Warum das hier für KI-Transformation wichtig ist
+
+KI-Transformation scheitert selten an Modellen – sondern an fehlender Entscheidungslogik.
+
+Evidence-Based Management, OKR und KPI-Arbeit bilden das Steuerungsfundament, um KI-Initiativen wertorientiert zu priorisieren, Pilotierung messbar zu machen und Skalierung verantwortbar zu entscheiden.
 
 ## 1. Warum OKR für Non-Profit-Organisationen interessant ist
 
@@ -173,7 +181,7 @@ Wir schauen uns an:
 Nächster Teil:
 [Moderne KPIs – was wirklich gemessen werden muss](/moderne-kpi-was-messen/)
 
-## Übersicht: Alle Teile der Serie „Agile Value Management“
+## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>

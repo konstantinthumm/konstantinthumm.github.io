@@ -2,7 +2,7 @@
 layout: single
 classes: ["wide","hero-tall","project-page"]
 title: "Souveräne Infrastruktur für viele – Teil 2: Open-Source-Plattform fürs Ehrenamt"
-excerpt: "Digitale Identität, Open-Source-Lösungen und echte Teilhabe: Wie ein Verband die Idee einer föderalen IT-Architektur weiterdachte – von M365 im Hauptamt zur offenen Plattform für das Ehrenamt."
+excerpt: "Identity First statt Tool-Wildwuchs: Wie Open Source, SSO und Rollenmodelle digitale Teilhabe im Ehrenamt ermöglichen – und föderale Strukturen skalierbar machen."
 permalink: /projekte/it-architektur-verband-teil2/
 author_profile: true
 toc: true
@@ -14,12 +14,14 @@ header:
   caption: >-
     Photo by <a href="https://unsplash.com/@chadpeltola?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chad Peltola</a>
     <a href="https://unsplash.com/photos/gray-and-black-metal-bridge-near-forest-painting-PacWLzKKTso?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 seo:
-  title: "Open-Source-Lösungen für das Ehrenamt – IT-Architekturkonzept (Teil 2)"
-  description: "OpenXchange, Rocket.Chat, OpenTalk: Wie eine SSO-basierte Ehrenamtsplattform Identität, Datenschutz und Zusammenarbeit vereint – als kosteneffiziente Ergänzung zu M365 im Hauptamt."
+  title: "Open-Source-Plattform fürs Ehrenamt – IT-Architekturkonzept (Teil 2)"
+  description: "Open-Xchange, Rocket.Chat, OpenTalk: Wie eine SSO-basierte Ehrenamtsplattform Identität, Datenschutz und Zusammenarbeit vereint – als souveräne Ergänzung zur M365-Welt."
   image: /assets/images/projects/it-architektur-teil2-1200.webp
   og_type: article
-tags: [strategie, infrastruktur, change, sozialwirtschaft, opensource, collaboration, digitalisierung]
+
+tags: [digitale-architektur, identity-management, open-source, non-profit, plattform-design, change-management]
 glossar_ids:
   - g-openxchange
   - g-rocket-chat
@@ -32,147 +34,70 @@ glossar_ids:
   - g-ldap
 ---
 
-> „Wenn Zugehörigkeit digital wird, entsteht Teilhabe auf einer neuen Ebene.
-> Nicht Technik steht im Mittelpunkt, sondern das Gefühl, verbunden zu sein – sichtbar, ansprechbar, beteiligt.“
+> „Digitale Zugehörigkeit beginnt mit Identität – nicht mit Software.“
 
-## Ausgangspunkt – Zugehörigkeit sichtbar machen
+## Ausgangspunkt – Ehrenamt ohne digitale Struktur
 
-Am Anfang stand eine simple, aber tiefgreifende Frage:
-Wie kann man das, was tausende Menschen im Ehrenamt leisten, auch **digital sichtbar machen**?
-Denn Engagement war überall – in Ortsgruppen, Projekten, Initiativen – doch technisch blieb vieles unsichtbar.
-Jede*r nutzte eigene Mailkonten, Cloudspeicher oder Messenger. Kommunikation verlief quer, manchmal gar nicht.
+Während im Hauptamt über Cloud-Architektur diskutiert wurde, blieb das Ehrenamt technisch fragmentiert: private Mailkonten, uneinheitliche Messenger, keine zentrale Identitätslogik.
 
-Im Kern ging es also nicht um Tools, sondern um **Zugehörigkeit**:
-Wie lässt sich spürbar machen, dass alle Teil derselben Organisation sind – auch digital?
+Das Problem war nicht fehlende Tools. Es war fehlende digitale Zugehörigkeit.
 
-> „Identität ist das, was bleibt, wenn alles Technische abstrahiert ist: das Gefühl, dazuzugehören.“
+## Architekturprinzip – Identity First
 
+Das Konzept setzte an der Wurzel an: **digitale Identität als Fundament.**
 
-## Konzept – Identität als Fundament, nicht als Nachtrag
+Ziel war:
+- einheitliche Mailidentität über Open-Xchange,
+- zentrales Identitätsmanagement,
+- Single Sign-On als verbindendes Zugangssystem,
+- Rollen- und Gruppenzuordnung entlang realer Verbandsstrukturen.
 
-Die Lösung begann nicht bei der Software, sondern bei einem Prinzip: **Identität zuerst**.
-Denn ohne digitale Identität bleibt jede Plattform ein Tor ohne Schlüssel.
-Das Ziel war, alle Engagierten über eine **einheitliche Mailadresse auf Basis von [Open-Xchange (OX)](../glossar/it-architektur/#openxchange)** in das System zu integrieren –
-als sichtbarer Ausdruck, dass sie dazugehören.
+Erst Identität. Dann Plattform.
 
-Damit verbunden: ein zentrales **Identitätsmanagement** (IDM) und **[Single Sign-On (SSO)](../glossar/it-architektur/#sso)**,
-um später weitere Dienste wie **[OpenTalk](../glossar/it-architektur/#opentalk)**, **[Rocket.Chat](../glossar/it-architektur/#rocket-chat)** oder andere Systeme anzubinden.
-Technik wurde hier nicht zum Selbstzweck, sondern zum Vehikel, um Verbundenheit zu schaffen –
-zwischen Haupt- und Ehrenamt, zwischen Struktur und Mensch.
+## Plattform-Design – offene Architektur statt Tool-Sammlung
 
+Die Lösung bestand aus einem modularen Open-Source-Stack:
+- Open-Xchange (Mail, Kalender, Drive),
+- Rocket.Chat (Zusammenarbeit),
+- OpenTalk (Videokonferenz),
+- SSO & LDAP/SCIM-Synchronisation.
 
-## Der Open-Source-Baukasten – offen, souverän, skalierbar
+Technik diente hier einem strukturellen Ziel: Zugehörigkeit sichtbar machen, Kommunikationswege entlang realer Organisationslinien abbilden und Autonomie sichern.
 
-Das Fundament bildete eine Plattform aus bewährten, europäischen Open-Source-Komponenten:
+> „Open Source war hier keine Ideologie, sondern eine pragmatische Souveränitätsentscheidung.“
 
-- **Open-Xchange** für Mail, Kalender, Kontakte und Drive
-- **Rocket.Chat** für die tägliche Zusammenarbeit in Gruppen und Kanälen
-- **OpenTalk** für Videokonferenzen – stabil, datenschutzkonform und ohne Abhängigkeit von US-Anbietern
+## Meine Rolle – Brücke zwischen Struktur und Umsetzung
 
-Alles verbunden über ein gemeinsames Login mit **SSO** – ein Zugang, viele Werkzeuge.
-So entstand eine Architektur, die nicht zentralisiert, sondern vereint.
-Ein System, das Datenschutz, Autonomie und Gemeinschaft gleichermaßen ernst nimmt.
+Ich entwickelte das konzeptionelle Integrationsmodell:
+- Identitäts- und Rollenmodell für föderale Ebenen (Land, Kreis, Ort),
+- SSO- und Verzeichnislogik (Gruppen, Attribute, Zuständigkeiten),
+- Synchronisations- und Skalierungsprinzipien für spätere Erweiterungen.
 
-> *Open Source war hier keine Ideologie, sondern eine Haltung:
-> Kontrolle über Daten, Fairness gegenüber Ehrenamtlichen und Vertrauen in offene Standards.*
+So wurde aus „Ehrenamt digitalisieren“ ein Strukturansatz: **Teilnahme über Identität, Zusammenarbeit über klare Wege.**
 
+## Integrationsperspektive – Hauptamt und Ehrenamt verbinden, ohne zu vermischen
 
-## So sah das Konzept konkret aus – praxisnah und verständlich
+Das Konzept war so angelegt, dass es später anschlussfähig bleibt:
+- Föderation zwischen OpenID (Ehrenamt) und Entra ID (Hauptamt),
+- automatischer Abgleich von Gruppen/Rollen (SCIM/LDAP),
+- Kalender- und Verzeichnis-Brücken,
+- Kommunikationsbrücken zwischen Rocket.Chat und Teams.
 
-Das Konzept sah vor, dass möglichst alle ehrenamtlich Engagierten eine **Mailadresse über Open-Xchange** erhalten.
-Damit würden sie in die neue Architektur eingebunden – nicht als technische Nutzer, sondern als Teil der Gemeinschaft.
-Über diese Plattform könnten sie E-Mails schreiben, den Kalender pflegen und über regionale Adressbücher
-die jeweils relevanten Personengruppen suchen, erreichen und anschreiben.
+Ziel: ein Verband, zwei Systemwelten – mit einer gemeinsamen Organisationslogik.
 
-Das dazugehörige **Drive** – der Cloudspeicher mit Online-Office –
-würde für Textverarbeitung, Tabellenkalkulation, Listen und Planungen genutzt werden.
-Damit entstünde eine gemeinsame, barrierefreie Arbeitsumgebung – unabhängig von Gerät, Ort oder technischer Vorerfahrung.
+## Wirkung – Identität als Teilhabe
 
-Dieser erste Schritt war entscheidend:
-Alle ins Identitätsmanagement zu bringen, um anschließend über **SSO** neue Dienste anbinden zu können.
-Das **OpenID-Verzeichnis** fungiert dabei als zentrale Basis,
-die jedem Konto eine Rolle, eine Gruppe und eine Zugehörigkeit zuordnet.
-Darauf lassen sich Strukturen des Verbands – Land, Kreis, Bezirk, Ort – abbilden.
-So entsteht ein Kommunikationsnetz, das formale Ebenen in echte Verbindung übersetzt.
+Mit potenziell fünfstelliger Nutzerzahl wurde Identität zur Eintrittskarte: Engagierte wurden systemisch sichtbar, Kommunikation wurde strukturell verankert, Plattform wurde als Infrastruktur verstanden – nicht als Fremdkörper.
 
-> „Technik kann Nähe schaffen, wenn sie versteht, wie Menschen miteinander arbeiten wollen.“
+> „Digitalisierung gelingt nicht, wenn man sie verordnet. Sie gelingt, wenn Menschen sich eingeladen fühlen.“
 
-In großen Verbänden droht oft Entfremdung:
-Ortsgruppen fühlen sich abgehängt, während die Landesebene den Kontakt zur Basis verliert.
-Genau hier lag die Stärke des Konzepts: durchdachte Kommunikationswege entlang realer Organisationslinien.
-Information wird nicht mehr nach unten „verteilt“, sondern bewegt sich in beide Richtungen –
-sichtbar, verbindlich, strukturiert.
+## Synthese – Zwei Systeme, ein Prinzip
 
+Open Source fürs Ehrenamt ist kein Gegenentwurf zu M365, sondern die zweite Hälfte derselben Idee: föderale Strukturen digital abbilden, Verantwortung klar verorten, Teilhabe ermöglichen.
 
-## Perspektive – Brücken zwischen Haupt- und Ehrenamt
-
-Das Konzept war von Anfang an so gedacht, dass es wachsen kann.
-Sobald die Ehrenamtlichen über ihre Open-Xchange-Konten integriert sind,
-lassen sich die Systeme von Haupt- und Ehrenamt technisch und organisatorisch verbinden:
-
-- **Hybrid-ID** – die Föderation zwischen OpenID (Ehrenamt) und Entra ID (Hauptamt).
-  Eine Identität, zwei Welten – verbunden über Vertrauen, aber mit getrennten Sicherheitsregeln.
-- **SCIM / LDAP-Sync** – der automatische Abgleich von Gruppen, Rollen und Attributen.
-  Statt mehrere Listen zu pflegen, werden Daten einmal gepflegt und überall aktuell.
-- **Kalender-Feeds** über CalDAV und Graph-API – damit Termine ausgetauscht und sichtbar bleiben.
-- **Kommunikations-Brücken** zwischen Rocket.Chat und Teams – damit Informationen fließen, nicht stocken.
-- **Zentrales Adressbuch** über beide Systeme hinweg –
-  nicht nur mit Namen, sondern mit Rollen und Verantwortlichkeiten, damit Zusammenarbeit auffindbar bleibt.
-
-> Ein OpenID-Verzeichnis ist im Grunde eine Art digitales Adressbuch.
-> Dort steht, wer dazugehört, welche Rolle er hat und auf welche Dienste er zugreifen darf.
-> SSO bedeutet: einmal einloggen, alles nutzen.
-> SCIM und LDAP sorgen dafür, dass diese Daten zwischen den Systemen synchron bleiben –
-> so wie zwei Kalender, die sich gegenseitig aktualisieren.
-
-
-## Entstehung – gewachsen aus Nähe, getragen von Vertrauen
-
-Das Konzept entstand aus der täglichen Erfahrung in der Organisation.
-Es wuchs aus Gesprächen mit Ehrenamtlichen, Landesgeschäftsstellen, IT-Partnern und Datenschutzbeauftragten.
-Nichts war theoretisch – alles kam aus der Praxis.
-Was anfangs nach Technik klang, wurde zu einem Symbol für Kulturwandel:
-Nicht die IT sollte das Ehrenamt „digitalisieren“, sondern es **befähigen**.
-
-Ein Beispiel blieb mir besonders im Kopf:
-Ein kleiner Ortsverband, der bislang mit privaten Mailadressen arbeitete,
-bekam seine ersten offiziellen Konten.
-Plötzlich lief Kommunikation gebündelt, Termine waren abgestimmt,
-und zum ersten Mal hieß es: *„Wir sind jetzt auch Teil der Plattform.“*
-Das war kein IT-Erfolg – es war ein Organisationsmoment.
-
-
-## Wirkung – Teilhabe in digitaler Form
-
-Mit einer hohen fünfstelligen Zahl potenzieller Accounts wurde das Projekt
-zu einem Beispiel für digitale Teilhabe im besten Sinn.
-Identität wurde zur Eintrittskarte, Adressbücher zu Landkarten von Zuständigkeit,
-und Single Sign-On zur Einladung, mitzumachen statt außen vor zu bleiben.
-
-> „Digitalisierung gelingt nicht, wenn man sie verordnet.
-> Sie gelingt, wenn Menschen sich eingeladen fühlen, Teil davon zu sein.“
-
-So veränderte das Projekt die Haltung im Verband:
-IT wurde nicht länger als Fremdkörper erlebt, sondern als Infrastruktur für Zusammenarbeit –
-leise, funktional, hilfreich.
-
-
-## Synthese – zwei Welten, ein Prinzip
-
-Open Source fürs Ehrenamt ist nicht der Gegenentwurf zu M365,
-sondern die zweite Hälfte derselben Idee:
-ein Verband, zwei Systeme, eine Identität.
-
-Digitale Architektur ist hier kein Bauplan aus Technik,
-sondern eine **Organisationsgeschichte in Codeform**.
-Sie zeigt, dass digitale Souveränität kein Ziel, sondern eine Haltung ist –
-ein Weg, Verantwortung für Daten, Menschen und Zusammenarbeit bewusst zu gestalten.
-
-> „Am Ende bleibt nicht das System in Erinnerung, sondern das, was es ermöglicht hat:
-> echte Verbindung zwischen Menschen.“
+> „Plattformdesign ist Organisationsdesign.“
 
 Das Ehrenamt sichtbar zu machen heißt, Identität ernst zu nehmen. Wenn Zugehörigkeit spürbar wird, folgen Zusammenarbeit und Verantwortung fast von selbst – und die Plattform wächst dort, wo sie gebraucht wird.
-
 
 <div class="project-crosslink no-thumb">
   <div class="project-crosslink__content">
@@ -184,8 +109,6 @@ Das Ehrenamt sichtbar zu machen heißt, Identität ernst zu nehmen. Wenn Zugehö
     <a class="btn btn--primary project-crosslink__cta" href="/projekte/it-architektur-verband-teil1/">Zu Teil&nbsp;1&nbsp;→</a>
   </div>
 </div>
-
-
 
 ## Begriffe und Themen aus diesem Projekt
 

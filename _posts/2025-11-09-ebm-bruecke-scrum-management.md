@@ -10,6 +10,8 @@ toc: true
 toc_label: "Inhalt"
 toc_sticky: true
 
+blog_visible: true
+
 meta_description: "Evidence-Based Management erklärt: Warum Organisationen trotz Scrum oft nicht wirklich lernen – und wie EBM als verbindendes Management-Modell hilft, Wert, Ziele und Messung neu auszurichten."
 og_title: "Evidence-Based Management: Die Brücke zwischen Scrum und Management"
 og_description: "EBM schafft Klarheit über das, was wirklich zählt: Wert statt Output, Evidence statt Bauchgefühl. Ein Leitartikel über moderne Organisationsführung."
@@ -22,8 +24,8 @@ header:
 
 teaser: /assets/images/posts/avm-part1-600.png
 
-categories: [Agile Value Management]
-tags: [EBM, Scrum, Management, Agil, Leadership]
+categories: [Evidence-Based AI Management]
+tags: [Evidence-Based-Management]
 ---
 
 # Warum Evidence-Based Management die Brücke zwischen Scrum und modernem Management ist
@@ -36,6 +38,12 @@ Evidence-Based Management, kurz EBM, baut genau dieses Verständnis auf. Es stam
 <a href="https://www.scrum.org/resources/online-evidence-based-management-guide" target="_blank" rel="noopener noreferrer nofollow" class="ext">https://scrum.org/resources/online-evidence-based-management-guide</a>.
 
 EBM verbindet agile Produktentwicklung mit moderner Führung und schafft eine gemeinsame Sprache für Wert, Richtung und Lernen.
+
+### Warum das hier für KI-Transformation wichtig ist
+
+KI-Transformation scheitert selten an Modellen – sondern an fehlender Entscheidungslogik.
+
+Evidence-Based Management, OKR und KPI-Arbeit bilden das Steuerungsfundament, um KI-Initiativen wertorientiert zu priorisieren, Pilotierung messbar zu machen und Skalierung verantwortbar zu entscheiden.
 
 ## 1. Warum traditionelle Steuerung in komplexen Organisationen an Grenzen stößt
 
@@ -137,7 +145,7 @@ Wir schauen uns an, wie jede KVA wirkt, wo sie häufig falsch interpretiert wird
 Nächster Teil:
 [Die vier Key Value Areas – was Organisationen oft falsch machen](/ebm-key-value-areas/)
 
-## Übersicht: Alle Teile der Serie „Agile Value Management“
+## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>

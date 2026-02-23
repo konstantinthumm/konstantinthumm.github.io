@@ -16,6 +16,11 @@ meta_description: "Scrum Poker ist mehr als Schätzen: Es fördert gemeinsames V
 og_title: "Warum Scrum Poker mehr ist als Schätzen"
 og_description: "Scrum Poker hilft Teams, Aufwände gemeinsam zu verstehen – nicht um Termine zu erraten, sondern um durch Empirie und Austausch besser zu planen."
 
+published: true
+sitemap: false
+search: false
+robots: noindex,nofollow
+
 # Social Media / Open Graph (ca. 1200 × 630 px)
 image: /assets/images/posts/scrum-poker-1200.webp
 
@@ -30,8 +35,8 @@ header:
 teaser: /assets/images/posts/scrum-poker-600.webp
 
 # Taxonomien
-categories: [Projektmanagement]
-tags: [Agil, Scrum]
+categories: []
+tags: []
 ---
 
 ## Was ist Scrum Poker?

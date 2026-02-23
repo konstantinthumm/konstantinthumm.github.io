@@ -10,6 +10,8 @@ toc: true
 toc_label: "Inhalt"
 toc_sticky: true
 
+blog_visible: true
+
 meta_description: "Wie EBM, OKR und KPI zusammenwirken: Ein integriertes Modell für modernes Management, das Wert, Ziele und Messbarkeit in einen gemeinsamen Rahmen bringt."
 og_title: "Integriertes Modell: EBM × OKR × KPI"
 og_description: "Wie Organisationen durch ein integriertes Modell Orientierung, Wert und Lernfähigkeit verbessern."
@@ -22,8 +24,8 @@ header:
 
 teaser: /assets/images/posts/avm-part8-600.png
 
-categories: [Agile Value Management]
-tags: [EBM, OKR, KPI, Management, Leadership]
+categories: [Evidence-Based AI Management]
+tags: [OKR, KPI, Evidence-Based-Management]
 ---
 
 # EBM × OKR × KPI – das integrierte Modell für modernes Management
@@ -35,6 +37,12 @@ Die Frage ist deshalb: Wie entsteht ein Managementmodell, das Orientierung schaf
 Evidence-Based Management, OKR und moderne KPI-Arbeit ergänzen sich zu einem integrierten Modell. Zusammen schaffen sie eine Struktur, die Wert, Richtung und Beobachtung verbindet.
 
 Dieser letzte Teil der Serie führt alle Fäden zusammen.
+
+### Warum das hier für KI-Transformation wichtig ist
+
+KI-Transformation scheitert selten an Modellen – sondern an fehlender Entscheidungslogik.
+
+Evidence-Based Management, OKR und KPI-Arbeit bilden das Steuerungsfundament, um KI-Initiativen wertorientiert zu priorisieren, Pilotierung messbar zu machen und Skalierung verantwortbar zu entscheiden.
 
 ## 1. Warum moderne Organisationen ein integriertes Modell brauchen
 
@@ -190,7 +198,7 @@ Komplexität fordert keine stärkere Kontrolle – sie fordert bessere Orientier
 
 {% include glossar-box.html slugs="value-management,okr-zyklus,kpi-system,current-value" %}
 
-## Übersicht: Alle Teile der Serie „Agile Value Management“
+## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>

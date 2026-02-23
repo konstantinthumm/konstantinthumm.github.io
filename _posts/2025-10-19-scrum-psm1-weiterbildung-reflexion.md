@@ -15,6 +15,11 @@ meta_description: "Bildung statt Bürokratie: Meine erste Woche als angehender S
 og_title: "Woche 1 meiner PSM-Weiterbildung – Warum Scrum so gut tut"
 og_description: "Lernen fühlt sich wie Befreiung an: Meine ersten Erkenntnisse aus der Scrum-Master-Weiterbildung – über Haltung, Einfachheit und echten Kulturwandel."
 
+sitemap: false
+search: false
+published: true
+robots: noindex,nofollow
+
 
 # Social Media / Open Graph (ca. 1200 × 630 px)
 image: /assets/images/posts/reflexion-scrum-1200.webp
@@ -30,8 +35,8 @@ header:
 teaser: /assets/images/posts/reflexion-scrum-600.webp
 
 # Taxonomien
-categories: [Reflexion]
-tags: [Sozialwirtschaft, Agil, Scrum, Change, Strategie]
+categories: []
+tags: []
 ---
 
 ## Ankommen im Lernen

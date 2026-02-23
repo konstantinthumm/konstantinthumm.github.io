@@ -10,6 +10,8 @@ toc: true
 toc_label: "Inhalt"
 toc_sticky: true
 
+blog_visible: true
+
 meta_description: "KPI-Fehlerkultur: Warum viele Teams Kennzahlen missverstehen und wie Evidence-Based Management hilft, Messung wieder mit Wert, Outcome und Lernen zu verbinden."
 og_title: "KPIs richtig verstehen: Von der Kennzahl zur lernenden Organisation"
 og_description: "Fünf typische Messfehler, praktische Beispiele und eine klare Einladung zu einer anderen Fehlerkultur rund um KPIs – auf Basis von Evidence-Based Management."
@@ -22,8 +24,8 @@ header:
 
 teaser: /assets/images/posts/avm-part3-600.png
 
-categories: [Agile Value Management]
-tags: [EBM, KPI, Scrum, Agil, Leadership]
+categories: [Evidence-Based AI Management]
+tags: [KPI, Evidence-Based-Management, Outcome]
 ---
 
 # Warum viele Teams KPIs falsch verstehen – eine Frage der Fehlerkultur
@@ -33,6 +35,12 @@ Kaum eine Organisation arbeitet heute ohne Kennzahlen. Es gibt Dashboards, Beric
 Evidence-Based Management bietet hier einen anderen Blick. Es stellt nicht die Kennzahl in den Mittelpunkt, sondern die Frage, welchen Wert eine Veränderung für Menschen erzeugt. KPIs werden in diesem Verständnis nicht abgeschafft, sondern neu verortet: als Werkzeuge im Dienst von Lernen und Entwicklung.
 
 In diesem Beitrag geht es darum, warum KPIs in vielen Organisationen schaden statt helfen, welche typischen Messfehler auftreten und wie eine andere Fehlerkultur rund um Kennzahlen aussehen kann.
+
+### Warum das hier für KI-Transformation wichtig ist
+
+KI-Transformation scheitert selten an Modellen – sondern an fehlender Entscheidungslogik.
+
+Evidence-Based Management, OKR und KPI-Arbeit bilden das Steuerungsfundament, um KI-Initiativen wertorientiert zu priorisieren, Pilotierung messbar zu machen und Skalierung verantwortbar zu entscheiden.
 
 ## 1. Fünf häufige Messfehler in Organisationen
 
@@ -182,7 +190,7 @@ Im nächsten Beitrag der Serie geht es um Objectives and Key Results (OKR). Wir 
 Nächster Teil:
 [OKR richtig verstehen – warum OKRs erst mit EBM funktionieren](/okr-richtig-verstehen/)
 
-## Übersicht: Alle Teile der Serie „Agile Value Management“
+## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>

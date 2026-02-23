@@ -2,7 +2,7 @@
 layout: single
 classes: ["wide","hero-tall","project-page"]
 title: "Von föderaler Vielfalt zur gemeinsamen Cloud – Teil 1: M365 als Plattform für das Hauptamt"
-excerpt: "Wie eine durchdachte Microsoft-365-Architektur die Brücke zwischen zentraler Verantwortung und föderaler Autonomie schlagen sollte – und was wir über Entscheidungsprozesse in Verbänden gelernt haben."
+excerpt: "Wie eine föderal gedachte Microsoft-365-Architektur Governance, Sicherheit und Autonomie verbindet – und warum Entscheidungsfähigkeit der Engpass in Verbänden ist."
 permalink: /projekte/it-architektur-verband-teil1/
 author_profile: true
 toc: true
@@ -17,10 +17,11 @@ header:
 
 seo:
   title: "M365 als Plattform für das Hauptamt – IT-Architekturkonzept (Teil 1)"
-  description: "Strategie, Governance, Change: Wie eine Multi-Tenant-Architektur auf Microsoft 365 eine gemeinsame Arbeitsumgebung für einen großen Verband schaffen sollte – mit föderaler Autonomie über Exchange-Admin-Rollen."
+  description: "Strategie, Governance, Change: Wie eine föderal gedachte Microsoft-365-Architektur eine gemeinsame Arbeitsumgebung ermöglicht – ohne Autonomie zu zerstören."
   image: /assets/images/projects/it-architektur-teil1-1200.webp
   og_type: article
-tags: [strategie, infrastruktur, change, sozialwirtschaft, microsoft365, cloud, digitalisierung]
+
+tags: [digitale-architektur, governance, identity-management, cloud-strategie, föderale-strukturen, non-profit]
 glossar_ids:
   - g-ms365
   - g-zero-trust
@@ -35,129 +36,77 @@ glossar_ids:
   - g-domain
 ---
 
-> „Gemeinsam arbeiten heißt nicht, Kontrolle abzugeben –
-> sondern Vertrauen in Strukturen zu übersetzen, die Zusammenarbeit ermöglichen.“
+> „Gemeinsam arbeiten heißt nicht, Kontrolle abzugeben – sondern Verantwortung strukturell neu zu ordnen.“
 
-## Ausgangslage – viele gute Gründe, ein gemeinsames Ziel
+## Ausgangslage – gewachsene Komplexität ohne gemeinsame Architektur
 
-Die Geschichte beginnt nicht mit Servern oder Lizenzen, sondern mit einem Verband, der größer, vielfältiger und dezentraler kaum sein könnte.
-Über Jahrzehnte hatten sich in 16 Landesverbänden und zahlreichen Untergliederungen eigenständige IT-Lösungen etabliert – jedes System gewachsen, jedes aus bestem Grund entstanden.
-Doch diese Vielfalt hatte ihren Preis: Komplexität, Redundanz und ein schleichender Verlust gemeinsamer Standards.
+Ein großer föderaler Verband mit 16 Landesorganisationen hatte über Jahre eigenständige IT-Strukturen aufgebaut. Jede Lösung war nachvollziehbar entstanden – gemeinsam jedoch fehlte ein verbindender Rahmen.
 
-Zwar existierte eine gemeinsame Mail-Domain, die eine gewisse formale Einheit vermittelte.
-Doch dahinter arbeiteten alle in separaten, unverbundenen Welten – von Outlook über lokale NAS-Laufwerke bis hin zu teils privat genutzten Cloud-Speichern.
-Informationen verliefen im Zickzack durch den Verband, und Zusammenarbeit war oft von individuellen Routinen abhängig statt von gemeinsamer Struktur.
+Technisch existierte eine gemeinsame Mail-Domain. Organisatorisch arbeitete jede Einheit isoliert: getrennte Speicherorte, heterogene Sicherheitsstandards, parallele Administrationslogiken.
 
-Der Bundesverband, organisatorisch Dach und Impulsgeber, suchte deshalb nach einer Lösung, die nicht zentralisiert, sondern verbindet:
-eine Plattform, die Kommunikation erleichtert, Zusammenarbeit ermöglicht und die Kultur der Eigenverantwortung respektiert.
-Genau an diesem Punkt begann meine Aufgabe.
+Das Problem war nicht Technologie. Es war fehlende **digitale Organisationsarchitektur**.
 
-## Anforderungen – formulierte Wünsche und unausgesprochene Erwartungen
+Der Bundesverband suchte keine Zentralisierung, sondern ein Strukturprinzip, das Zusammenarbeit ermöglicht, Autonomie respektiert und Governance klar definiert.
 
-In den Gesprächen mit den Ländern zeigte sich ein wiederkehrendes Muster:
-Niemand wollte Kontrolle abgeben, aber alle wollten besser zusammenarbeiten.
+## Meine Aufgabe – Architektur als Organisationsentscheidung
 
-Die Anforderungen ließen sich grob in drei Kategorien bündeln:
+Meine Verantwortung lag nicht in der technischen Umsetzung, sondern in der **Konzeption einer tragfähigen Entscheidungsarchitektur**.
 
-1. Einheitliche Grundlage: gemeinsame Mail-Infrastruktur, zentrale Sicherheitsstandards, klar definierte Governance.
-2. Regionale Verantwortung: die Möglichkeit, innerhalb dieser Leitplanken eigenständig zu handeln.
-3. Zukunftsfähigkeit: eine Architektur, die den Spagat zwischen Compliance, Datenschutz und Benutzerfreundlichkeit schafft.
+Ziel war ein Modell, das:
+- zentrale Sicherheitsstandards definiert,
+- föderale Autonomie strukturell integriert,
+- Entscheidungsräume transparent macht.
 
-Diese Anforderungen waren nicht nur technisch, sondern zutiefst organisatorisch.
-Sie spiegelten die föderale DNA des Verbandes wider – ein Zusammenspiel von Vertrauen, Zuständigkeit und gelebter Autonomie.
-Aus dieser Spannung heraus entstand die Idee einer föderal gedachten Microsoft-365-Architektur:
-eine Cloud, die alle verbindet, ohne jemanden zu bevormunden.
+Ich entwickelte ein Architekturkonzept, das Microsoft 365 nicht als Tool, sondern als **Strukturrahmen für föderale Organisation** verstand.
 
-## Konzept – von der Vision zur Struktur
+## Architekturprinzip – Multi-Tenant mit klarer Governance
 
-Das Zielbild basierte auf drei Prinzipien: Einheit, Sicherheit und Autonomie.
-Kern war eine Multi-Tenant-Architektur, in der der Bundesverband den Rahmen vorgibt,
-während die Länder eigene Subdomains und definierte Administrationsrechte erhalten.
-Jeder Landesverband sollte so in der Lage sein, seine Organisation eigenständig zu verwalten –
-mit eigenen Exchange-Admins, die in der föderalen Gesamtstruktur verankert sind.
+Kernidee war eine föderal gedachte Multi-Tenant-Struktur:
+- zentrale Leitplanken (Security, Compliance, Governance),
+- regionale Administrationsrechte innerhalb definierter Zuständigkeiten,
+- Entra ID als Identitäts-Backbone,
+- Zero-Trust als Designprinzip.
 
-Diese Architektur verband klare Governance mit technischer Flexibilität.
-Azure AD (heute Entra ID) sollte als zentrales Identitäts-Backbone dienen; Zero-Trust-Prinzipien wurden von Anfang an mitgedacht.
-Sicherheit war kein nachträglicher Anstrich, sondern integraler Bestandteil des Designs.
-
-Am Ende stand ein Zielbild:
-eine gemeinsame Arbeitsumgebung, die E-Mail, Kalender, Datenablage und Kollaboration in einem konsistenten Ökosystem bündelt.
-Nicht als monolithische Lösung, sondern als orchestrierte Struktur, die Vielfalt zulässt, aber Chaos verhindert.
+Das Ziel war nicht Kontrolle, sondern Klarheit: **Einheit im Rahmen – Autonomie in der Umsetzung.**
+Die Architektur übersetzte Organisationsstruktur in technische Struktur – nicht umgekehrt.
 
 > „Föderale Systeme brauchen Rahmen, keine Fesseln.“
 
-## Umsetzungshindernisse – zwischen Machbarkeit und Mentalität
+## Entscheidungsdynamik – Technik ist nie nur Technik
 
-Das Projekt war ambitioniert.
-Auf dem Papier klar, in der Praxis herausfordernd.
-Ein föderaler Verband ist kein Konzern – Entscheidungsprozesse folgen anderen Logiken.
-Selbst gute Ideen müssen erst gemeinschaftsfähig werden.
+Die größte Herausforderung war nicht technischer Natur.
 
-Das bedeutete intensive Abstimmungen mit Datenschutzbeauftragten, Betriebsrat, IT-Abteilungen und Vorständen.
-In Workshops und Planungssitzungen wurde die Balance zwischen Vertrauen und Kontrolle immer wieder neu verhandelt.
-Fragen nach der Rolle des Bundesverbands, nach Datensouveränität und nach der Sichtbarkeit der Länder im System bestimmten die Diskussionen.
+In föderalen Organisationen entstehen Entscheidungen nicht hierarchisch, sondern im Aushandlungsprozess. Datenschutz, Cloud-Souveränität, Rollenverständnisse und Machtbalance prägten die Diskussion.
 
-Parallel liefen technische Evaluationen mit einem erfahrenen Systemhaus, das die Multi-Tenant-Struktur konzipierte
-und einen umfassenden Change-Prozess auf Basis des ProSci-Frameworks vorschlug.
+Ich begleitete und strukturierte:
+- Stakeholder-Abstimmungen,
+- Governance-Workshops,
+- Entscheidungsrunden auf Vorstandsebene,
+- Architektur-Evaluierung mit Systemhaus und Change-Konzept.
 
-Doch während sich die technische Roadmap konkretisierte, blieb der kulturelle Unterbau fragil.
-Einzelne Stakeholder äußerten Bedenken, insbesondere im Hinblick auf Datenschutz und Cloud-Souveränität.
-Am Ende führte ein Veto auf Vorstandsebene dazu, dass das Projekt in der Planungsphase beendet wurde –
-ein Rückschlag, aber kein Scheitern.
+Das Projekt endete in der Konzeptphase durch ein Veto auf Vorstandsebene.
 
-> „Nicht jedes gute Konzept muss umgesetzt werden, um Wirkung zu entfalten.“
+Formal kein Rollout. Strategisch jedoch ein Reifeprozess.
 
-## Verbandsstrukturen – Entscheidungslogik als Teil des Systems
+## Wirkung – Reifegrad statt Implementierung
 
-Wer in Verbänden Projekte dieser Größenordnung verantwortet, lernt schnell:
-Erfolg misst sich nicht nur am Ergebnis, sondern an der Fähigkeit, Entscheidungsprozesse zu gestalten.
-Ein Verband ist keine hierarchische Organisation mit klarer Befehlskette,
-sondern ein lebendiges Netzwerk aus Interessengruppen, Zuständigkeiten und Rollen.
+Auch ohne Umsetzung entstand ein gemeinsames Architekturverständnis:
+- Leitplanken für künftige Digitalprojekte,
+- geschärftes Bewusstsein für Identitätsmanagement,
+- Klarheit über föderale Governance-Modelle,
+- Verständnis für Change als strategische Disziplin.
 
-Entscheidungen entstehen nicht linear, sondern im Aushandlungsprozess.
-Ich habe gelernt, dass Technik in solchen Strukturen nicht primär eine Frage der Infrastruktur, sondern der Kultur ist.
-Entscheidungen werden weniger durch Argumente als durch Vertrauen und gemeinsame Zielbilder getragen.
-Ein technisches Konzept kann noch so tragfähig sein –
-ohne eine klar strukturierte Beteiligung, ohne das Mitnehmen der Menschen, bleibt es Theorie.
+Das Konzept wurde Referenzrahmen für spätere Vorhaben.
 
-Darum war dieses Projekt trotz seines Abbruchs von unschätzbarem Wert.
-Es zeigte, wie wichtig es ist, frühzeitig alle Ebenen einzubinden, Entscheidungsräume zu definieren
-und Change-Management als strategische Disziplin zu verstehen – nicht als Anhängsel der IT.
+## Synthese – Digitale Architektur ist Organisationsentwicklung
 
-## Wirkung – was bleibt, auch ohne Rollout
+Dieses Projekt zeigt: Transformation in Verbänden ist keine Tool-Einführung. Sie ist eine strukturelle Neudefinition von Verantwortung, Rollen und Entscheidungswegen.
 
-Die technische Umsetzung fand nie statt, aber das Denken hat sich verändert.
-Der Verband weiß heute, wie ein gemeinsamer digitaler Raum aussehen kann,
-welche Voraussetzungen nötig sind und welche Stolpersteine zu vermeiden sind.
+Microsoft 365 war hier kein Produkt, sondern ein Organisationsmodell.
 
-Der Weg, den wir beschrieben haben, dient inzwischen als Orientierung für neue Vorhaben –
-vom Webrelaunch bis hin zu Prozessdigitalisierungen und Datenprojekten.
+> „Digitale Architektur ist Organisationsentwicklung in Codeform.“
 
-Ich sehe dieses Projekt als Blaupause für den Umgang mit komplexen Veränderungsprozessen.
-Es hat nicht das System geschaffen, das geplant war –
-aber es hat die Denkweise verändert, die nötig ist, um solche Systeme in Zukunft zu schaffen.
-
-> „Manchmal ist das Wertvollste eines Projekts nicht das Ergebnis,
-> sondern der gemeinsame Weg dorthin.“
-
-## Synthese – Organisation in Codeform
-
-M365 war in diesem Projekt mehr als ein Werkzeug.
-Es war der Versuch, föderale Strukturen digital abzubilden, Vertrauen in Governance zu übersetzen
-und Eigenständigkeit in technischer Architektur zu ermöglichen.
-
-Auch wenn der Weg nicht zu Ende gegangen wurde, hat er Spuren hinterlassen –
-in Prozessen, in Haltungen, in der Art, wie über Digitalisierung im Verband gesprochen wird.
-
-Technik kann Organisation sichtbar machen –
-und Organisation kann Technik scheitern lassen, wenn sie nicht reif dafür ist.
-Beides gehört zusammen.
-
-> „Digitale Architektur ist Organisationsentwicklung in Codeform –
-> und entfaltet manchmal gerade dann Wirkung, wenn sie (noch) nicht gebaut wird.“
-
-In diesem Sinne ist das Projekt weniger eine IT-Geschichte als eine Einladung zum gemeinsamen Denken: erst Klarheit, dann Struktur, dann Werkzeuge. Wer diese Reihenfolge respektiert, schafft Entscheidungsfähigkeit – und Raum für den nächsten Schritt.
-
+In diesem Sinne ist das Projekt weniger eine IT-Geschichte als eine Blaupause: erst Klarheit, dann Struktur, dann Werkzeuge. Wer diese Reihenfolge respektiert, schafft Entscheidungsfähigkeit – und Raum für den nächsten Schritt.
 
 <div class="project-crosslink no-thumb">
   <div class="project-crosslink__content">
@@ -166,25 +115,32 @@ In diesem Sinne ist das Projekt weniger eine IT-Geschichte als eine Einladung zu
       <a href="/projekte/it-architektur-verband-teil2/">Souveräne Infrastruktur für viele – Teil&nbsp;2: Open-Source-Plattform fürs Ehrenamt</a>
     </h3>
     <p class="project-crosslink__meta">
-      Identität, SSO und Open-Source: Wie das Ehrenamt in die Architektur integriert wird.
+      Identität, SSO und Open Source: Wie das Ehrenamt strukturell integriert wird.
     </p>
     <a class="btn btn--primary project-crosslink__cta" href="/projekte/it-architektur-verband-teil2/">Zu Teil&nbsp;2&nbsp;→</a>
   </div>
 </div>
 
+---
 
+## Rolle im Projekt
 
+- Strategische Cloud-Konzeption
+- Multi-Tenant-Architektur-Design
+- Governance-Definition
+- Rollen- und Verantwortlichkeitsmodell
+- Entscheidungsmoderation zwischen Organisationseinheiten
 
-## Begriffe und Themen aus diesem Projekt
+## Wirkung
 
-{% assign proj_id = "proj-it-architektur-teil1" %}
-{% assign related_terms = site.data.glossar | where_exp: "t","t.projects contains proj_id" %}
+- Klare Mandantentrennung bei gemeinsamer Plattform
+- Transparente Admin-Rollen
+- Reduzierter Wildwuchs in Domains und Identitäten
+- Skalierbares Organisationsmodell statt Tool-Einführung
 
-<div class="glossar-grid">
-  {% for t in related_terms %}
-    <article class="glossar-card">
-      <h3><a href="{{ t.anchors.page }}{{ t.anchors.fragment }}">{{ t.term }}</a></h3>
-      <p>{{ t.summary }}</p>
-    </article>
-  {% endfor %}
-</div>
+## Kernerkenntnis
+
+Cloud-Einführung ist kein Produktprojekt.
+
+Sie ist die Entscheidung für ein Organisationsmodell –
+mit klarer Governance, sauberer Identitätsarchitektur und definierten Entscheidungsräumen.

@@ -10,6 +10,8 @@ toc: true
 toc_label: "Inhalt"
 toc_sticky: true
 
+blog_visible: true
+
 meta_description: "Moderne KPIs: Welche Kennzahlen Organisationen wirklich brauchen, wie Leading und Lagging Indicators funktionieren und wie KPIs sinnvoll mit Evidence-Based Management verbunden werden."
 og_title: "Moderne KPIs – Orientierung statt Zahlensammlung"
 og_description: "Wie man Kennzahlen wählt, die Wirkung sichtbar machen, statt Aktivität zu erzeugen. Ein Leitfaden für moderne KPI-Arbeit."
@@ -22,8 +24,8 @@ header:
 
 teaser: /assets/images/posts/avm-part6-600.png
 
-categories: [Agile Value Management]
-tags: [KPI, EBM, Leading, Lagging, Outcome]
+categories: [Evidence-Based AI Management]
+tags: [KPI, Evidence-Based-Management, Outcome]
 ---
 
 # Moderne KPIs – was wirklich gemessen werden muss
@@ -33,6 +35,12 @@ Viele Organisationen arbeiten heute mit KPI-Dashboards, Reports und Messsystemen
 Moderne KPI-Arbeit entsteht nicht durch mehr Daten, sondern durch einen klareren Fokus: Was müssen wir beobachten, damit wir verstehen, ob wir uns in die richtige Richtung bewegen?
 
 Evidence-Based Management liefert dafür den Rahmen. KPIs werden nicht isoliert definiert, sondern aus der Frage abgeleitet, wie Wert entsteht, welches Potenzial ungenutzt bleibt und welche Barrieren Lernen und Fortschritt verhindern.
+
+### Warum das hier für KI-Transformation wichtig ist
+
+KI-Transformation scheitert selten an Modellen – sondern an fehlender Entscheidungslogik.
+
+Evidence-Based Management, OKR und KPI-Arbeit bilden das Steuerungsfundament, um KI-Initiativen wertorientiert zu priorisieren, Pilotierung messbar zu machen und Skalierung verantwortbar zu entscheiden.
 
 ## 1. Warum viele KPI-Systeme ihre Wirkung verfehlen
 
@@ -175,7 +183,7 @@ Der nächste Beitrag zeigt, warum KPI-Listen ohne strukturellen Rahmen ihre Wirk
 Nächster Teil:
 [KPIs ohne Modell – warum KPI-Listen oft scheitern](/kpi-ohne-modell-anti-pattern/)
 
-## Übersicht: Alle Teile der Serie „Agile Value Management“
+## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>

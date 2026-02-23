@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Tipp der Woche: Agile Product Ownership in a Nutshell"
+title: "Agile Product Ownership in a Nutshell"
 date: 2025-10-16
 excerpt: "Henrik Kniberg erklärt in 15 Minuten, was gute Product Ownership ausmacht – klar, humorvoll und voller Praxiswissen. Ein Muss für alle, die Scrum verstehen wollen."
 description: "Agile Product Ownership in a Nutshell – Henrik Kniberg zeigt, wie Product Owner Vision, Backlog und Wertschöpfung miteinander verbinden. Mein Tipp der Woche."
@@ -14,6 +14,11 @@ og_title: "Agile Product Ownership in a Nutshell – Tipp der Woche"
 og_description: "In 15 Minuten zeigt Henrik Kniberg, wie Product Owner Vision, Prioritäten und Wertschöpfung verbinden. Ein Must-Watch für agile Teams."
 image: /assets/images/posts/agile-product-ownership-1200.webp
 
+published: true
+sitemap: false
+search: false
+robots: noindex,nofollow
+
 header:
   overlay_image: /assets/images/posts/agile-product-ownership-2000.webp
   overlay_filter: 0.35
@@ -21,8 +26,8 @@ header:
   teaser: /assets/images/posts/agile-product-ownership-600.webp
 teaser: /assets/images/posts/agile-product-ownership-600.webp
 
-categories: [Projektmanagement]
-tags: [Scrum, Agil, Tipp-der-Woche]
+categories: []
+tags: []
 ---
 
 > „Gute Product Ownership bedeutet, Wert zu schaffen – nicht Arbeit zu verwalten.“

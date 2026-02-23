@@ -10,6 +10,8 @@ toc: true
 toc_label: "Inhalt"
 toc_sticky: true
 
+blog_visible: true
+
 meta_description: "Die vier Key Value Areas von Evidence-Based Management – Current Value, Unrealized Value, Ability to Innovate und Time-to-Market – erklärt mit Beispielen aus komplexen Organisationen."
 og_title: "Die vier Key Value Areas – Orientierung für moderne Organisationen"
 og_description: "Warum CV, UV, A2I und T2M in vielen Organisationen falsch verstanden werden – und wie sie echte Wirkung sichtbar machen."
@@ -22,8 +24,8 @@ header:
 
 teaser: /assets/images/posts/avm-part2-600.png
 
-categories: [Agile Value Management]
-tags: [EBM, Scrum, KVA, Agil, Leadership]
+categories: [Evidence-Based AI Management]
+tags: [Evidence-Based-Management, Outcome]
 ---
 
 # Die vier Key Value Areas – was Organisationen oft falsch machen
@@ -35,6 +37,12 @@ Die KVA stammen aus dem offiziellen *Evidence-Based Management Guide* von Scrum.
 und sind bewusst einfach formuliert. Die Herausforderung liegt nicht in der Theorie, sondern in der Anwendung.
 
 > „Komplexität verschwindet nicht, wenn man sie ignoriert – aber sie wird handhabbar, wenn man sie strukturiert betrachtet.“
+
+### Warum das hier für KI-Transformation wichtig ist
+
+KI-Transformation scheitert selten an Modellen – sondern an fehlender Entscheidungslogik.
+
+Evidence-Based Management, OKR und KPI-Arbeit bilden das Steuerungsfundament, um KI-Initiativen wertorientiert zu priorisieren, Pilotierung messbar zu machen und Skalierung verantwortbar zu entscheiden.
 
 ## 1. Current Value – Wie viel Nutzen schaffen wir heute?
 
@@ -150,7 +158,7 @@ und wie Evidence-Based Management eine lernorientierte Fehlerkultur fördert.
 Nächster Teil:
 [Warum viele Teams KPIs falsch verstehen – eine Fehlerkultur](/ebm-kpi-fehlerkultur/)
 
-## Übersicht: Alle Teile der Serie „Agile Value Management“
+## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>
