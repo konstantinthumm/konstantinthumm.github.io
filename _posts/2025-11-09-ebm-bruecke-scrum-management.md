@@ -138,8 +138,6 @@ Im nächsten Beitrag dieser Serie geht es um die vier Key Value Areas. Sie sind 
 
 Wir schauen uns an, wie jede KVA wirkt, wo sie häufig falsch interpretiert wird und wie sie helfen kann, Prioritäten neu zu setzen.
 
-{% include glossar-box.html slugs="empirie,outcome" %}
-
 ## Weiterlesen in der Serie
 
 Nächster Teil:

@@ -151,8 +151,6 @@ Der nächste Beitrag setzt genau hier an:
 Warum KPIs so oft in die Irre führen
 und wie Evidence-Based Management eine lernorientierte Fehlerkultur fördert.
 
-{% include glossar-box.html slugs="kva,current-value,unrealized-value,ability-to-innovate,time-to-market" %}
-
 ## Weiterlesen in der Serie
 
 Nächster Teil:

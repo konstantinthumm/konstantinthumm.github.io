@@ -183,8 +183,6 @@ Evidence-Based Management unterstützt diese Art von Kultur. Statt Kennzahlen um
 
 Im nächsten Beitrag der Serie geht es um Objectives and Key Results (OKR). Wir schauen uns an, warum OKRs oft als neues Heilsversprechen eingeführt werden, warum sie ohne Evidence-Based Management wenig bewirken und wie sie als Hypothesen über Wert verstanden werden können – statt als starre Vorgaben.
 
-{% include glossar-box.html slugs="kpi,leading-indicator,lagging-indicator,vanity-metric" %}
-
 ## Weiterlesen in der Serie
 
 Nächster Teil:

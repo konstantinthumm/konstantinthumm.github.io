@@ -22,18 +22,6 @@ seo:
   og_type: article
 
 tags: [digitale-architektur, governance, identity-management, cloud-strategie, föderale-strukturen, non-profit]
-glossar_ids:
-  - g-ms365
-  - g-zero-trust
-  - g-identity-management
-  - g-tenant
-  - g-multitenant
-  - g-sso
-  - g-active-directory
-  - g-exchange
-  - g-collaboration
-  - g-subdomain
-  - g-domain
 ---
 
 > „Gemeinsam arbeiten heißt nicht, Kontrolle abzugeben – sondern Verantwortung strukturell neu zu ordnen.“
@@ -120,8 +108,6 @@ In diesem Sinne ist das Projekt weniger eine IT-Geschichte als eine Blaupause: e
     <a class="btn btn--primary project-crosslink__cta" href="/projekte/it-architektur-verband-teil2/">Zu Teil&nbsp;2&nbsp;→</a>
   </div>
 </div>
-
----
 
 ## Rolle im Projekt
 

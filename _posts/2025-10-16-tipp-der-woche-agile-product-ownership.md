@@ -104,7 +104,3 @@ der Product Owner steuert, was Nutzen erzeugt, nicht was Arbeit macht.
 Burn-Charts und Scope-Transparenz helfen, Fortschritt zu sehen – und Vertrauen zu stärken.
 
 > 15 Minuten, die jede Sekunde wert sind – für angehende und erfahrene Product Owner gleichermaßen.
-
----
-
-{% include glossar-box.html slugs="product-owner" %}

@@ -49,8 +49,7 @@ tags: [Agil, Scrum, Entwicklung]
 
 ---
 
-{% comment %}
-GLOSSAR: Alle im Post behandelten Begriffe als Slugs (Reihenfolge = Anzeige)
-- Slugs MÜSSEN in _data/glossar.yml existieren (term, summary, url, optional posts)
-{% endcomment %}
-{% include glossar-box.html slugs="slug-1,slug-2,slug-3" %}
+## Weiterführende Beiträge
+- [Titel Beitrag 1](/blog/)
+- [Titel Beitrag 2](/blog/)
+- [Titel Beitrag 3](/blog/)

@@ -131,7 +131,3 @@ Scrum Master, die diese vier Dimensionen bewusst gestalten, schaffen Teams, die 
 Wenn du diese Fragen offen diskutierst, bist du auf dem Weg zu echter Team-Beteiligung –
 nicht zu mehr Aktivität, sondern zu **besserem Involvement**.
 
----
-
-{% include glossar-box.html slugs="empowerment,selbstorganisation,retrospektive" %}
-

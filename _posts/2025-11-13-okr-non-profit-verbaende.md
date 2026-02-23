@@ -174,8 +174,6 @@ Wir schauen uns an:
 - wie man KPIs formuliert, die zu Non-Profit-Zielen passen
 - wie Organisationen Messbarkeit schaffen, ohne die Kultur zu belasten
 
-{% include glossar-box.html slugs="objective,key-result,okr-zyklus,outcome-hypothese" %}
-
 ## Weiterlesen in der Serie
 
 Nächster Teil:

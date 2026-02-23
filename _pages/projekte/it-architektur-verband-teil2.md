@@ -21,17 +21,7 @@ seo:
   image: /assets/images/projects/it-architektur-teil2-1200.webp
   og_type: article
 
-tags: [digitale-architektur, identity-management, open-source, non-profit, plattform-design, change-management]
-glossar_ids:
-  - g-openxchange
-  - g-rocket-chat
-  - g-opentalk
-  - g-sso
-  - g-identity-management
-  - g-opensource
-  - g-domain
-  - g-subdomain
-  - g-ldap
+tags: [digitale-architektur, open-source, identity-management, plattform-design, föderale-strukturen, non-profit]
 ---
 
 > „Digitale Zugehörigkeit beginnt mit Identität – nicht mit Software.“
@@ -110,16 +100,24 @@ Das Ehrenamt sichtbar zu machen heißt, Identität ernst zu nehmen. Wenn Zugehö
   </div>
 </div>
 
-## Begriffe und Themen aus diesem Projekt
+## Rolle im Projekt
 
-{% assign proj_id = "proj-it-architektur-teil2" %}
-{% assign related_terms = site.data.glossar | where_exp: "t","t.projects contains proj_id" %}
+- Plattformstrategie für Ehrenamt
+- SSO- und Identitätsarchitektur
+- Open-Source-Integrationskonzept
+- Strukturelle Entkopplung von Haupt- und Ehrenamt
+- Entscheidungsrahmen für Plattformdesign
 
-<div class="glossar-grid">
-  {% for t in related_terms %}
-    <article class="glossar-card">
-      <h3><a href="{{ t.anchors.page }}{{ t.anchors.fragment }}">{{ t.term }}</a></h3>
-      <p>{{ t.summary }}</p>
-    </article>
-  {% endfor %}
-</div>
+## Wirkung
+
+- Sichtbare digitale Identität für Ehrenamtliche
+- Technische Souveränität durch Open-Source
+- Klare Trennung von Verantwortungsbereichen
+- Integrationsfähige Plattform statt isolierter Tools
+
+## Kernerkenntnis
+
+Plattformdesign ist Organisationsdesign.
+
+Identität, Rollen und Zugänge entscheiden darüber,
+ob digitale Zusammenarbeit wächst – oder fragmentiert.

@@ -45,7 +45,6 @@ Ich wollte diese Prüfung nicht einfach bestehen, sondern wirklich verstehen.
 Scrum funktioniert nur, wenn man das Framework verinnerlicht – nicht, wenn man es wie ein Set aus Rollen und Meetings ausführt.
 
 Alles andere ist Cargo Cult: eine agile Fassade ohne Haltung.
-Dazu habe ich früher schon einen Beitrag geschrieben – [Agiles Manifest: Werte, Prinzipien und wie du Cargo Cult vermeidest](/agiles-manifest-werte-prinzipien-scrum/).
 
 Die Prüfung selbst ist schnell beschrieben:
 80 Fragen, 60 Minuten, mindestens 85 Prozent richtig.
@@ -83,6 +82,7 @@ Die Fragen folgen einer klaren Logik: Wer den Guide verstanden hat, erkennt sie 
 
 Richtig rund wurde mein Lernen erst durch [uhligland.de/scrumorg](https://uhligland.de/scrumorg){:target="_blank" rel="noopener noreferrer"} von Maik Uhlig.
 Diese komplett kostenfreie Seite kann ich uneingeschränkt empfehlen.
+Maik hat allerdings mittlerweile den Zugang leider geschlossen und lässt nur noch freigeschaltete Personen zu.
 Sie bietet realistische Fragenpools für PSM I, PSM II, PSPO und weitere Prüfungen – alle auf Basis des aktuellen Scrum Guide 2020.
 
 40 Fragen in 30 Minuten, auf Englisch, didaktisch hervorragend aufgebaut.
@@ -98,9 +98,9 @@ Bei rund 90 Prozent richtiger Antworten wusste ich: Jetzt bin ich bereit.
 Ich lerne am besten, wenn ich neue Ideen in reale Arbeit übersetze.
 Darum habe ich Scrum-Prinzipien auf eigene Projekte angewendet und mich gefragt:
 
-- Welche Events würden passen – etwa Review oder [Retrospektive](/glossar/events-und-empirie/#retrospektive)?
-- Wie würde ich Aufwände mit [Scrum Poker](/glossar/schaetzen-prognostizieren/#scrum-poker) oder [Story Points](/glossar/schaetzen-prognostizieren/#story-points) schätzen?
-- Welche Metriken würden Wirkung sichtbar machen – vielleicht über [Velocity](/glossar/schaetzen-prognostizieren/#velocity)?
+- Welche Events würden passen – etwa Review oder Retrospektive?
+- Wie würde ich Aufwände mit Scrum Poker oder Story Points schätzen?
+- Welche Metriken würden Wirkung sichtbar machen – vielleicht über Velocity?
 - Und was wäre in meinem Fall das Product Goal?
 
 Diese Reflexion hat mir mehr gebracht als jedes Video.
@@ -134,7 +134,3 @@ Ich habe für mich mitgenommen:
 
 > „Lernen ist kein Sprint.
 > Es ist eine Serie kleiner Schritte – und jeder bringt dich näher an echtes Verständnis.“
-
----
-
-{% include glossar-box.html slugs="empirie,scrum-poker,story-points,velocity" %}

@@ -165,8 +165,6 @@ Gerade in demokratischen Systemen, die viele Stimmen zusammenbringen, bietet OKR
 
 Der nächste Beitrag geht genau auf diese Besonderheiten ein. Wir schauen uns an, wie OKR in föderalen Organisationen wirken kann, welche Stolperfallen typisch sind und wie Ziele formuliert werden, die sowohl realistisch als auch inspirierend sind.
 
-{% include glossar-box.html slugs="objective,key-result,okr-zyklus,outcome-hypothese" %}
-
 ## Weiterlesen in der Serie
 
 Nächster Teil:

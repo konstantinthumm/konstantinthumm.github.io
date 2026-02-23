@@ -1,62 +1,72 @@
 # konstantinthumm.github.io
 
-Dies ist das Repository für meine persönliche Website und meinen Blog unter
-👉 **[konstantinthumm.de](https://konstantinthumm.de)**
+Repository für meine persönliche Website und meinen Blog unter
+👉 **https://konstantinthumm.de**
 
-Die Seite basiert auf dem **[Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)**
-und wird über **GitHub Pages** bereitgestellt.
-Sie dient als zentrale Plattform für meine Inhalte rund um **Digitalisierung, agiles Projektmanagement (Scrum, IPMA)** und **künstliche Intelligenz in Organisationen**.
+Die Seite dient als Plattform für Inhalte rund um:
 
+- **AI Transformation & Integration**
+- Digitale Organisationsarchitektur
+- Governance & Entscheidungslogik
+- Agiles Arbeiten in komplexen Systemen
+- Strategische IT- und Plattformarchitektur
 
-## Über das Projekt
+Der Fokus liegt nicht auf Tool-Erklärungen, sondern auf der **Gestaltung tragfähiger Transformationssysteme**.
 
-**Ziel:** Eine moderne, minimalistische und schnelle Website mit Fokus auf Inhalt, Lesbarkeit und Struktur.
-Die Seite ist als Content-Hub aufgebaut und verbindet Blogposts, Glossar und Projektseiten miteinander.
+---
 
-**Technische Basis:**
-- Static Site mit **Jekyll** & **Minimal Mistakes Theme**
-- Deployment über **GitHub Actions → GitHub Pages**
-- Analytics: **GoatCounter** (cookiefrei, DSGVO-konform)
-- SEO-Optimierung mit **Open Graph**, **Meta-Tags** und **Schema.org**
+## Projektziel
 
+Dieses Repository bildet eine schlanke, performante und wartbare Content-Plattform ab, die:
 
-## Inhalte
+- komplexe Themen strukturiert zugänglich macht
+- strategische Zusammenhänge erklärt
+- Praxisbeispiele integriert
+- klare Positionierung als AI Transformation & Integration Manager unterstützt
 
-- **Blog:** Beiträge zu *Digitalisierung*, *Projektmanagement* und *KI in der Praxis*
-- **Glossar:** Fachbegriffe verständlich erklärt – mit Querverweisen zu Blogposts
-- **Projekte:** Fallbeispiele aus realen Digitalisierungs- und IT-Projekten
-- **Ressourcen:** Tools, Frameworks, Templates und persönliche Empfehlungen
+Die Website ist bewusst minimalistisch gehalten – Inhalt vor Effekten.
 
+---
 
-##  Struktur des Repositories
+## Technische Basis
+
+- Static Site Generator: **Jekyll**
+- Theme: **Minimal Mistakes**
+- Deployment: **GitHub Actions → GitHub Pages**
+- Analytics: **GoatCounter** (cookiefrei)
+- SEO: strukturierte Meta-Daten, Open Graph, semantische Auszeichnung
+- Content-Struktur: Markdown-basiert, modular aufgebaut
+
+---
+
+## Inhaltsstruktur
+
+### Blog
+Vertiefende Beiträge zu:
+- AI-Strategie & Use-Case-Identifikation
+- Workflow vs. Agent-Logik
+- Governance & EU AI Act
+- Organisationsdesign & Entscheidungsarchitektur
+- Plattform- und M365-Architektur
+
+### Projekte
+Praxisnahe Fallbeispiele aus:
+- Verbänden & Non-Profit-Organisationen
+- Digitalisierungs- und IT-Transformationsprojekten
+- Architektur- und Governance-Design
+
+### Profil
+Positionierung, Denkmodell, Arbeitsweise und strategischer Ansatz.
+
+---
+
+## Repository-Struktur
 
 ```text
-_data/        → YAML-Daten für Glossar, Projekte, Kategorien
-_includes/    → Custom-Includes (z. B. Glossarbox, Feature Rows)
-_pages/       → Statische Seiten (About, Kontakt, Glossar, Projekte)
+_data/        → YAML-Daten (z. B. Navigation, Projekte)
+_includes/    → Custom-Layout-Komponenten
+_pages/       → Statische Seiten (Profil, Kontakt, Projekte)
 _posts/       → Blogartikel (Markdown mit Frontmatter)
-assets/       → Bilder, Stylesheets, Favicon etc.
-_sass/        → SCSS-Partials und Theme-Anpassungen
-_config.yml   → Hauptkonfiguration (SEO, Layout, Plugins)
-```
-
-## Über mich
-
-Ich bin **Konstantin Thumm**, IT-Consultant und Coach für Digitalisierung, Web- und IT-Projekte.
-Der Fokus meiner Arbeit liegt auf nachhaltiger digitaler Transformation, agilen Methoden und der sinnvollen Integration von KI in Organisationen.
-
-Mehr über mich und meine Arbeit findest du unter:
-🔗 **[konstantinthumm.de](https://konstantinthumm.de)**
-
----
-
-##  Kontakt & Netzwerke
-
-- **GitHub:** [github.com/konstantinthumm](https://github.com/konstantinthumm)
-- **LinkedIn:** [linkedin.com/in/konstantinthumm](https://linkedin.com/in/konstantinthumm)
-
----
-
-<p align="center">
-  <sub>Built with ❤️ using <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a></sub>
-</p>
+assets/       → Bilder, Styles, OG-Grafiken
+_sass/        → SCSS-Anpassungen
+_config.yml   → Jekyll-Konfiguration & Plugins

@@ -167,8 +167,6 @@ Ein dritter Satz beschreibt die Essenz:
 Der letzte Teil der Serie fasst die bisherigen Perspektiven zusammen.
 Es entsteht ein integriertes Modell, das Wert, Ziele und Messung miteinander verbindet – als Grundlage moderner Organisationsführung.
 
-{% include glossar-box.html slugs="kpi-system,vanity-metric,leading-indicator,lagging-indicator" %}
-
 ## Weiterlesen in der Serie
 
 Nächster Teil:

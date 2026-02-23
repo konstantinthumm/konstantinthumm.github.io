@@ -151,7 +151,3 @@ Scrum ist dabei kein Selbstzweck, sondern ein Lernrahmen.
 
 > „Wer nur das Ritual kopiert, baut eine Bambuslandebahn.
 > Wer die Werte lebt, bringt die Flugzeuge wirklich zum Landen.“
-
----
-
-{% include glossar-box.html slugs="scrum,mindset,agiles-manifest" %}

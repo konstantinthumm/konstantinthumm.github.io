@@ -23,13 +23,6 @@ seo:
   og_type: article
 
 tags: [digitale-architektur, föderale-strukturen, product-ownership, stakeholder-management, change-management, non-profit]
-glossar_ids:
-  - g-stakeholder-management
-  - g-autonomie
-  - g-governance
-  - g-informationsarchitektur
-  - g-change-management
-  - g-mandantenfaehigkeit
 ---
 
 > „Einheit entsteht nicht durch Zentralisierung – sondern durch klare Struktur.“
@@ -169,8 +162,6 @@ Product Ownership in Verbänden bedeutet:
 Die Master-Clone-Architektur wurde zum Beispiel dafür, wie föderale Organisationen Einheit schaffen können, ohne Autonomie zu verlieren.
 
 > „Digitale Architektur ist Organisationsentwicklung in Codeform.“
-
----
 
 ## Rolle im Projekt
 

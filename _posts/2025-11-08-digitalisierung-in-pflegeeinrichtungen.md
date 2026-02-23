@@ -382,7 +382,3 @@ Digitalisierung ist kein Selbstzweck, sondern eine strukturelle Voraussetzung f�
 Je stärker Prozesse, Daten und Menschen zusammenspielen, desto mehr Zeit bleibt dort, wo sie gebraucht wird – bei den Pflegebedürftigen.
 
 > „Die beste digitale Lösung ist die, die Pflege wieder möglich macht.“
-
----
-
-{% include glossar-box.html slugs="digitalisierung-in-der-pflege,verwaltungskosten,pflegedokumentation,sis-modell,prozessdigitalisierung,entbuerokratisierung" %}

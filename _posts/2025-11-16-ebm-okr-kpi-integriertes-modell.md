@@ -196,8 +196,6 @@ Die acht Teile bilden ein Fundament, auf dem moderne Organisationen Wert, Ziele 
 Die Grundidee bleibt:
 Komplexität fordert keine stärkere Kontrolle – sie fordert bessere Orientierung.
 
-{% include glossar-box.html slugs="value-management,okr-zyklus,kpi-system,current-value" %}
-
 ## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
 
 <div class="series-nav">

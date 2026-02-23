@@ -176,8 +176,6 @@ Ein dritter Satz fasst diese Kultur gut zusammen:
 
 Der nächste Beitrag zeigt, warum KPI-Listen ohne strukturellen Rahmen ihre Wirkung verlieren – und wie Organisationen wieder Klarheit gewinnen können.
 
-{% include glossar-box.html slugs="kpi,leading-indicator,lagging-indicator,north-star-metric" %}
-
 ## Weiterlesen in der Serie
 
 Nächster Teil:
