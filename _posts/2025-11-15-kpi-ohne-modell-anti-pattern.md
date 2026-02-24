@@ -24,7 +24,7 @@ header:
 
 teaser: /assets/images/posts/avm-part7-600.png
 
-categories: [Evidence-Based AI Management]
+categories: [Evidence-Based Management für KI]
 tags: [KPI, Evidence-Based-Management]
 ---
 

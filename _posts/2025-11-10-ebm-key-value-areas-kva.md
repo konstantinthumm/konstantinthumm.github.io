@@ -24,7 +24,7 @@ header:
 
 teaser: /assets/images/posts/avm-part2-600.png
 
-categories: [Evidence-Based AI Management]
+categories: [Evidence-Based Management für KI]
 tags: [Evidence-Based-Management, Outcome]
 ---
 
@@ -156,7 +156,7 @@ und wie Evidence-Based Management eine lernorientierte Fehlerkultur fördert.
 Nächster Teil:
 [Warum viele Teams KPIs falsch verstehen – eine Fehlerkultur](/ebm-kpi-fehlerkultur/)
 
-## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
+## Übersicht: Serie: Evidence-Based Management für KI (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>

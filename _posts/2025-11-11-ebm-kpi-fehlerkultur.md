@@ -24,7 +24,7 @@ header:
 
 teaser: /assets/images/posts/avm-part3-600.png
 
-categories: [Evidence-Based AI Management]
+categories: [Evidence-Based Management für KI]
 tags: [KPI, Evidence-Based-Management, Outcome]
 ---
 
@@ -188,7 +188,7 @@ Im nächsten Beitrag der Serie geht es um Objectives and Key Results (OKR). Wir 
 Nächster Teil:
 [OKR richtig verstehen – warum OKRs erst mit EBM funktionieren](/okr-richtig-verstehen/)
 
-## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
+## Übersicht: Serie: Evidence-Based Management für KI (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>

@@ -25,7 +25,7 @@ header:
 
 teaser: /assets/images/posts/digitalisierung-pflege-600.webp
 
-categories: [AI Strategy & Transformation]
+categories: [KI-Strategie & Transformation]
 tags: [KI-Transformation, Regulierte Organisationen, Use-Case-Analyse]
 ---
 

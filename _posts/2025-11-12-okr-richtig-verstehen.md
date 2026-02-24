@@ -24,7 +24,7 @@ header:
 
 teaser: /assets/images/posts/avm-part4-600.png
 
-categories: [Evidence-Based AI Management]
+categories: [Evidence-Based Management für KI]
 tags: [OKR, Evidence-Based-Management]
 ---
 
@@ -170,7 +170,7 @@ Der nächste Beitrag geht genau auf diese Besonderheiten ein. Wir schauen uns an
 Nächster Teil:
 [OKR in der Non-Profit- und Verbandswelt](/okr-non-profit-verbaende/)
 
-## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
+## Übersicht: Serie: Evidence-Based Management für KI (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>

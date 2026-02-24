@@ -6,8 +6,8 @@ permalink: /profil/
 classes: ["wide","hero-tall","home-hero","hero-wide","hero-focus-down"]
 toc: false
 seo:
-  title: "Konstantin Thumm – KI Transformation & Integration Manager"
-  description: "KI-Transformation, AI Governance, Use-Case-Analyse und Portfolio-Priorisierung. Strategische Integration von KI in bestehende Organisationen."
+  title: "Konstantin Thumm – KI Transformation & Integration"
+  description: "KI-Transformation, KI Governance, Use-Case-Analyse und Portfolio-Priorisierung. Strategische Integration von KI in bestehende Organisationen."
   type: profile
   image: /assets/images/hero/konstantin-thumm-profil-1200.webp
 header:
@@ -26,7 +26,7 @@ Ich unterstütze Organisationen dabei, KI nicht als Technologieprojekt, sondern 
 Mein Fokus liegt auf:
 
 - Identifikation und Priorisierung von KI-Use-Cases
-- Aufbau tragfähiger AI Governance-Strukturen
+- Aufbau tragfähiger KI Governance-Strukturen
 - Integration regulatorischer Anforderungen (EU AI Act)
 - Portfolio- und Investitionsentscheidungen
 - Entscheidungsarchitektur in komplexen Organisationsumfeldern
@@ -81,7 +81,7 @@ Dabei kombiniere ich:
 - IPMA Level D
 - PSM I & II
 - PSPO I & II
-- Vertiefung in LLM-Architekturen, Agentenmodellen & AI Governance
+- Vertiefung in LLM-Architekturen, Agentenmodellen & KI Governance
 
 ---
 

@@ -24,7 +24,7 @@ header:
 
 teaser: /assets/images/posts/avm-part8-600.png
 
-categories: [Evidence-Based AI Management]
+categories: [Evidence-Based Management für KI]
 tags: [OKR, KPI, Evidence-Based-Management]
 ---
 
@@ -196,7 +196,7 @@ Die acht Teile bilden ein Fundament, auf dem moderne Organisationen Wert, Ziele 
 Die Grundidee bleibt:
 Komplexität fordert keine stärkere Kontrolle – sie fordert bessere Orientierung.
 
-## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
+## Übersicht: Serie: Evidence-Based Management für KI (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>

@@ -5,7 +5,7 @@ Repository für meine persönliche Website und meinen Blog unter
 
 Die Seite dient als Plattform für Inhalte rund um:
 
-- **AI Transformation & Integration**
+- **KI Transformation & Integration**
 - Digitale Organisationsarchitektur
 - Governance & Entscheidungslogik
 - Agiles Arbeiten in komplexen Systemen
@@ -22,7 +22,7 @@ Dieses Repository bildet eine schlanke, performante und wartbare Content-Plattfo
 - komplexe Themen strukturiert zugänglich macht
 - strategische Zusammenhänge erklärt
 - Praxisbeispiele integriert
-- klare Positionierung als AI Transformation & Integration Manager unterstützt
+- klare Positionierung für strategische AI Transformation & Integration unterstützt
 
 Die Website ist bewusst minimalistisch gehalten – Inhalt vor Effekten.
 

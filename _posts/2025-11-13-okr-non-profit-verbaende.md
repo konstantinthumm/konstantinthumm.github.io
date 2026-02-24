@@ -24,7 +24,7 @@ header:
 
 teaser: /assets/images/posts/avm-part5-600.png
 
-categories: [Evidence-Based AI Management]
+categories: [Evidence-Based Management für KI]
 tags: [OKR, Evidence-Based-Management, Non-Profit]
 ---
 
@@ -179,7 +179,7 @@ Wir schauen uns an:
 Nächster Teil:
 [Moderne KPIs – was wirklich gemessen werden muss](/moderne-kpi-was-messen/)
 
-## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
+## Übersicht: Serie: Evidence-Based Management für KI (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>

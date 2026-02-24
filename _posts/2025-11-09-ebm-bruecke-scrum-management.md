@@ -24,7 +24,7 @@ header:
 
 teaser: /assets/images/posts/avm-part1-600.png
 
-categories: [Evidence-Based AI Management]
+categories: [Evidence-Based Management für KI]
 tags: [Evidence-Based-Management]
 ---
 
@@ -143,7 +143,7 @@ Wir schauen uns an, wie jede KVA wirkt, wo sie häufig falsch interpretiert wird
 Nächster Teil:
 [Die vier Key Value Areas – was Organisationen oft falsch machen](/ebm-key-value-areas/)
 
-## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
+## Übersicht: Serie: Evidence-Based Management für KI (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>

@@ -12,8 +12,8 @@ header:
 
 excerpt: "KI-Transformation, Governance und Entscheidungsarchitektur – strategische Integration in bestehende Organisationen."
 seo:
-  title: "Konstantin Thumm – KI Transformation & Integration Manager"
-  description: "Strategische KI-Transformation, AI Governance und strukturierte Use-Case-Analyse. Entscheidungsmodelle und Portfolio-Priorisierung für Organisationen."
+  title: "Konstantin Thumm – KI Transformation & Integration"
+  description: "Strategische KI-Transformation, KI Governance und strukturierte Use-Case-Analyse. Entscheidungsmodelle und Portfolio-Priorisierung für Organisationen."
   type: website
   image: /assets/images/hero/konstantinthumm-hero2.webp
 ---
@@ -27,7 +27,7 @@ Sie scheitern an fehlender Priorisierung, unklarer Governance und mangelnder Ent
 Ich unterstütze Organisationen dabei,
 
 - tragfähige KI-Use-Cases zu identifizieren und zu bewerten,
-- AI Governance unter Berücksichtigung des EU AI Act aufzubauen,
+- KI Governance unter Berücksichtigung des EU AI Act aufzubauen,
 - Investitions- und Portfolioentscheidungen strukturiert vorzubereiten,
 - KI systemisch in bestehende Geschäfts- und IT-Landschaften zu integrieren.
 
@@ -69,7 +69,7 @@ Struktur ersetzt Euphorie.
 - LLM-Architekturen & Agentenmodelle
 - Use-Case-Bewertung und Machbarkeitsanalyse
 - Risiko- und Compliance-Bewertung
-- EU AI Act & AI Governance
+- EU AI Act & KI Governance
 - Verbindung agiler und klassischer Steuerungsmodelle
 
 Transparenz ist Teil meiner Positionierung.
