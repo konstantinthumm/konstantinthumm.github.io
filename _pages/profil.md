@@ -76,11 +76,19 @@ Dabei kombiniere ich:
 - Stakeholder-Alignment auf Managementebene
 
 
+## Technische Basis
+
+Meine strategische Arbeit ruht auf einer durchgängigen praktischen Grundlage: Seit 1999 (Medieninformatik-Weiterbildung, FHTW Berlin) befasse ich mich mit Webentwicklung und CMS-Systemen – von HTML-Anfängen bis zu aktuellen TYPO3- und WordPress-Projekten. Diese Praxisnähe halte ich bewusst aufrecht, zuletzt mit [sternschnuppen-consulting.de](https://sternschnuppen-consulting.de), das ich 2025 eigenständig konzipiert und umgesetzt habe.
+
+Diese technische Tiefe verbindet sich mit jahrelanger Steuerungserfahrung in komplexen, föderalen Organisationsstrukturen – die Basis, auf der auch meine Arbeit in KI-Transformation und Governance aufbaut.
+
+
 ## Qualifikation
 
 - IPMA Level D
 - PSM I & II
 - PSPO I & II
+- Zertifikat Medieninformatik (FHTW Berlin)
 - Vertiefung in LLM-Architekturen, Agentenmodellen & KI Governance
 
 ---
@@ -117,5 +125,3 @@ Dabei kombiniere ich:
     </p>
   </div>
 </div>
-
-

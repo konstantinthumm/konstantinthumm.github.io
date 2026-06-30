@@ -22,7 +22,7 @@ Dieses Repository bildet eine schlanke, performante und wartbare Content-Plattfo
 - komplexe Themen strukturiert zugänglich macht
 - strategische Zusammenhänge erklärt
 - Praxisbeispiele integriert
-- klare Positionierung für strategische AI Transformation & Integration unterstützt
+- klare Positionierung für strategische KI Transformation & Integration unterstützt
 
 Die Website ist bewusst minimalistisch gehalten – Inhalt vor Effekten.
 
@@ -43,7 +43,7 @@ Die Website ist bewusst minimalistisch gehalten – Inhalt vor Effekten.
 
 ### Blog
 Vertiefende Beiträge zu:
-- AI-Strategie & Use-Case-Identifikation
+- KI-Strategie & Use-Case-Identifikation
 - Workflow vs. Agent-Logik
 - Governance & EU AI Act
 - Organisationsdesign & Entscheidungsarchitektur

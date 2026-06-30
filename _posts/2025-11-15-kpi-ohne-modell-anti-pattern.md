@@ -172,7 +172,7 @@ Es entsteht ein integriertes Modell, das Wert, Ziele und Messung miteinander ver
 Nächster Teil:
 [EBM × OKR × KPI – das integrierte Modell für modernes Management](/ebm-okr-kpi-integriertes-modell/)
 
-## Übersicht: Serie: Evidence-Based AI Management (Grundlage für KI-Transformation)
+## Übersicht: Serie: Evidence-Based Management für KI (Grundlage für KI-Transformation)
 
 <div class="series-nav">
   <ul>
