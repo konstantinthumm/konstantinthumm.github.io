@@ -97,6 +97,7 @@ Diese technische Tiefe verbindet sich mit jahrelanger Steuerungserfahrung in kom
 > Zertifikate und Nachweise sind auf meinem
 > <a href="https://www.linkedin.com/in/konstantinthumm" target="_blank" rel="noopener noreferrer" class="ext">LinkedIn-Profil</a> einsehbar.
 
+{% comment %}
 <div class="kt-contact-card kt-download-card" role="region" aria-label="Downloads">
   <div class="kt-contact-card__content">
     <p class="kt-contact-card__eyebrow">Downloads</p>
@@ -110,6 +111,7 @@ Diese technische Tiefe verbindet sich mit jahrelanger Steuerungserfahrung in kom
     </p>
   </div>
 </div>
+{% endcomment %}
 
 
 <div class="kt-contact-card" role="region" aria-label="Kontakt und Vernetzung">
