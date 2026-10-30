@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Konstantin Thumm"
-subtitle: "KI-Transformation strukturiert integrieren"
+subtitle: "KI-Governance & IT-Strategie in Verbänden"
 author_profile: true
 classes: ["wide","hero-tall","home-hero","hero-wide","hero-focus-down"]
 
@@ -10,79 +10,59 @@ header:
   overlay_filter: 0.2
   overlay_image: /assets/images/hero/konstantinthumm-hero2.webp
 
-excerpt: "KI-Transformation, Governance und Entscheidungsarchitektur – strategische Integration in bestehende Organisationen."
+excerpt: "KI-Governance, IT-Strategie und IT-Organisation in Verbänden und gemeinnützigen Organisationen."
 seo:
-  title: "Konstantin Thumm – KI Transformation & Integration"
-  description: "Strategische KI-Transformation, KI Governance und strukturierte Use-Case-Analyse. Entscheidungsmodelle und Portfolio-Priorisierung für Organisationen."
+  title: "Konstantin Thumm – KI-Governance & IT-Strategie in Verbänden"
+  description: "KI-Governance, IT- und Digitalstrategie und IT-Organisation in Verbänden und NGOs. Blog zu EU AI Act, Datenstrategie und Steuerung in gemeinnützigen Organisationen."
   type: website
   image: /assets/images/hero/konstantinthumm-hero2.webp
 ---
 
-## KI-Transformation ist kein Tool-Thema.
-**Sie ist ein Entscheidungsproblem.**
+## KI in Verbänden ist kein Tool-Thema.
+**Sie ist eine Führungs- und Entscheidungsfrage.**
 
-Organisationen scheitern nicht an Technologie.
-Sie scheitern an fehlender Priorisierung, unklarer Governance und mangelnder Entscheidungsarchitektur.
+Verbände scheitern selten an Technologie.
+Sie scheitern an fehlender Priorisierung, unklarer Verantwortung und Governance, die zu spät kommt – oft unter den besonderen Bedingungen von Gremien, Ehrenamt und knappen Budgets.
 
-Ich unterstütze Organisationen dabei,
-
-- tragfähige KI-Use-Cases zu identifizieren und zu bewerten,
-- KI Governance unter Berücksichtigung des EU AI Act aufzubauen,
-- Investitions- und Portfolioentscheidungen strukturiert vorzubereiten,
-- KI systemisch in bestehende Geschäfts- und IT-Landschaften zu integrieren.
+Seit 2018 arbeite ich in IT-Leitungsverantwortung im Verbandsumfeld.
+Heute bin ich Strategischer IT-Experte für Digitalisierung, KI & Transformation beim NABU (Naturschutzbund Deutschland).
 
 > → [Zum Profil](/profil/)
 
-## Mein Fokus
+## Woran ich arbeite
 
-Ich arbeite in frühen Transformationsphasen:
+**IT- und Digitalstrategie**<br>
+Datenstrategie, zentrale Datenhaltung und Plattformentscheidungen als Grundlage für KI-Anwendungen.
 
-- Potenziale klären
-- Risiken bewerten
-- Entscheidungsoptionen strukturieren
-- Umsetzungsfähigkeit vorbereiten
+**IT-Organisation und Führung**<br>
+Aufstellung von IT-Teams, Sourcing und die Steuerung von Dienstleistern.
 
-Meine Perspektive verbindet:
+**KI-Governance und KI-Einführung**<br>
+Richtlinien, Betriebsvereinbarungen, Datenschutz und EU AI Act – und der Weg zu ersten produktiven KI-Projekten.
 
-- KI-Integration & Governance
-- Portfolio-Priorisierung
-- Hybrid Project Management (Scrum & IPMA)
-- Management- und Stakeholder-Alignment
+## Wie ich denke
 
+KI-Integration folgt keiner Hype-Logik, sondern einer nachvollziehbaren Abfolge:
+**Wert → Use-Case → Hypothese → Messung → Evidenz → Governance-Entscheidung**
 
-## Entscheidungsmodell
-
-Strategische KI-Integration folgt keiner Hype-Logik, sondern einer strukturierten Abfolge:
-
-**Wert → Use-Case → Hypothese → Messung → Evidence → Governance-Entscheidung**
-
-Nicht jeder Use-Case wird skaliert.
-Nicht jede Idee wird automatisiert.
-Nicht jede Automatisierung ist sinnvoll.
+Nicht jeder Use-Case wird skaliert.<br>
+Nicht jede Idee wird automatisiert.<br>
+Nicht jede Automatisierung ist sinnvoll.<br>
 
 Struktur ersetzt Euphorie.
 
-## Aktuelle Vertiefung
-
-2026 vertiefe ich meine Arbeit im Rahmen einer strategischen Qualifizierungsphase mit Fokus auf:
-
-- LLM-Architekturen & Agentenmodelle
-- Use-Case-Bewertung und Machbarkeitsanalyse
-- Risiko- und Compliance-Bewertung
-- EU AI Act & KI Governance
-- Verbindung agiler und klassischer Steuerungsmodelle
-
-Transparenz ist Teil meiner Positionierung.
-
 ## Blog & Denkraum
 
-Im Blog dokumentiere ich Entscheidungsmodelle, Bewertungslogiken und strukturierte Management-Ansätze – unter anderem zu:
+Im Blog schreibe ich über Steuerung, Governance und KI in gemeinnützigen Organisationen – unter anderem zu:
 
-- Evidence-Based Management
-- OKR & KPI-Systemen
-- Governance in komplexen Organisationen
-- KI im Organisationskontext
+- KI-Governance und EU AI Act
+- IT- und Datenstrategie in Verbänden
+- Evidence-Based Management, OKR & KPI-Systemen
+- Entscheidungen in Gremien und komplexen Organisationen
 
 > → [Zur Blog-Übersicht](/blog/)
 
+## Austausch
 
+Ich interessiere mich für den Austausch mit IT- und Digitalverantwortlichen anderer Verbände und NGOs.
+Schreib mir gern über [LinkedIn](https://linkedin.com/in/konstantinthumm) oder per E-Mail.
