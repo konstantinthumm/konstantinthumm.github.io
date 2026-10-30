@@ -24,7 +24,7 @@ jobs:
         uses: actions/configure-pages@v5
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.3o'
           bundler-cache: true
       - run: bundle install --no-deployment
       - run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
