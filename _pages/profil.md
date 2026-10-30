@@ -75,7 +75,6 @@ Dabei kombiniere ich:
 - Plattform- und Systemintegration
 - Stakeholder-Alignment auf Managementebene
 
-
 ## Qualifikation
 
 - IPMA Level D
